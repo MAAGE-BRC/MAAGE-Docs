@@ -1,0 +1,17 @@
+# Use this file to install initial packages
+# pip3 install -r requirements.txt
+
+# Sphinx
+Sphinx>=5.3,<8
+
+# Initial Theme
+sphinx-rtd-theme>=1.0,<3
+
+# Markdown Support (myst-parser replaces recommonmark)
+myst-parser>=1.0,<3
+
+# Additional Plugins Not Installed Automatically
+sphinx-autobuild
+sphinxcontrib-httpdomain
+sphinxcontrib-newsfeed
+sphinxcontrib-spelling

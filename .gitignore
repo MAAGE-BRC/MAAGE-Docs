@@ -1,0 +1,11 @@
+docroot/_build/
+.DS_Store
+.vscode
+.idea
+.project
+/.pydevproject
+/.settings/
+env/
+/docs-venv
+singularity_cmd.txt
+serve_cmd.txt

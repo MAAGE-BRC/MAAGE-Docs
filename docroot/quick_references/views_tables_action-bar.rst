@@ -1,0 +1,10 @@
+Website Views, Tables, Filters, Action Bar
+==========================================
+MAAGE has some fundamental navigation and interaction patterns that are used throughout the website. The Quick Reference Guides below provide a detailed description of each that, once understood, will make using the website easier and more intuitive.
+
+.. toctree::
+   :maxdepth: 1
+
+   website_views
+   tables
+   action_bar
