@@ -8,7 +8,7 @@ table, th, td {
 
 # Terminology and Features (for IRD/ViPR Users)
 
-MAAGE integrates key IRD and ViPR viral data and tools with bacterial data and tools from PATRIC. The MAAGE system is built on the PATRIC system infrastructure (database, services, and website). As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding MAAGE features. Links to relevant MAAGE help documentation are provided as well.
+The platform integrates key IRD and ViPR viral data and tools with bacterial data and tools. As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding features on this platform. Links to relevant help documentation are provided as well.
 
 * [Viral Genomes and Other Data](#data)
 * [Searches](#searches)
@@ -22,31 +22,31 @@ Additional details are presented below.
 (data)=
 ## Viral Data
 
-As in ViPR, viral data in MAAGE are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
+As in ViPR, viral data on the platform are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
 
 In *ViPR*, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage, as shown below. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
 
 ***ViPR* Homepage:**
 ![ViPR homepage](./images/vipr_homepage_families.png)
 
-Similarly, *MAAGE* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [MAAGE homepage](https://bv-brc.org/), as shown below: 
+Similarly, the platform provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [homepage](https://bv-brc.org/), as shown below: 
 
-***MAAGE* Homepage:**
-![MAAGE homepage virus navigation](./images/bv_homepage_viruses_button.png)
+**Homepage:**
+![homepage virus navigation](./images/bv_homepage_viruses_button.png)
 
-This will display the [MAAGE Viruses landing page](https://bv-brc.org/view/Virus/10239) (below):
+This will display the [Viruses landing page](https://bv-brc.org/view/Virus/10239) (below):
 
-***MAAGE* Viruses Landing Page:**
-![MAAGE Viruses Landing Page](./images/bv_virus_landing_page.png)
+**Viruses Landing Page:**
+![Viruses Landing Page](./images/bv_virus_landing_page.png)
 
-Clicking on one of these links (e.g., "Coronaviridae" in the figure below) will display the corresponding viral data in MAAGE, scoped to that viral family or subset, shown in the second figure below.
+Clicking on one of these links (e.g., "Coronaviridae" in the figure below) will display the corresponding viral data, scoped to that viral family or subset, shown in the second figure below.
 
 ![Coronaviridae family link](./images/bv_coronaviridae_link.png)
 
 *Alternatively*, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu (below).
 
-***MAAGE* Organisms Menu**
-![MAAGE Organisms Menu](./images/bv_organisms_menu_top_nav.png)
+**Organisms Menu**
+![Organisms Menu](./images/bv_organisms_menu_top_nav.png)
 
 The ORGANISMS menu provides links to viral families and featured viruses, as well as bacteria genera, archaea, and eukaryotic hosts.  
 
@@ -56,48 +56,48 @@ Once the desired virus family or subset is selected, the corresponding **Taxon l
 
 ![Coronaviridae page](./images/bv_coronaviridae_page.png)
 
-Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the data and associated metadata of that type in MAAGE for the selected Taxon. Keyword Search, Advanced Search, and Filter tools are available to refine the list. Also, the metadata columns can be resized, rearranged, added, removed, and sorted. 
+Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the data and associated metadata of that type for the selected Taxon. Keyword Search, Advanced Search, and Filter tools are available to refine the list. Also, the metadata columns can be resized, rearranged, added, removed, and sorted. 
 
 ![Coronaviridae Genomes tab](./images/bv_coronaviridae_genomes_tab.png)
 
-Detailed instructions for using the Taxon-level data pages is available from the [MAAGE Organisms Quick Reference Guide](/quick_references/organisms_menu).
+Detailed instructions for using the Taxon-level data pages is available from the [Organisms Quick Reference Guide](/quick_references/organisms_menu).
 
 <hr>
 
 (searches)=
 ## Searches
 
-Similar to IRD and ViPR, MAAGE provides searches to facilitate rapide direct access to viral data of interest. Two types of searches are provided: **Global Search** and **Advanced Searches**.
+Similar to IRD and ViPR, the platform provides searches to facilitate rapid direct access to viral data of interest. Two types of searches are provided: **Global Search** and **Advanced Searches**.
 
 ### Global Search
-The *MAAGE* **Global Search** provides keyword search capability similar to the *IRD/ViPR* **Quick Search** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below), but with advanced controls for selecting data type and other search conditions.  
+The **Global Search** provides keyword search capability similar to the *IRD/ViPR* **Quick Search** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below), but with advanced controls for selecting data type and other search conditions.  
 
 ***IRD/ViPR* Quick Search**
 ![IRD/ViPR Quick Search](./images/ird_quick_search.png)
 
-The *MAAGE* **Global Search** is available at the top right of all MAAGE pages, except for the home page, where it is in the upper center of the page, as shown below.
+The **Global Search** is available at the top right of all pages, except for the home page, where it is in the upper center of the page, as shown below.
 
-***MAAGE* Global Search**
-![MAAGE Global Search](./images/bv_global_search.png)
+**Global Search**
+![Global Search](./images/bv_global_search.png)
 
 The Global Search provides optional filters for data types and search term options (All, Any, Exact).  
 
 ![Global Search Options](./images/bv_global_search_options.png)
 
-Detailed instructions for using the Global Search are available from the [MAAGE Global Search Quick Reference Guide](/quick_references/global_search).
+Detailed instructions for using the Global Search are available from the [Global Search Quick Reference Guide](/quick_references/global_search).
 
 ### Advanced Searches
-The *MAAGE* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below). Some searches have been deprecated based on limited usage and available data.
+The **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below). Some searches have been deprecated based on limited usage and available data.
 
 ***IRD/ViPR* Search Tools**
 ![IRD/ViPR Search Tools](./images/ird_search_tools.png)
 
-The *MAAGE* **Advanced Searches** are available from the SEARCHES top menu, as shown below. 
+The **Advanced Searches** are available from the SEARCHES top menu, as shown below. 
 
-***MAAGE* Advanced Searches**
-![MAAGE Searches Menu](./images/bv_searches_menu_top_nav.png)
+**Advanced Searches**
+![Searches Menu](./images/bv_searches_menu_top_nav.png)
 
-Advanced Searches are available for each of the major data types in MAAGE.  
+Advanced Searches are available for each of the major data types.  
 
 ![Advanced Searches](./images/bv_searches_menu.png)
 
@@ -105,15 +105,15 @@ Clicking on one of the Advanced Searches (e.g., "Strains") opens a search form w
 
 ![Strain Advanced Search](./images/bv_strain_search.png)
 
-Detailed instructions for using the Advanced Searches are available from the [MAAGE Advanced Searches Quick Reference Guide](/quick_references/searches_menu).
+Detailed instructions for using the Advanced Searches are available from the [Advanced Searches Quick Reference Guide](/quick_references/searches_menu).
 
-The table below provides a mapping of the IRD/ViPR Search Tools to corresponding MAAGE Advanced Searches. 
+The table below provides a mapping of the IRD/ViPR Search Tools to corresponding Advanced Searches. 
 
-**Mapping of IRD/ViPR Search Tools to MAAGE Advanced Searches**
+**Mapping of IRD/ViPR Search Tools to Advanced Searches**
 <table style="width:100%">
   <tr>
     <th style="width:40%">IRD/ViPR</th>
-    <th style="width:40%">MAAGE</th>
+    <th style="width:40%">Platform</th>
     <th style="width:20%">Documentation</th>
   </tr>
  <tr>
@@ -177,34 +177,34 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
 (tools)=
 ## Analysis Tools
 
-Similar to IRD and ViPR, MAAGE provides tools and visualizations to enable  researchers to perform in-depth analyses and exploration of their own data and in combination with MAAGE data. MAAGE integrates the most used analysis tools In *IRD/ViPR* (available from the [IRD/ViPR Analysis Tools page](https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza), below).
+Similar to IRD and ViPR, the platform provides tools and visualizations to enable researchers to perform in-depth analyses and exploration of their own data and in combination with platform data. The platform integrates the most used analysis tools In *IRD/ViPR* (available from the [IRD/ViPR Analysis Tools page](https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza), below).
 
 ***IRD/ViPR* Analysis Tools**
 ![IRD/ViPR Analysis Tools](./images/ird_analysis_tools.png)
 
-In *MAAGE*, analysis tools are available from the TOOLS & SERVICES top menu, as shown below. A list of all tools with descriptions is available from the [MAAGE Tools & Services page](https://bv-brc.org/tools)
+Analysis tools are available from the TOOLS & SERVICES top menu, as shown below. A list of all tools with descriptions is available from the [Tools & Services page](https://bv-brc.org/tools)
 
-***MAAGE* Tools & Services**
-![MAAGE Tools & Services Menu](./images/bv_tools_services_menu_top_nav.png)
+**Tools & Services**
+![Tools & Services Menu](./images/bv_tools_services_menu_top_nav.png)
 
-In the MAAGE TOOLS & SERVICES menu, viral analysis tools are shown alongside bacterial analysis tools. Where practical, the two have been merged into one tool, with appropriate settings and logic to perform the correct type of computation based on the the organism type (e.g., Genome Annotation). The figure below highlights tools that have been added or updated to support viral data. 
+In the TOOLS & SERVICES menu, viral analysis tools are shown alongside bacterial analysis tools. Where practical, the two have been merged into one tool, with appropriate settings and logic to perform the correct type of computation based on the the organism type (e.g., Genome Annotation). The figure below highlights tools that have been added or updated to support viral data. 
 
 ![Tools & Services](./images/bv_services_menu_viral_tools.png)
 
 Clicking on one of the tools (e.g., "Annotation") opens an input form that allows users to upload their own data, set parameters, and specify a location in the Workspace to save the results. Links to **Quick Reference Guides** and **Tutorials** are available on every input form. Quick Reference Guides provide short descriptions of each feature of the tool. Tutorials provide detailed, step-by-step instructions for using the tool. 
 
-![MAAGE Genome Annotation Service](./images/bv_annotation_service_form.png)
+![Genome Annotation Service](./images/bv_annotation_service_form.png)
 
-Most analysis tools in MAAGE are implemented as computational "services" that use high-performance computing (HPC) resources to perform the analysis on the backend. When an analysis tool is started, it creates a "job" that runs on the HPC resources. The job processing status (Queued, Running, Complete, Failed) and results are listed on the user's Job Status page, which is displayed by clicking the small Jobs status monitor on the bottom right of each page. 
+Most analysis tools are implemented as computational "services" that use high-performance computing (HPC) resources to perform the analysis on the backend. When an analysis tool is started, it creates a "job" that runs on the HPC resources. The job processing status (Queued, Running, Complete, Failed) and results are listed on the user's Job Status page, which is displayed by clicking the small Jobs status monitor on the bottom right of each page. 
 
 ![Job Status Page](./images/bv_job_status_page.png)
 
-The [Tools & Services Quick Reference Guide](/quick_references/services_menu) provides an overview available tools. The table below provides a mapping of the IRD/ViPR Search Tools to corresponding MAAGE Advanced Searches. 
+The [Tools & Services Quick Reference Guide](/quick_references/services_menu) provides an overview available tools. The table below provides a mapping of the IRD/ViPR Search Tools to corresponding Advanced Searches. 
 
 <table style="width:100%">
   <tr>
     <th style="width:40%">IRD/ViPR</th>
-    <th style="width:40%">MAAGE</th>
+    <th style="width:40%">Platform</th>
     <th style="width:20%">Documentation</th>
   </tr>
   <tr>
@@ -276,30 +276,30 @@ The [Tools & Services Quick Reference Guide](/quick_references/services_menu) pr
 (workbench)=
 ## Workbench
 
-Similar to the [IRD/ViPR Workbench](https://www.fludb.org/brc/workbench_landing.spg?decorator=influenza&method=WorkbenchDetail) (shown below), MAAGE provides a private **Workspace**, where users can upload their own data, perform analyses with MAAGE Tools, compare their data with other data in MAAGE, and share their data via shared and public workspaces. 
+Similar to the [IRD/ViPR Workbench](https://www.fludb.org/brc/workbench_landing.spg?decorator=influenza&method=WorkbenchDetail) (shown below), the platform provides a private **Workspace**, where users can upload their own data, perform analyses with the available Tools, compare their data with other data on the platform, and share their data via shared and public workspaces. 
 
 ***IRD/ViPR* Workbench**
 ![IRD Workbench](./images/ird_workbench.png)
 
-As with the IRD/ViPR Workbench, users will need to sign in (top right of page) to access their MAAGE Workspace. IRD/ViPR users can use the same login ID and password as they do for IRD/ViPR.  At present, we do not have the capability to transfer over data from IRD/ViPR Workbenches to the MAAGE Workspace.
+As with the IRD/ViPR Workbench, users will need to sign in (top right of page) to access their Workspace. IRD/ViPR users can use the same login ID and password as they do for IRD/ViPR. At present, we do not have the capability to transfer over data from IRD/ViPR Workbenches to the Workspace.
 
-***MAAGE* Workspace Login**
-![MAAGE Sign In and Registration](./images/bv_workspace_login.png)
+**Workspace Login**
+![Sign In and Registration](./images/bv_workspace_login.png)
 
 Once signed in, users can access their private and shared workspaces from the WORKSPACES top menu. 
 
-***Note that, as of November 1, 2022, all IRD/ViPR workbench data and files were copied into the user's corresponding workspace in MAAGE. The data are organized into three folders: Working Sets, Uploaded Files, and Analysis Results. You can access this workspace with the same login credentials that you have for IRD/ViPR. There will be a README.txt file in the workspace that provides additional details.*** 
+***Note that, as of November 1, 2022, all IRD/ViPR workbench data and files were copied into the user's corresponding workspace on the platform. The data are organized into three folders: Working Sets, Uploaded Files, and Analysis Results. You can access this workspace with the same login credentials that you have for IRD/ViPR. There will be a README.txt file in the workspace that provides additional details.*** 
 
-![MAAGE Workspaces Top Menu](./images/bv_workspaces_menu_top_nav.png)
+![Workspaces Top Menu](./images/bv_workspaces_menu_top_nav.png)
 
-![MAAGE Workspaces Menu](./images/bv_workspaces_menu.png)
+![Workspaces Menu](./images/bv_workspaces_menu.png)
 
 Clicking on the "Home" workspace opens the user's private workspace at the top level. The Workspace contains folders to facilitate organization of files. Users can upload files and create new folders. Move, copy, delete, and other controls are also available. 
 
-![MAAGE Workspace](./images/bv_workspace.png)
+![Workspace](./images/bv_workspace.png)
 
 Also, users can create **Groups** of genomes, features (genes), and other data types, similar to *IRD/ViPR* "Working Sets." 
 
-![MAAGE Workspace](./images/bv_workspace_groups.png)
+![Workspace](./images/bv_workspace_groups.png)
 
-Detailed information on using the MAAGE Workspace can be found in the [Workspace, Private Data, Groups, Jobs Quick Reference Guides](/quick_references/workspace_groups_upload).
+Detailed information on using the Workspace can be found in the [Workspace, Private Data, Groups, Jobs Quick Reference Guides](/quick_references/workspace_groups_upload).

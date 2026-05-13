@@ -3,7 +3,7 @@ Registration and Sign In
 
 Overview
 --------
-Registration and login as a MAAGE user provides additional capabilities not available through just navigating through the website alone. These include uploading data into a private workspace, access to analysis services, ability to save data in custom groups, and sharing data with other users.
+Registration and login provides additional capabilities not available through just navigating through the website alone. These include uploading data into a private workspace, access to analysis services, ability to save data in custom groups, and sharing data with other users.
 
 See Also
 --------
@@ -19,9 +19,7 @@ Registration and Sign In Process
 .. image:: ./images/register_button.png
     :alt: Register Button
 
-Clicking the "Register" button located at the top right corner of the website will open the User Registration dialog box. The username will be the name you log in with, and a link will be sent to the email address so that you can set your password. *Note: The registration information will remain completely private. Under no circumstances will MAAGE sell, distribute, or lease this information to third parties.*
-
-In the box at the bottom of the registration form, a link to the other BRC, VEuPathDB (Vectors and Eukaryotic Pathogens), is provided for convenience. You may also sign up for a cross-BRC email listserv.
+Clicking the "Register" button located at the top right corner of the website will open the User Registration dialog box. The username will be the name you log in with, and a link will be sent to the email address so that you can set your password. *Note: The registration information will remain completely private. Under no circumstances will this information be sold, distributed, or leased to third parties.*
 
 .. image:: ./images/registration_dialog.png
     :alt: User Registration Dialog Box
@@ -41,7 +39,7 @@ Once signed in, the top right corner of the webiste will display an icon of a pe
 Benefits of Registration
 ------------------------
 
-Registration and login provide additional capabilities in MAAGE not avaialable otherwise.  These include the following:
+Registration and login provide additional capabilities not avaialable otherwise.  These include the following:
 
 - **Access to a private workspace** wherein you can store, manage, and share private data. See `Workspace <./workspaces/workspace.html>`__.
 - **Access to analysis services** including a variety of tools for Genomics, Transcriptomics, Metabolomics, and other analyses. See `Tools & Services <./services_menu.html>`__.

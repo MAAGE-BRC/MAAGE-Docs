@@ -12,11 +12,11 @@ A FASTQ file normally uses four lines per sequence.
 * Line 3 begins with a ‘+’ character and is optionally followed by the same sequence identifier (and any description) again.
 * Line 4 encodes the quality values for the sequence in Line 2 and must contain the same number of symbols as letters in the sequence.
 
-Understanding the quality of fastq reads that come from the sequencer is an essential first step to any of the MAAGE services that uses them (Assembly, Comprehensive Genome Analysis, Taxonomic classification, Metagenomic read mapping, Metagenomic binning, Variation, RNA-Seq, TN-seq and Similar Genome Finder). The Fastq Utilities Service provides the capability for aligning, measuring base call quality, and trimming fastq read files to estimate quality. Researchers can submit fastq reads (paired-or single-end, long or short, zipped or not) to the service, as well as Sequence Read Archive accession numbers. The three components (trim, fastqc and align) can be used independently, or in any combination. The pipelines will be initiated in the order that they are selected.
+Understanding the quality of fastq reads that come from the sequencer is an essential first step to any of the services that uses them (Assembly, Comprehensive Genome Analysis, Taxonomic classification, Metagenomic read mapping, Metagenomic binning, Variation, RNA-Seq, TN-seq and Similar Genome Finder). The Fastq Utilities Service provides the capability for aligning, measuring base call quality, and trimming fastq read files to estimate quality. Researchers can submit fastq reads (paired-or single-end, long or short, zipped or not) to the service, as well as Sequence Read Archive accession numbers. The three components (trim, fastqc and align) can be used independently, or in any combination. The pipelines will be initiated in the order that they are selected.
 
 ## Creating a folder to hold the Fastq Utilities job and related data
 
-Please refer to the Assembly Service tutorial for instructions on creating a folder in the MAAGE (../genome_assembly/assembly.html).
+Please refer to the Assembly Service tutorial for instructions on creating a folder (../genome_assembly/assembly.html).
 
 ## Locating The Fastq Utilities Service App
 
@@ -38,10 +38,10 @@ Please refer to the Assembly Service tutorial for instructions on creating a fol
 
 ### Uploading paired end reads
 
-Please refer to the Assembly service tutorial for instructions on uploading paired-end reads in the MAAGE (../genome_assembly/assembly.html).
+Please refer to the Assembly service tutorial for instructions on uploading paired-end reads (../genome_assembly/assembly.html).
 
 ### Uploading single reads
-Please refer to the Assembly service tutorial for instructions on uploading single-end reads in the MAAGE (../genome_assembly/assembly.html).
+Please refer to the Assembly service tutorial for instructions on uploading single-end reads (../genome_assembly/assembly.html).
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)
 Please refer to the Assembly service tutorial for instructions on submitting reads from the Sequence Read Archive (../genome_assembly/assembly.html).
@@ -74,7 +74,7 @@ The lengths of individual nucleotide sequences (reads) output by second-generati
 
 ### Monitoring progress on the Jobs page
 
-1.	Click on the Jobs box at the bottom right of any MAAGE page. 
+1.	Click on the Jobs box at the bottom right of any page. 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
@@ -123,7 +123,7 @@ The lengths of individual nucleotide sequences (reads) output by second-generati
 
 ## Paired Filter
 
-Paired end reads are usually provided as two fastq-format files, with each file representing one end of the read. Many commonly used downstream tools require that the sequence reads appear in each file in the same order and reads that do not have a pair in the corresponding file are placed in a separate file of singletons. Although most sequencing instruments capable of generating paired end reads produce files where each read has a corresponding mate, many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. Assembly jobs often fail in the MAAGE service due to the paired reads not being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match.  The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
+Paired end reads are usually provided as two fastq-format files, with each file representing one end of the read. Many commonly used downstream tools require that the sequence reads appear in each file in the same order and reads that do not have a pair in the corresponding file are placed in a separate file of singletons. Although most sequencing instruments capable of generating paired end reads produce files where each read has a corresponding mate, many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. Assembly jobs often fail due to the paired reads not being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match.  The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
 
 ### Submitting the Paired Filter job
 
@@ -313,7 +313,7 @@ This process is the same as described above for Trimming.
 
 ### Does trimming work?
 
-Reads from the same genome that were either trimmed or not, were run on the FASTQC, Align and Taxonomic Classification services in MAAGE to examine and compare results. Trimmed and untrimmed reads were also assembled using Spades[7]. Differences can be seen below.
+Reads from the same genome that were either trimmed or not, were run on the FASTQC, Align and Taxonomic Classification services to examine and compare results. Trimmed and untrimmed reads were also assembled using Spades[7]. Differences can be seen below.
 
 1.	Comparison of per base sequence quality in the FastQC report before and after trimming. 
 ![Figure 73](./images/Picture73.png "Figure 73")

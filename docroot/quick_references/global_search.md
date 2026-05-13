@@ -2,7 +2,7 @@
 
 ## Overview
 
-MAAGE provides a Global Search capability to quickly locate data of interest. Searches return top matches grouped by data type. Searches can be restricted to specific data types and combinations of search terms
+The platform provides a Global Search capability to quickly locate data of interest. Searches return top matches grouped by data type. Searches can be restricted to specific data types and combinations of search terms
 
 ## Accessing the Global Search
 

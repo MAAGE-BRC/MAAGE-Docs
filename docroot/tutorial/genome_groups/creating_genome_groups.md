@@ -1,7 +1,6 @@
-
 # Creating Genome Groups
 
-## I. Creating a group using PATRIC’s Global Search
+## I. Creating a group using the Global Search
 1. Enter the word(s) or numbers of interest in the search box and hit enter.
 ![Step 1](./images/image1.png)
 
@@ -32,7 +31,7 @@
 3. To find specific genomes, click on the Genomes tab at the top of the page (Red Arrow).
 ![Step 9](./images/image9.png)
 
-4. This will open a page with a list of all the genomes available in PATRIC for that genus.
+4. This will open a page with a list of all the genomes available for that genus.
 ![Step 10](./images/image10.png)
 
 5. One of the ways to find specific genomes, especially when a genus has hundreds or thousands of genomes, is to use the text box at the top of the page (Red Arrow).  Enter the desired text to identify specific genomes and hit return.
@@ -64,7 +63,7 @@
 4. To further refine the search, perhaps by finding the protein family that has that genes as a member, an individual gene must be looked at.  To do this, click on the check box in front of one of the genome names (Red Arrow).  This will populate the green banner on the right becomes populated with icons that show next steps that can be taken.   To find more information on that gene, click on the Feature icon (Blue Arrow).
 ![Step 19](./images/image19.png)
 
-5. This opens a page that summarizes all the data integrated into PATRIC for that gene.  To examine the protein family that it belongs to, click on the hyperlink for the protein family that is built across the genus that the particular genome belongs to (Green Arrow).
+5. This opens a page that summarizes all the data integrated for that gene.  To examine the protein family that it belongs to, click on the hyperlink for the protein family that is built across the genus that the particular genome belongs to (Green Arrow).
 ![Step 20](./images/image20.png)
 
 6. This will open a page that shows all the genes in that protein family, and all the genomes that they belong to.  Clicking on the box in front of Genome Name (Red Arrow) will select all of the genes.  This is the first step to creating a genome group.
@@ -85,7 +84,3 @@
 
 11. Enter the desired name for the new group in the text box under the words Group Name (Red Arrow) and then click the blue Copy button (Blue Arrow).  This will create a group of the selected genomes with the name that was entered.
 ![Step 26](./images/image26.png)
-
-
-
-

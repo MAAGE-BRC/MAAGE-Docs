@@ -4,7 +4,7 @@
  Locating All Genomes for a Taxonomic Group
 ============================================
 
-To find a particular taxonomic grouping in PATRIC, search by name using the **Taxa** option.
+To find a particular taxonomic grouping, search by name using the **Taxa** option.
 In the screen shot below, we searched for *Streptococcus*.  The search type is circled in red.
 
 .. image:: images/taxa_search.png
@@ -63,5 +63,3 @@ to the last genome with GC percentage of 42 or more and click on its checkbox wh
 All the intermediate genomes will be selected as well.
 
 .. image:: images/shift_select.png
-
-

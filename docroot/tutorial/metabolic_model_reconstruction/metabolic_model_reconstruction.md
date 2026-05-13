@@ -4,9 +4,9 @@
 
 A genome-scale metabolic network of chemical reactions occurring within a living organism is primarily reconstructed from protein functional annotations originally derived from literature and subsequently propagated from genome to genome by sequence similarity. When a genome is functionally annotated, its metabolic genes are mapped onto biochemical reactions. This information is integrated with data on reaction stoichiometry, subcellular localization, biomass composition, estimation of energy requirements (directionality of reactions), and other constraints into a detailed stoichiometric model of metabolism. This model can be subsequently used for detailed analysis of the metabolic potential of the organism using constraint-based modeling approaches such as Flux Balance Analysis (FBA)[1]. So what you can do with metabolic models? Using metabolic models we are able address important biological questions such as: 1.) Can the organism grow on a certain media formulation? 2.) What is the minimal media condition for particular strain? 3) Can an organism be optimized to produce an important biofuel or a medically important drug molecule? What biochemical pathways being utilized when grown under certain environment?
 
-The model construction methodology in PATRIC is primarily based on the Model SEED framework[2] and the RAST genome annotation pipeline[3]. Biochemistry data used in the model construction pipeline have been gathered from multiple published metabolic models and from public databases such as KEGG, MetaCyc, EcoCyc, Plant BioCyc, Plant Metabolic Networks, and Gramene. Currently, the biochemistry database in PATRIC includes more than 13,000 biochemical reactions and over 16,000 metabolic compounds. 
+The model construction methodology is primarily based on the Model SEED framework[2] and the RAST genome annotation pipeline[3]. Biochemistry data used in the model construction pipeline have been gathered from multiple published metabolic models and from public databases such as KEGG, MetaCyc, EcoCyc, Plant BioCyc, Plant Metabolic Networks, and Gramene. Currently, the biochemistry database includes more than 13,000 biochemical reactions and over 16,000 metabolic compounds.
 
-## Model construction and analysis workflow in PATRIC involves following steps:
+## Model construction and analysis workflow involves following steps:
 
 1.	Reconstruction of metabolic model based on the genome annotations
 2.	Fill the gaps in the metabolic network (Gapfilling)[4] based on a specific media condition (e.g Glucose minimal media)
@@ -14,13 +14,13 @@ The model construction methodology in PATRIC is primarily based on the Model SEE
 4.	Simulate single gene knockouts and predict essential genes in specified media condition
 5.	Create downloadable files for viewing flux profile, gapfill reactions, essential genes, SBML version of the model, model reactions and compounds.
 
-## Here are the steps in constricting a genome scale metabolic model in PATRIC:
+## Here are the steps in constricting a genome scale metabolic model:
 
-1.	Login to the PATRIC website so that you can use your workspace in the downstream analysis.
+1.	Login to the platform so that you can use your workspace in the downstream analysis.
 
 ![Image 1](images/image1.png)
 
-2.	On the PATRIC homepage (patricbrc.org), open the SERVICES dropdown in the navigation bar at the top of the page.
+2.	On the homepage, open the SERVICES dropdown in the navigation bar at the top of the page.
 
 ![Image 2](images/image2.png)
 
@@ -87,7 +87,7 @@ Additionally, a download section is available where all model relevant data can 
 ![Image 11a](images/image11a.png)
 
 You will be navigated to the ModelSEED website (www.modelseed.org) and you will
-be prompt to login using your PATRIC account:
+be prompt to login using your account:
 ![Image 11b](images/image11b.png)
 
 12.	This will open the ModelSEED model viewer consisting¬ of multiple tabs representing Reactions, Compounds, Genes, Compartments of the model and the weighted components of the Biomass. Each column in the table is sortable by clicking the heading of the column. Any information of the model is searchable by using a search bar that appears on the top left corner of the table.
@@ -100,4 +100,3 @@ be prompt to login using your PATRIC account:
 2.	Henry, C.S., et al., High-throughput generation, optimization and analysis of genome-scale metabolic models. Nat Biotechnol, 2010. **28**(9): p. 977-82.
 3.	Overbeek, R., et al., The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). Nucleic Acids Res, 2014. **42**(Database issue): p. D206-14.
 4.	Orth, J.D. and B.O. Palsson, Systematizing the generation of missing metabolic knowledge. Biotechnol Bioeng. **107**(3): p. 403-12.
-

@@ -1,7 +1,7 @@
 # Correlated Genes
 
 ## Overview
-The Correlated Genes Tab shows the genes that are either up or down-regulated with respect to selected gene in the Feature View. The values are based on the public transcriptomics data that are available in MAAGE. 
+The Correlated Genes Tab shows the genes that are either up or down-regulated with respect to selected gene in the Feature View. The values are based on the public transcriptomics data that are available in the platform. 
 
 ## See also
   * Examining Transcriptomics Data Tutorial
@@ -10,7 +10,7 @@ The Correlated Genes Tab shows the genes that are either up or down-regulated wi
   * [Transcriptomcs Tab, Gene-Level](/quick_references/organisms_gene/transcriptomics)
   * [Expression Data Import Service](/quick_references/services/expression_data_import_service)
 
-Most of the Ptranscriptomics data have been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology and Functional Genomics Centers and other sources.
+Most of the transcriptomics data have been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology and Functional Genomics Centers and other sources.
 
 ## Accessing the Correleated Genes
 Clicking the Correlated Genes tab in the Feature View displays a table showing all the genes with expression data that are either up or down-regulated with respect to selected gene. 
@@ -31,7 +31,7 @@ The columns in the table include the following:
 * **Local Family:** "Local" Protein Family containing the gene
 * **Global Family:** "Global" Protein Family containing the gene
 * **Gene Symbol:** Gene symbol, if available
-* **Product:** Gene product, as annotated by MAAGE
+* **Product:** Gene product, as annotated by the platform
 * **Correlation:** Correlation value of the gene compared to the gene in the Feature View
 * **Comparisons:** 
 

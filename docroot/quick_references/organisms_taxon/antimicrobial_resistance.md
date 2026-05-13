@@ -41,7 +41,7 @@ susceptible to another. Values in this field include the following:
     have come from the comment field at GenBank, or in a comment field
     from data provided by the data generator, or sample
     provider. In some cases, the comment has been provided by
-    literature-based curation by the MAAGE team; in these cases, a link
+    literature-based curation; in these cases, a link
     to the corresponding publication is also available.
 
 The Antimicrobial Resistance metadata field and the Antimicrobial

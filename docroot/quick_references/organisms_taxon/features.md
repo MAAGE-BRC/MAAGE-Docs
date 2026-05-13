@@ -13,7 +13,7 @@ Clicking the Features Tab in a Taxon View displays the Features Table (shown bel
 
 ![Features Table](../images/proteins_tab.png)
 
-The list in the Features table includes annotations created by the MAAGE annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if available. 
+The list in the Features table includes annotations created by the annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if available. 
 
 ### Features Table Tools
 Within this table you may do the following:

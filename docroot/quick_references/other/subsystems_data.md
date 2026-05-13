@@ -55,7 +55,7 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Hide:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Opens the Quick Reference Guide for the page.
 * **Copy Rows:** Copies the contents of the selected rows as text to the clipboard. Options include *All Columns (with headers), All Columns (without headers), Selected Columns (with headers),* and *Selected Columns (without headers)*. 
-* **Services:** Provides links to tools and services in MAAGE that can accept the selected items as input.
+* **Services:** Provides links to tools and services on the platform that can accept the selected items as input.
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected item(s).
 * **Download:**  Downloads the selected items (rows).
 * **Feature:** Displays the Feature Page for the selected feature. *Available only if a single feature is selected.*
@@ -104,4 +104,3 @@ Each individual column or row within the Heatmap may be clicked and dragged to a
 ## References
 
 1. Overbeek, R. et al. The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes. Nucleic acids research 33, 5691-5702 (2005).
-

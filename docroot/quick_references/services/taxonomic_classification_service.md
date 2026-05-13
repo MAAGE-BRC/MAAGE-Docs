@@ -8,7 +8,7 @@ The Taxonomic Classification Service accepts reads or SRR values from sequencing
   * [Taxonomic Classification Service Tutorial](/tutorial/taxonomic_classification/taxonomic_classification)
 
 ## Using the Taxonomic Classification Service
-The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into MAAGE to use this service.*
+The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged in to use this service.*
 
 ![Taxonomic Classification Menu](../images/bv_services_menu.png)
 
@@ -71,7 +71,7 @@ Reference taxonomic database used by the Kraken2.
 __Whole genome sequencing databases (WGS)__
 __[Kraken2 Standard Database](https://ccb.jhu.edu/software/kraken2/index.shtml?t=manual#standard-kraken-2-database)__ - Standard Kraken 2 database containing distinct 31-mers, based on completed microbial genomes from NCBI.
 <br>
-__[MAAGE Database]( https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases)__ - The default Kraken 2 database at MAAGE includes the RefSeq complete genomes and protein/nucleotide sequences for the following:
+__[Default Database]( https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases)__ - The default Kraken 2 database includes the RefSeq complete genomes and protein/nucleotide sequences for the following:
 Archaea  
 Bacteria  
 Plasmid  
@@ -247,5 +247,3 @@ More details are available in the [Action Bar](/quick_references/action_bar) Qui
  * Shannon, C. E. A mathematical theory of communication. Bell Syst. Tech. J. 27, 379–423 (1948).
  * Simpson, E. H. Measurement of diversity. Nature 163, 688–688 (1949)
  * Yilmaz P, Parfrey LW, Yarza P, Gerken J, Pruesse E, Quast C, Schweer T, Peplies J, Ludwig W, Glöckner FO. The SILVA and “All-species Living Tree Project (LTP)” taxonomic frameworks. Nucleic Acids Res. 2014; 42(Database issue):643–8.
-
-

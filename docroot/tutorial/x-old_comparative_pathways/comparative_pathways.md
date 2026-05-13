@@ -7,7 +7,7 @@ The Comparative Pathway Tool allows users to search for pathways based on taxono
 **Keywords:** Comparative genomics, Comparative pathway analysis, Pathway comparison, Pathways, Metabolic pathways, KEGG pathways, Metabolomics. 
 
 ## I. Locating the Comparative Pathway tool.
-1. At the top of any PATRIC page, find the Services tab. Click on Comparative Pathway.
+1. At the top of any page, find the Services tab. Click on Comparative Pathway.
 ![Step 1](./images/image1.png)
 
 2. This will open the landing page for the Comparative Pathway tool.

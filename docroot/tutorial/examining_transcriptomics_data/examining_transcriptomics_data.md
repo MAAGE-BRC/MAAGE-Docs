@@ -1,7 +1,7 @@
 # Examining Transcriptomics Data
 
-## I. Finding Experimental Data available in PATRIC
-1. PATRIC has imported experimental data from several prominent genera, most notably Escherichia and Mycobacterium.  To find this data, click on a genus of interest on the Organisms tab (or use the global search) and select a genus of interest.
+## I. Finding Experimental Data
+1. The platform has imported experimental data from several prominent genera, most notably Escherichia and Mycobacterium.  To find this data, click on a genus of interest on the Organisms tab (or use the global search) and select a genus of interest.
 
     ![Step 1](./images/image1.png "Step 1")
 
@@ -13,7 +13,7 @@
 ![Step 3](./images/image3.png "Step 3")
 
 ## II.  Finding Specific Experiments to Examine
-1. PATRIC provides filter to help find specific experimental data.  To find that, click on the Filters icon, which is located on the far right side of the page (red arrow).
+1. The platform provides filter to help find specific experimental data.  To find that, click on the Filters icon, which is located on the far right side of the page (red arrow).
 ![Step 4](./images/image4.png "Step 4")
 
 2. This will open up a filter that is on top of the table.  It allows researchers to filter on the experimental conditions, the type of mutant, the species, the strain, and if the experiment is a time series or not.
@@ -55,7 +55,7 @@
     ![Step 15](./images/image15.png "Step 15")
 
 ## V. Visualizing the genes and their expression on a heatmap
-1. PATRIC also provides a way to visualize gene expression with a heatmap. Click on the Heatmap tab above the filter.
+1. The platform also provides a way to visualize gene expression with a heatmap. Click on the Heatmap tab above the filter.
 
     ![Step 16](./images/image16.png "Step 16")
 
@@ -91,11 +91,11 @@
 
     ![Step 24](./images/image24.png "Step 24")
 
-5. These downstream tools or processes include the ability to download all the features in the table, go to the feature list view (Features icon), go to a view showing all the genomes that are the genes from the original selection belong to (Genomes icon), get the amino acid or nucleotide fasta files for all genes selected (FASTA icon), generate a multiple sequence alignment (MSA icon), map the PATRIC genes to other identifiers like UniProt (ID Map icon), find out any pathways that the selected genes belong to (Pathway icon), or to add the genes to an existing group, or create a new group with the selected genes (Group icon).
+5. These downstream tools or processes include the ability to download all the features in the table, go to the feature list view (Features icon), go to a view showing all the genomes that are the genes from the original selection belong to (Genomes icon), get the amino acid or nucleotide fasta files for all genes selected (FASTA icon), generate a multiple sequence alignment (MSA icon), map the genes to other identifiers like UniProt (ID Map icon), find out any pathways that the selected genes belong to (Pathway icon), or to add the genes to an existing group, or create a new group with the selected genes (Group icon).
 
     ![Step 25](./images/image25.png "Step 25")
 
-6. If the Pathway Summary icon is selected, a new tab will open with a table showing this information.  This may take some time, depending on the number of genes selected.  A page with a spinning wheel will be displayed while PATRIC recovers the information.
+6. If the Pathway Summary icon is selected, a new tab will open with a table showing this information.  This may take some time, depending on the number of genes selected.  A page with a spinning wheel will be displayed while the system recovers the information.
 
     ![Step 26](./images/image26.png "Step 26")
 
@@ -113,7 +113,7 @@
 1. Researchers can compare more than one experiment for the same organism by clicking on the experiment titles in front of the name.
 ![Step 30](./images/image30.png "Step 30")
 
-2. This may take some time, so the spinning wheel will show that PATRIC is working to display the data selected.
+2. This may take some time, so the spinning wheel will show that the system is working to display the data selected.
 ![Step 31](./images/image31.png "Step 31")
 
 3. This opens a new tab that shows all the genes and conditions from that selected experiments.
@@ -134,7 +134,7 @@
 1. Genes can be found by global search, or by selecting a specific gene from a table (red arrow). This populates the vertical green band with possible downstream functions. Clicking on the Feature icon (blue arrow) will open a new tab that is the landing page for the Feature page.  
 ![Step 36](./images/image36.png "Step 36")
 
-2. Once on the gene landing page, clicking on the Transcriptomics tab will show if there is any available expression data for the gene in PATRIC.
+2. Once on the gene landing page, clicking on the Transcriptomics tab will show if there is any available expression data for the gene.
 ![Step 37](./images/image37.png "Step 37")
 
 3. If data is available, the Transcriptomics tab will show first two charts that show the levels of expression based on Log ratio or Z score based on all the available data. A pie chart showing the strains, gene modification, or experimental conditions is also presented.
@@ -150,7 +150,7 @@
 ![Step 41](./images/image41.png "Step 41")
 
 ## IX.  Expression at the Gene level – Correlated Genes
-1. Clicking on the Correlated Genes tab (red arrow) will show the genes that are either up or down-regulated with the gene on the Feature page. The numbers are based on the public transcriptomics data that are available in PATRIC.
+1. Clicking on the Correlated Genes tab (red arrow) will show the genes that are either up or down-regulated with the gene on the Feature page. The numbers are based on the public transcriptomics data that are available on the platform.
 ![Step 42](./images/image42.png "Step 42")
 
 2. Researchers can filter the correlated genes based on positive or negative correlation

@@ -1,6 +1,6 @@
 :orphan:
 
-PATRIC/RAST Workshop at Argonne National Laboratory, August 14-16, 2017
+RAST Workshop at Argonne National Laboratory, August 14-16, 2017
 ========================================================================
 
 
@@ -9,7 +9,7 @@ Introduction
 :download:`pdf <./files/Introduction_Aug_2017.pdf>`
 
 
-Assemble a Genome in PATRIC and Data Upload
+Assemble a Genome and Data Upload
 --------------------------------------------
 :download:`pdf <./files/Assembly_Aug_2017.pdf>`
 
@@ -19,7 +19,7 @@ Proteomic Comparison
 :download:`pdf <./files/ProteomeComparison_Aug_2017.pdf>`
 
 
-RNA-Seq Pipeline, Downloading Data into PATRIC and Differential Expression
+RNA-Seq Pipeline, Downloading Data and Differential Expression
 ---------------------------------------------------------------------------
 :download:`pdf <./files/RNA-Seq_Aug_2017.pdf>`
 
@@ -37,4 +37,3 @@ Tn-Seq service
 Building a metabolic model
 ---------------------------
 :download:`pdf <./files/Metabolic_Modeling_Aug_2017.pdf>`
-

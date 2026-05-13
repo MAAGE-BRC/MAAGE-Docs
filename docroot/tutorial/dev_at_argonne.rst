@@ -1,20 +1,20 @@
 :orphan:
 
 ===================================
- Developing PATRIC Code at Argonne
+ Developing Code at Argonne
 ===================================
 
-This is a quick guide for PATRIC developers working on the internal
+This is a quick guide for developers working on the internal
 systems at Argonne National Laboratory.
 
 Access
 ======
 
 One must have a Unix login account at Argonne to be able to develop
-in the PATRIC environment. Contact one of the PATRIC staff to get this
+in the platform environment. Contact one of the staff to get this
 if you believe you should be working there.
 
-To get to the internal systems where the PATRIC environment runs one
+To get to the internal systems where the platform environment runs one
 must first log in to the bastion host ``login.mcs.anl.gov``. From
 there the internal machines are visible. A useful machine to use is
 ``holly.mcs.anl.gov``.
@@ -22,43 +22,43 @@ there the internal machines are visible. A useful machine to use is
 Environment
 ===========
 
-The PATRIC code deployments are in two parts. A *runtime library*
+The code deployments are in two parts. A *runtime library*
 incorporates all the basic software required to run the
-PATRIC-specific code (language interpreters and associated runtime
+platform-specific code (language interpreters and associated runtime
 libraries; bioinformatic analysis tools; libraries and development
 tools that do not come with the base OS; etc).
 
-The *deployment* contains all the PATRIC-specific code that typically
-changes much more often and is part of the PATRIC release cycle.
+The *deployment* contains all the platform-specific code that typically
+changes much more often and is part of the release cycle.
 
 On the Argonne machines, the runtime library is typically located on
-local disk on the machines that run PATRIC components in the path
+local disk on the machines that run platform components in the path
 ``/disks/patric-common/runtime``. 
 
-On the Argonne systems that have PATRIC deployments installed, the
+On the Argonne systems that have deployments installed, the
 standard deployment location is ``/disks/p3/deployment``. The software
 deployment infrastructure creates user environment configuration
-scripts to set up the environment for the execution of the PATRIC
+scripts to set up the environment for the execution of the platform
 scripts and the associated runtime routines. These may be sourced in
 your environment via the command::
 
   source /disks/p3/deployment/user-env.sh
 
 For any application that touches the workspace you will need to be
-logged into PATRIC. Use the :ref:`cli::p3-login` command to log in::
+logged into the platform. Use the :ref:`cli::p3-login` command to log in::
 
     $ p3-login olson
     Password: *********
     Logged in with username olson@patricbrc.org
 
-This will authenticate you with the PATRIC authentication service and
+This will authenticate you with the authentication service and
 create a file in your home directory ``.patric_token`` containing the
 authentication token.
 
 Checking Application Output
 ===========================
 
-If you know the identifier for a given PATRIC job, you can find the
+If you know the identifier for a given job, you can find the
 standard output and error files, its exit status if complete, and the
 host it ran on by viewing the application service output logs. These
 are found on the system ``beech.mcs.anl.gov`` in the directory
@@ -197,7 +197,7 @@ is the following::
 
 Here, we request a phylogentic tree with three in-group genomes and
 one out-group genome, with the output to be written to the folder
-``/olson@patricbrc.org/test`` in the PATRIC workspace with the output
+``/olson@patricbrc.org/test`` in the workspace with the output
 name to be ``tree-15``. The full tree method request is FastTree, and
 no refinement is requested.
 
@@ -205,7 +205,7 @@ We may run this application as follows. We give the application script
 a bogus first parameter; in production execution that is a URL that
 will result in the standard output and error streams to be fed in
 realtime to the application service where it is logged and available
-for display in the PATRIC website.
+for display in the website.
 
 ::
 

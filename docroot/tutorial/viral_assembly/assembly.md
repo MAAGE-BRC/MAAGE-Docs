@@ -1,4 +1,4 @@
-# Analyzing Viral Genome Assembly Using MAAGE Tools Tutorial
+# Analyzing Viral Genome Assembly Using Platform Tools Tutorial
 #### [Made by Anna Capria with Scribe](https://scribehow.com/shared/Analyzing_Viral_Genome_Assembly_Using_BV-BRC_Tools_Tutorial__A-fXajgCQi-bD-Wzs4rmXw)
 
 
@@ -11,7 +11,7 @@ Alert: Beta Version: 13 February 2025
 #### Overview
 
 
-1\. The Viral Genome Assembly Service allows users to assemble viral genomes utilzing IRMA(1)(currently the MAAGE tool supports Influenza). Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace.\
+1\. The Viral Genome Assembly Service allows users to assemble viral genomes utilzing IRMA(1)(currently the platform supports Influenza). Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace.\
 This service and tutorial are currently in beta- and will be updated to reflect the tools development.\
 A genome assembly is the sequence produced after chromosomes from the organism have been fragmented, those fragments have been sequenced, and the resulting sequences have been put back together. This is currently needed as DNA sequencing technology cannot read whole genomes in one go, but rather can read small pieces of between 20 and 30,000 bases, depending on the technology used. Typically, the short fragments, called reads, result from shotgun (random) sequencing of genomic DNA.
 
@@ -19,7 +19,7 @@ De novo sequence assemblers are a type of program that assembles short nucleotid
 
 What follows is a tutorial showing how to submit reads for assembly and selecting parameters for the assembly algorithm.
 
-The MAAGE Viral Genome Assembly service uses an open source, third-part bioinformatics program- IRMA developed by the CDC. IRMA provides a robust next-generation sequencing assembly solution that is adapted to the needs and characteristics of viral genomes. More information about IRMA (<https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3030-6>) can be found here IRMA  and <https://wonder.cdc.gov/amd/flu/irma/irma.html> pages.
+The Viral Genome Assembly service uses an open source, third-part bioinformatics program- IRMA developed by the CDC. IRMA provides a robust next-generation sequencing assembly solution that is adapted to the needs and characteristics of viral genomes. More information about IRMA (<https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3030-6>) can be found here IRMA  and <https://wonder.cdc.gov/amd/flu/irma/irma.html> pages.
 
 
 Tip: See Also: [Viral Genome Assembly Service](https://bv-brc.org/app/ViralAssembly)
@@ -29,7 +29,7 @@ Tip: See Also: [Viral Genome Assembly Service](https://bv-brc.org/app/ViralAssem
 
 
 2\. Using the Viral Genome Assembly Service\
-The **Viral Assembly** submenu option under the **Services** main menu (Viral Tools category) opens the Viral Genome Assembly input form, shown below. *Note: You must be logged into MAAGE to use this service.*
+The **Viral Assembly** submenu option under the **Services** main menu (Viral Tools category) opens the Viral Genome Assembly input form, shown below. *Note: You must be logged into the platform to use this service.*
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-13/3e44f1e8-a377-4ca0-a140-54b10bc3ce47/screenshot.jpeg?tl_px=0,0&br_px=1434,1064&force_format=jpeg&q=100&width=1120.0)
 
@@ -54,9 +54,9 @@ The **Viral Assembly** submenu option under the **Services** main menu (Viral To
 
 ### SRA run accession
 
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the MAAGE Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
 
-## Files accepted by MAAGE Assembly Service
+## Files accepted by the Assembly Service
 
 The assembly service accepts read files in either fastq, fasta, fastq.gz, or fasta.gz format.
 
@@ -140,12 +140,12 @@ The assembly service accepts read files in either fastq, fasta, fastq.gz, or fas
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-13/2d7abedf-c18e-4fc4-8812-2f9593ba0307/File.jpeg?tl_px=0,239&br_px=2122,1624&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=603,380)
 
 
-17\. A message will appear at the bottom of the page, indicating that the submitted job has entered the MAAGE queue.
+17\. A message will appear at the bottom of the page, indicating that the submitted job has entered the queue.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-13/a9dc3389-3dcb-4fc6-8648-4498cc5747b4/File.jpeg?tl_px=0,239&br_px=2122,1624&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=592,416)
 
 
-18\. Clicking on the **Jobs** box at the bottom right of any MAAGE page/
+18\. Clicking on the **Jobs** box at the bottom right of any page/
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-13/39fba459-fb71-4a97-a24a-384b28f3a930/File.jpeg?tl_px=0,239&br_px=2122,1624&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=950,668)
 
@@ -182,7 +182,7 @@ You can click on the output files of the job to see the .fasta
 
 Click "A_MP.fasta" Or any of the fasta files to get the different fasta's for each segment. You can download with the download icon on the green bar.\
 \
-The whole point of the assembly service is the assembly of a contig file from the submitted reads.  The contig files can be used in downstream services.  Note that the file, which can be clicked on from the Jobs page, has the type matched as “contigs” in the information panel beyond the green bar.  The contig file can be used as is in MAAGE or downloaded for use in other resources or pipelines.
+The whole point of the assembly service is the assembly of a contig file from the submitted reads.  The contig files can be used in downstream services.  Note that the file, which can be clicked on from the Jobs page, has the type matched as “contigs” in the information panel beyond the green bar.  The contig file can be used as is in the platform or downloaded for use in other resources or pipelines.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-13/b7a36134-947c-4b59-889e-6088df9b66b2/user_cropped_screenshot.jpeg?tl_px=0,80&br_px=2122,1465&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=121,329)
 
@@ -261,7 +261,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 - **Rename:** Allows renaming of the file.
 - **Copy:** Copies the selected items to the clipboard.
 - **Move:** Allows moving of the file to another folder.
-- **Edit Type:** Allows changing of the type of the file in terms of how MAAGE interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+- **Edit Type:** Allows changing of the type of the file in terms of how the platform interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details will be available in the upcoming Quick Reference Guide.
 
@@ -270,7 +270,3 @@ More details will be available in the upcoming Quick Reference Guide.
 Gurevich, A., et al., QUAST: quality assessment tool for genome assemblies. Bioinformatics, 2013. 29(8): p. 1072-1075.\
 Shepard, S.S., Meno, S., Bahl, J. et al. Viral deep sequencing needs an adaptive approach: IRMA, the iterative refinement meta-assembler. BMC Genomics 17, 708 (2016). <https://doi.org/10.1186/s12864-016-3030-6>
 #### [Made with Scribe](https://scribehow.com/shared/Analyzing_Viral_Genome_Assembly_Using_BV-BRC_Tools_Tutorial__A-fXajgCQi-bD-Wzs4rmXw)
-
-
-
-

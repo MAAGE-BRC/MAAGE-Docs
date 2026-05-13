@@ -8,7 +8,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ## Locating the Sequence Submission Service
 
-1\. At the top of any MAAGE page, find the Tools & Services tab and click on it.
+1\. At the top of any page, find the Tools & Services tab and click on it.
  
 ![Figure 1](./images/fig1.png "Figure 1")
 
@@ -79,11 +79,11 @@ If there is a problem with the An error message will appear below the box to ind
 
 ## Checking the status of the job
 
-1\. Click on the Jobs indicator at the bottom of the MAAGE page.
+1\. Click on the Jobs indicator at the bottom of the page.
 
 ![Figure 12](./images/fig12.png "Figure 12")
 
-2\.	This will open the Jobs Status page which displays the status of the job. The status of all the service jobs that have been submitted to MAAGE are also available.
+2\.	This will open the Jobs Status page which displays the status of the job. The status of all the service jobs that have been submitted are also available.
 
 3\.	Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results.
 
@@ -126,10 +126,10 @@ After selecting the files, you can choose to either download (red box below) or 
 
 ![Figure 16](./images/fig16.png "Figure 16")
 
-## Notifying the MAAGE team for the Submission 
+## Notifying the team for the Submission 
 
-**Submit Sequence** - On the right-hand side of header in the results page there is a “Submit Sequence” (red box) button which notifies the MAAGE team that the submission is ready for GenBank submission.
+**Submit Sequence** - On the right-hand side of header in the results page there is a “Submit Sequence” (red box) button which notifies the team that the submission is ready for GenBank submission.
 
 ![Figure 17](./images/fig17.png "Figure 17")
 
-A MAAGE team member will reach out to you via email once the GenBank submission is completed.
+A team member will reach out to you via email once the GenBank submission is completed.

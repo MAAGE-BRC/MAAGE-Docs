@@ -2,7 +2,7 @@
 
 *Revised: 11/22/2022*
 
-The new Comparative Systems service at MAAGE combines two tools that were part of the PATRIC resource (Protein Family Sorter and Comparative Pathways Viewer) and also includes subsystems1,2, a set of functional roles that together implement a specific biological process or structural complex and can also be generalized as pathways.   Up to 500 genomes can be compared.  All of the three systems use the two protein families (PATtyFams3) that are assigned in the MAAGE annotation process known as RASTtk4.  The global families, known as PGFams, can be used for cross genus comparisons.  The local families (PLFams) are for intra genus comparisons.
+The new Comparative Systems service combines two tools (Protein Family Sorter and Comparative Pathways Viewer) and also includes subsystems1,2, a set of functional roles that together implement a specific biological process or structural complex and can also be generalized as pathways.   Up to 500 genomes can be compared.  All of the three systems use the two protein families (PATtyFams3) that are assigned in the annotation process known as RASTtk4.  The global families, known as PGFams, can be used for cross genus comparisons.  The local families (PLFams) are for intra genus comparisons.
 
 The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the “pan genome,” which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes (“core genome”), conserved only in a subset of the selected genomes (“accessory genome”) or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a bird’s-eye (“pan genome”) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.
 
@@ -35,7 +35,7 @@ The source code for the Comparative Systems service can be found at: <br/>
  ![Image](images/Picture6.png) 
 
 ## Locating the Comparative Systems App
-1.	At the top of any MAAGE page, find the Services tab
+1.	At the top of any page, find the Services tab
  ![Image](images/Picture7.png)
 
 2.	In the drop-down box, underneath Genomics, click on Comparative Systems.
@@ -89,7 +89,7 @@ The source code for the Comparative Systems service can be found at: <br/>
 
 
 ## Monitoring progress on the Jobs page
-1.	Click on the Jobs box at the bottom right of any MAAGE page.
+1.	Click on the Jobs box at the bottom right of any page.
  ![Image](images/Picture24.png)
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed.
@@ -213,7 +213,7 @@ The source code for the Comparative Systems service can be found at: <br/>
 8.	The text box filter can also be used to find protein family IDs, which is an excellent way to see presence and absence across a group of genomes.  Entering the IDs in the table and then clicking on the filter icon will reload the table to show the protein families that meet that criterion.
      ![Image](images/Picture65.png)
 
-9.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  In MAAGE, perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the Phylogenetic Tree service, which could be used to see if a group of genomes are “tree able.”
+9.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  Perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the Phylogenetic Tree service, which could be used to see if a group of genomes are “tree able.”
      ![Image](images/Picture66.png)
 
 10.	The “non-perfect” protein families can also be examined, both selecting the Non perfect Families button, or filtering by the Number of Proteins per Family.
@@ -244,13 +244,13 @@ The source code for the Comparative Systems service can be found at: <br/>
 7.	Clicking on Advanced will show the different clustering options.
      ![Image](images/Picture75.png)
 
-8.	MAAGE allows researcher to cluster by either Protein Families, Genomes, or Both.  The default is set at Both.
+8.	The platform allows researcher to cluster by either Protein Families, Genomes, or Both.  The default is set at Both.
      ![Image](images/Picture76.png)
 
 9.	To see the Clustering algorithm choices, click on the down arrow that follows Pearson correlation, which is the default setting.
      ![Image](images/Picture77.png)
 
-10.	MAAGE offers four types of clustering.  To see the options, click on the down arrow underneath Clustering type that follows Pairwise average-linkage, which is the default setting.
+10.	The platform offers four types of clustering.  To see the options, click on the down arrow underneath Clustering type that follows Pairwise average-linkage, which is the default setting.
      ![Image](images/Picture78.png)
 
 11.	 Choosing different clustering options will change the heatmap.
@@ -343,4 +343,3 @@ The source code for the Comparative Systems service can be found at: <br/>
 - 3	Davis, J. J. et al. PATtyFams: Protein families for the microbial genomes in the PATRIC database.  7, 118 (2016).
 - 4	Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
 - 5	Kanehisa, M., Furumichi, M., Sato, Y., Kawashima, M. & Ishiguro-Watanabe, M. KEGG for taxonomy-based analysis of pathways and genomes. Nucleic Acids Research (2022).
-

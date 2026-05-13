@@ -8,7 +8,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 
 ## I. Locating the Tn-Seq Service App.
 
-1\.	At the top of any MAAGE page, find the Services tab. Click on Tn-Seq Analysis.
+1\.	At the top of any page, find the Services tab. Click on Tn-Seq Analysis.
 ![Image 1](images/image1.png) 
 
 2\.	This will open up the Tn-Seq landing page where researchers can submit long reads, single or paired read files. 
@@ -16,7 +16,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 
 ## II. Filling in parameters - Strategy
 
-1\. Information on any page is available by clicking on the blue icon (red arrow).  This will open an information box. The Tn-Seq pipeline in MAAGE uses TRANSIT [1]. TRANSIT is capable of analyzing Tn-Seq libraries constructed with Himar1 [2] or Tn5 [3] datasets. 
+1\. Information on any page is available by clicking on the blue icon (red arrow).  This will open an information box. The Tn-Seq pipeline uses TRANSIT [1]. TRANSIT is capable of analyzing Tn-Seq libraries constructed with Himar1 [2] or Tn5 [3] datasets. 
 ![Image 3](images/image3.png) 
 
 2\.	The type of strategy must be selected.  Click on the arrow at the end of the text box that says Essential.  This will open a drop-down box that shows the two strategies offered by TRANSIT. **Essential regions** are inferred by the lack of insertions observed in a region (presumably because the insertion of the transposon (Tn) disrupts the protein product, making it non-functional). **Conditionally essential regions** have insertions in one condition but not in another. Select the strategy by clicking on it. 
@@ -33,7 +33,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 
 ## III. Uploading reads and launching the job
 
-1\.	MAAGE allows researchers to compare paired or single end reads in the Tn-Seq service. 
+1\.	The platform allows researchers to compare paired or single end reads in the Tn-Seq service. 
 ![Image 8](images/image8.png) 
 
 2\.	To select reads for this example, click on the folder icon at the end of the text box underneath Read File.  This will open a pop-up window that provides access to the workspace. 
@@ -68,7 +68,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 
 ## IV. Examining The Results
 
-1\.	To check the status of the Tn-Seq job, click on the Jobs indicator at the bottom of the MAAGE page. 
+1\.	To check the status of the Tn-Seq job, click on the Jobs indicator at the bottom of the page. 
 ![Image 19](images/image19.png) 
 
 2\.	Clicking on Jobs opens the Jobs Status page, where researchers can see the progression of the Tn-Seq job as well as the status of all the previous service jobs that have been submitted. 
@@ -89,7 +89,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 7\.	Clicking on the Parameters line will provide the details of the Tn-Seq job. 
 ![Image 25](images/image25.png) 
 
-8\.	MAAGE provides BAM files.  BAM is the compressed binary version of the Sequence Alignment/Map (SAM) format, a compact and index-able representation of nucleotide sequence alignments, and uploaded into a genome browser so that researchers can see the alignment of the reads compared to the annotation for the genome in question. The BAM index files (*.bam.bai) provide an index of the corresponding BAM file. 
+8\.	The platform provides BAM files.  BAM is the compressed binary version of the Sequence Alignment/Map (SAM) format, a compact and index-able representation of nucleotide sequence alignments, and uploaded into a genome browser so that researchers can see the alignment of the reads compared to the annotation for the genome in question. The BAM index files (*.bam.bai) provide an index of the corresponding BAM file. 
 ![Image 26](images/image26.png) 
 
 9\.	The counts associated with each of the read files is provided in the control.counts or treatment.counts files. 
@@ -101,7 +101,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 11\. A summary of the reads and the metadata assigned to them is provided in the output_keys.txt file. 
 ![Image 29](images/image29.png) 
 
-12.	The Transit package in MAAGE also provides a summary of the statistical data in a file that is called the resampling_control_treatment_transit.txt file. 
+12.	The Transit package also provides a summary of the statistical data in a file that is called the resampling_control_treatment_transit.txt file. 
 ![Image 30](images/image30.png) 
 
 13\. The resampling_control_treatment_transit file can be downloaded by clicking on the download icon that is visible at the top of the table. 
@@ -118,4 +118,3 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 1.	DeJesus MA, Ambadipudi C, Baker R, Sassetti C, Ioerger TR. TRANSIT - a software tool for Himar1 Tnseq analysis. PLoS Comput Biol. 2015;11: 1004401.
 2.	Lampe DJ, Churchill ME, Robertson HM. A purified mariner transposase is sufficient to mediate transposition in vitro. The European Molecular Biology Organization Journal. 1996;15(19):5470–5479.
 3.	Adey A, Morrison HG, Asan, Xun X, Kitzman JO, Turner EH, Stackhouse B, MacKenzie AP, Caruccio NC, Zhang X, et al. 2010. Rapid, low-input, low-bias construction of shotgun fragment libraries by high-density in vitro transposition. Genome Biol 11: R119.
-

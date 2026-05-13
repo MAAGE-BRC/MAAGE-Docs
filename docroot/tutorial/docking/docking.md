@@ -5,7 +5,7 @@ The small molecule docking service uses the DiffDock method of molecular docking
 poses for a given protein structure and a set of small-molecule ligands.  This service utilizes a diffusion model, [DiffDock](https://arxiv.org/abs/2210.01776) to compute a set of poses for a target protein structure and a set of small-molecule ligands.  The aim is to simulate and analyze potential binding scenarios “in silico”. Offering a crucial advantage by predicting the success of protein ligand combinations ahead of costly and time-consuming in vivo experiments.
 
 ## Locating the Small Molecule Ligand Docking Service
-The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools category) opens the Docking Service input form. *Note: You must be logged into MAAGE to use this service.*
+The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools category) opens the Docking Service input form. *Note: You must be logged into the platform to use this service.*
 
 ![Docking menu option](./images/updated_services_menu.png "Docking menu option")
 ![image](https://github.com/user-attachments/assets/faaf90ee-31c8-412b-b715-a318981f107e)
@@ -76,7 +76,7 @@ As you would with our other services, please select an output folder and unique 
 
 6. If your job is from a ligand library or a workspace file with three columns is given an extra column, "Drugbank Generic Name" will populate with the name in the table. If a drug bank page exists for the id paired with the name, clicking on the name will open the drug bank entry in a new tab.
 
-7. Clicking the structure link in the viewer column will open a new tab with the MAAGE protein structure viewer showing that specific protein ligand interaction. This is detailed in the "Interacting with the Structure Viewer section".
+7. Clicking the structure link in the viewer column will open a new tab with the protein structure viewer showing that specific protein ligand interaction. This is detailed in the "Interacting with the Structure Viewer section".
 
 8. The values in the Vinardo, DiffDock Confidence CNN Score, and CNN Affinity are detailed in the Interpreting the Report Values section.
 
@@ -105,7 +105,7 @@ The **protein ligand viewer** is based on Mol* (/'mol-star/) which  There are ma
 | ![Icon 2](./images/icon_2.png) | The second icon, a circle with two arrows, will rotate the protein and ligand until you click on the same icon again to stop the rotation.                                                                                      |
 | ![Icon 3](./images/icon_3.png) | The shutter icon takes a .PNG image. When clicked, a window will pop up next to the icon with options to crop, auto crop, copy, download, and change resolution.                                                                |
 | ![Icon 4](./images/icon_4.png) | The third icon, a wrench, will hide the Structure Tools panel on the right-hand side.                                                                                                                                          |
-| ![Icon 5](./images/icon_5.png) | The fourth icon will bring the viewer into full screen. If you are using the protein ligand viewer on the MAAGE website, the viewer can only be the size of your internet browser window.                                      |
+| ![Icon 5](./images/icon_5.png) | The fourth icon will bring the viewer into full screen. If you are using the protein ligand viewer on the platform website, the viewer can only be the size of your internet browser window.                                      |
 | ![Icon 6](./images/icon_6.png) | The fifth icon, lines with slider toggles on them, will give settings and control options for animation. More animation options are also available by clicking on the icon that is multiple rectangles with a triangle *play* button in the upper left-hand corner. |
 | ![Icon 7](./images/icon_7.png) | The sixth icon, an arrow, will display options to color specific elements of the protein, including bond and structure properties, amino acid or nucleic base, and elements of the polymer.                                     |
 

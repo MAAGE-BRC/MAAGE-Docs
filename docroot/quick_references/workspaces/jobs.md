@@ -1,7 +1,7 @@
 # Analysis Service Jobs
 
 ## Overview
-For most MAAGE analysis services, when the service starts, it creates a computational "job" that runs on back-end high-performance computing (HPC) systems which perform the analysis and return the results back to the user via the website or command line interface. The reason for this is that many services, such as Genome Annotation and Genome Assembly, require a significant amount of computational power and time to complete. The job display provides information on the status of the computation: queued, running, completed, or failed. 
+For most analysis services, when the service starts, it creates a computational "job" that runs on back-end high-performance computing (HPC) systems which perform the analysis and return the results back to the user via the website or command line interface. The reason for this is that many services, such as Genome Annotation and Genome Assembly, require a significant amount of computational power and time to complete. The job display provides information on the status of the computation: queued, running, completed, or failed. 
 
 ## See also:
   * [Services and Tools](/quick_references/services_menu)
@@ -37,6 +37,6 @@ The nature of the results of the job depends on the type of analysis service tha
 
 If a job seems to be running unusually long, or if it is known that something was wrong with the input, the job can be stopped using the **Kill Job** button in the Action Bar.  Note that this option is only available while the job is still running.
 
-If a job fails, it usually means that either something was wrong with the input files or there was a problem with the back-end systems that run the jobs.  In this instance, selecting failed job and clicking the Standard Output and Error Output drop-down boxes in the far right panel may give some useful information as to why the job failed.  If not, clicking the **Report Issue** button in the vertial green Action Bar will automatically generate a ticket to the MAAGE help desk.  Providing additional information in the ticket will help the MAAGE team diagnose and resolve the problem.
+If a job fails, it usually means that either something was wrong with the input files or there was a problem with the back-end systems that run the jobs.  In this instance, selecting failed job and clicking the Standard Output and Error Output drop-down boxes in the far right panel may give some useful information as to why the job failed.  If not, clicking the **Report Issue** button in the vertial green Action Bar will automatically generate a ticket to the help desk.  Providing additional information in the ticket will help the team diagnose and resolve the problem.
 
 ![Failed Job](../images/failed_job.png)

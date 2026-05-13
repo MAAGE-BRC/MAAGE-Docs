@@ -12,7 +12,7 @@ The Specialty Genes Tab provides a table of all the annotated "specialty genes" 
 Clicking the Specialty Genes Tab in a Taxon View displays the Specialty  table (shown below), listing all the features annotated as Specialty Genes corresponding to the set of genomes in the selected taxon level.
 
 ![Specialty Genes Table](../images/specialty_genes_tab.png)
-MAAGE identifies features as Specialty Genes via BLASTP-based sequence similarity mapping to reference genes are collected from reputed external databases or manually curated by the MAAGE team. These features (genes) include
+The platform identifies features as Specialty Genes via BLASTP-based sequence similarity mapping to reference genes are collected from reputed external databases or manually curated. These features (genes) include
 
 * **Antibiotic Resistance:** Mapped from [CARD](https://card.mcmaster.ca/), [NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), and curated AMR genes.
 

@@ -5,7 +5,7 @@
 ==========================================
 
 If you know the identifier for a protein family, you may want to work with the protein
-family.  The PATRIC protein families contain similar proteins believed to perform the
+family.  The protein families contain similar proteins believed to perform the
 same function.  They come in two flavors-- global families that spread across all genomes,
 and local families restricted to a single genus.  The proteins in your private genomes
 are also stored in protein families, but they are not visible to other users.

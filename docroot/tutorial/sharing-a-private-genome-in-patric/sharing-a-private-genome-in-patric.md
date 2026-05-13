@@ -6,7 +6,7 @@
 ![image1](images/image1.png)
 
 2.  This will open a pop-up window that allows you to share your private
-    genome with another registered PATRIC user. Start typing the name of
+    genome with another registered user. Start typing the name of
     the registered user in the text box. This will open a drop-down (or
     drop-up) box that shows the list of user names that match the text
     you have entered. Click on the name of the correct user.

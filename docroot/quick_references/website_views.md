@@ -1,7 +1,7 @@
 # Website Views
 
 ## Overview
-The MAAGE website is designed to provide context-sensitive data access and functionality such that when a particular taxon, genome, feature (gene), or group is selected, the surrounding data tabs, tables, and tools are filtered to relevant data for the selection.  This is accomplished through focused "Views," as described below:
+The platform website is designed to provide context-sensitive data access and functionality such that when a particular taxon, genome, feature (gene), or group is selected, the surrounding data tabs, tables, and tools are filtered to relevant data for the selection.  This is accomplished through focused "Views," as described below:
 
 ## Genome-Based Views
 

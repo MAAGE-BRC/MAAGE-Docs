@@ -11,7 +11,7 @@ The Primer Design Service utilizes Primer3[1-5] to design primers from a given i
 
 ## Using the Primer Design Service
 
-The **Primer Design** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged into MAAGE to use this service.*
+The **Primer Design** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged in to use this service.*
 
 ![Primer design menu option](../images/bv_services_menu.png) 
 
@@ -111,7 +111,7 @@ Output options can be specified using the parameters shown below:
 
 ## Output Results
 
-Clicking on the Jobs indicator at the bottom of the MAAGE page open the Jobs Status page that displays all current and previous service jobs and their status. 
+Clicking on the Jobs indicator at the bottom of the page open the Jobs Status page that displays all current and previous service jobs and their status. 
 
 ![Figure 9](../images/primer_Picture9.png "Figure 9")
 

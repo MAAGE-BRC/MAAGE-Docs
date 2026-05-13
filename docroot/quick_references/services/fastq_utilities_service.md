@@ -8,7 +8,7 @@ The Fastq Utilities Service makes available common operations for FASTQ files fr
 * [Fastq Utilities Service Tutorial](/tutorial/fastq_utilities/fastq_utilities)
 
 ## Using the Fastq Utilities Service
-The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged in to use this service.*
 
 ![Fastq Utilities Menu](../images/bv_services_menu.png)
 
@@ -81,7 +81,7 @@ The Align option generates several files that are deposited in the Private Works
 * **xxx.unmapped#.fq.gz** - File containing all the reads from each read file that did not map to aligned to the target genome.
 
 ### Paired Filter
-Paired end reads are usually provided as two fastq-format files, with each file representing one end of the read. Many commonly used downstream tools require that the sequence reads appear in each file in the same order and reads that do not have a pair in the corresponding file are placed in a separate file of singletons. Although most sequencing instruments capable of generating paired end reads produce files where each read has a corresponding mate, many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. Assembly jobs often fail in the MAAGE service due to the paired reads not being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match. The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
+Paired end reads are usually provided as two fastq-format files, with each file representing one end of the read. Many commonly used downstream tools require that the sequence reads appear in each file in the same order and reads that do not have a pair in the corresponding file are placed in a separate file of singletons. Although most sequencing instruments capable of generating paired end reads produce files where each read has a corresponding mate, many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. Assembly jobs often fail due to the paired reads not being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match. The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
 
 The Paired Filter option generates three files that are deposited in the Private Workspace in the designated Output Folder. These include:
 * **xxx_1.paired.fq.gz and xxx_2.paired.fq.gz** The fastq.paired.fq.gz file contains the paired read file and should be used for downstream analyses. It can be downloaded by clicking on the Download icon.
@@ -98,7 +98,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
-* **Edit Type** Allows changing of the type of the file in terms of how MAAGE interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type** Allows changing of the type of the file in terms of how the platform interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 

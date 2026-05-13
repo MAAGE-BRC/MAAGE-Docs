@@ -1,11 +1,11 @@
 Instructional Videos
 ====================
 
-In addtion to Quick Reference Guides and Tutorial documentation, the `MAAGE YouTube Channel <https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A>`_ provides recorded videos demonstrating use of most of the major MAAGE tools, services, and other features.
+In addtion to Quick Reference Guides and Tutorial documentation, the YouTube Channel `<https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A>`_ provides recorded videos demonstrating use of most of the major tools, services, and other features of the platform.
 
 Quick Start
 ------------------
-This `playlist <https://youtu.be/Rb3d6fJ1Yxo>`_ provides brief demonstrations of key MAAGE features.
+This `playlist <https://youtu.be/Rb3d6fJ1Yxo>`_ provides brief demonstrations of key features of the platform.
 
 * `Introduction <https://youtu.be/Rb3d6fJ1Yxo>`_
 * `Searching for data <https://youtu.be/NB5tvu1YDkc>`_
@@ -16,7 +16,7 @@ This `playlist <https://youtu.be/Rb3d6fJ1Yxo>`_ provides brief demonstrations of
 
 Analysis Services
 -----------------
-These videos provide step-by-step demonstrations of MAAGE Analysis Services.
+These videos provide step-by-step demonstrations of Analysis Services.
 
 * `Comparative Systems <https://youtu.be/U0ahNJpebhs>`_
 * `Comprehensive Genome Analysis <https://youtu.be/AI23teqjnwM>`_
@@ -36,16 +36,14 @@ These videos provide step-by-step demonstrations of MAAGE Analysis Services.
 
 Visualizations and Other Tools
 ------------------------------
-These videos provide demonstrations of MAAGE interactive visualizations and other tools and features in the resource.
+These videos provide demonstrations of interactive visualizations and other tools and features in the resource.
 
 * `Compare Region Viewer <https://youtu.be/KQkmeG84kQY>`_
 
 Command Line Interface
 ----------------------
-These videos provide instructions for installation and use of the MAAGE Command Line Interface (CLI).
+These videos provide instructions for installation and use of the Command Line Interface (CLI).
 
 * `CLI Installation <https://youtu.be/7bJtZOSD7yY>`_
 * `CLI Overview <https://youtu.be/7vpkY6LVYds>`_
 * `CLI Job Submission <https://youtu.be/97WpQfUW1uI>`_
-
-
