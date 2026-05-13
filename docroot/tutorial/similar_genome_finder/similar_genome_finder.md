@@ -4,22 +4,31 @@
 
 When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. MAAGE[1] provides a new service that allows researchers to do this using Mash/MinHash[2]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
 
-1.	At the top of any MAAGE page, find the Services tab. Click on Similar Genome Finder. 
-![Figure Service_tab](./images/Service_tab_SGF.png "Figure Service_tab") 
+## Locating the Similar Genome Analysis Service
 
-2.	This will open up the Similar Genome Finder landing page.
+1. Locate the Tools option on the top navigation bar.
+
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Similar Genome Finder. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
+
+3.	This will open up the Similar Genome Finder landing page.
 ![Figure Landing_page](./images/Landing_page.png "Figure Landing_page") 
 
-3.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available in MAAGE or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
+4.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available in MAAGE or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
 ![Figure Select_Genome](./images/Select_Genome.png "Figure Select_Genome") 
 
-4.	Click the down arrow at the right of the text box under **Search By Genome Name Or Genome ID**. This will open a drop-down box that shows all of the researcher’s private genomes, which have a **Lock** icon in front of them.  To select a specific genome, scroll down and find the genome of interest, and then click on it.
+5.	Click the down arrow at the right of the text box under **Search By Genome Name Or Genome ID**. This will open a drop-down box that shows all of the researcher’s private genomes, which have a **Lock** icon in front of them.  To select a specific genome, scroll down and find the genome of interest, and then click on it.
 ![Figure 5](./images/Picture5.png "Figure 5")
 
-5.	This will autofill the name of the genome in the text box. 
+6.	This will autofill the name of the genome in the text box. 
 ![Figure 6](./images/Picture6.png "Figure 6") 
 
-6.	Alternatively, it is not necessary to use the filters for different types of public genomes, or the private genomes.  Entering the name, or the genome ID in the text box will open a drop-down box that shows possible matches.  Note that reference genomes are denoted with a **[Ref]** in front of the name.  Representative genomes would have a **[Rep]** and private genomes have the lockbox icon seen above.  All of the other public genomes have no indicator in front of the name.  Clicking on the genome of interest will autofill the box as seen above.
+7.	Alternatively, it is not necessary to use the filters for different types of public genomes, or the private genomes.  Entering the name, or the genome ID in the text box will open a drop-down box that shows possible matches.  Note that reference genomes are denoted with a **[Ref]** in front of the name.  Representative genomes would have a **[Rep]** and private genomes have the lockbox icon seen above.  All of the other public genomes have no indicator in front of the name.  Clicking on the genome of interest will autofill the box as seen above.
 ![Figure 7](./images/Picture7.png "Figure 7") 
 
 ## Loading a genome that is not in MAAGE

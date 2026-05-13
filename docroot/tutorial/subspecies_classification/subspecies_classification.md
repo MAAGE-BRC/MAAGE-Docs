@@ -6,11 +6,15 @@
 
 ## Locating the Subspecies Classification Service
 
-1\. At the top of any MAAGE page, find the **SERVICES** tab and then click on **Subspecies Classification Service**.
-![Image 1](images/subspecies-1.png) 
+1. Locate the Tools option on the top navigation bar.
 
-2\. This will open the subspecies classification landing page.
-![Image 2](images/subspecies-2.png) 
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Viral Tools and select Subspecies Classification. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 ## Specifying classification parameters
 

@@ -55,11 +55,15 @@ What follows below is a tutorial showing how to submit reads of various types fo
 
 ## Locating the Assembly Service App
 
-1.	At the top of any MAAGE page, find the **Tools & Services** tab and click on it.
-![Figure 8](./images/Picture8.png)
+1. Locate the Tools option on the top navigation bar.
 
-2.	In the drop-down box, underneath **Genomics**, click on **Genome Assembly (B)**.
-![Figure 9](./images/Picture9.png)
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Genome Assembly. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 3.	This will open up the Assembly landing page where researchers can submit single or paired read files, a combination of the two, and/or an SRA run accession number to the service.
 ![Figure 10](./images/Picture10.png)

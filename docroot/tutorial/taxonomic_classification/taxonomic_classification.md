@@ -12,11 +12,16 @@ The MAAGE service recently expanded to include analysis of reads from 16S riboso
 
 
 ## Locating the Taxonomic Classification Service
-1.	At the top of any MAAGE page, find the Services tab.
-![Figure 2](./images/Picture2.png "Figure 2")
 
-2.	Click on Taxonomic Classification, which is under the Metagenomics heading.
-![Figure 3](./images/Picture3.png "Figure 3")
+1. Locate the Tools option on the top navigation bar.
+
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Metagenomics and select Taxonomic Classification. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 3.	This will open up the **Taxonomic Classification** landing page where researchers can submit long reads, single or paired read files, an SRA run accession number, or assembled contigs to the service.
 ![Figure 4](./images/Picture4.png "Figure 4")

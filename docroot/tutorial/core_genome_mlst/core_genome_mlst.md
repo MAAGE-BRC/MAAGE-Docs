@@ -21,6 +21,18 @@ Then the service runs chewBBACA’s remove genes command to remove paralogous lo
   * Core Loci Selection: Determines which loci are “core” based on how often they appear across the genomes – providing results for default thresholds 95%, 99% and 100%. 
 This service uses 95% as the threshold. A second allele call is performed with the allelic profiles meeting the 95% threshold. Followed by the allele call evaluator. This generates an interactive report, called "allelecall_report.html" that provides summary statistics to evaluate results per sample and per loci. This is available in your job results. The report includes a presence-absence matrix heatmap, a distance matrix based on the allelic differences and a Neighbor-Joining (NJ) tree based on the multiple sequence alignment (MSA) of the core genome loci.
 
+## Locating the Core Genome MLST Service App
+
+1. Locate the Tools option on the top navigation bar.
+
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Phylogenomics and select Core Genome MLST. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
+
 ![an image of the service_page](images/cgMLST_service_page.png "an image of the service_page")
 
 ## Select a Genome Group

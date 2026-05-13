@@ -10,11 +10,15 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 
 ## Locating the Metagenomic Read Mapping App
 
-1.	Click on the Services tab at the top of the page, and then click on Metagenomic Read Mapping. 
-![Figure 1](./images/Figure_1_Service-tab-MRM.png "Figure 1")
+1. Locate the Tools option on the top navigation bar.
 
-2.	This will open the landing page for the service. 
-![Figure 2](./images/Figure_2_MRM-landing-page.png "Figure 2")
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Metagenomics and select Metagenomic Read Mapping. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 ## Input File
 

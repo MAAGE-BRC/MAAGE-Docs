@@ -35,9 +35,15 @@ The kSNP4.1 pipeline processes genomes through four
 
 ## Locating the Whole Genome SNP Service
 
-1.	At the top of any MAAGE page, find the Services tab.
-2.	Click on Whole Genome SNP Analysis, which is under the Phylogenomics heading.
-3.	This will open the Whole Genome SNP Analysis landing page where researchers can submit a genome group containing assembled genomes for SNP analysis.
+1. Locate the Tools option on the top navigation bar.
+
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Phylogenomics and select Whole Genome SNP Analysis. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 ## Select a Genome Group
 

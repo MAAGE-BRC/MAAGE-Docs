@@ -11,11 +11,15 @@ Source code for algorithms
 * The source code for BioPython can be found at: https://github.com/biopython/biopython
 
 ## Locating the Bacterial Phylogenetic Tree App
-1.	1.	At the top of any MAAGE page, click on the **Tools & Services**.  In the drop-down box, click on **Bacterial Genome Tree** underneath **Phylogenomics**.
-![Figure Tree_App](./images/Tree_App.png "Figure Tree_App")
+1. Locate the Tools option on the top navigation bar.
 
-2.	This will open up the landing page for that service. 
-![Figure Landing_page](./images/Landing_page.png "Figure Landing_page")
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Comprehensive Genome Analysis. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 ## Selecting Genomes 
 The service will generate trees from between 4-100 bacterial genomes.  These can be selected individually, or in genome groups.

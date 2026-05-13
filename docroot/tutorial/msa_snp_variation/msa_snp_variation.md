@@ -13,13 +13,17 @@ MSA, multiple sequence alignment, mafft, muscle, progressiveMauve, SNP, variatio
 * [MSA and SNP/Variation Analysis Service Quick Reference Guide](/quick_references/services/msa_snp_variation_service)
 * [MSA Viewer](/quick_references/other/msa_viewer)
 
-## Locating the MSA and Variation Analysis App
+## Locating the MSA and Variation Analysis Service
 
-1.	At the top of any MAAGE page, find the SERVICES tab and then click on Multiple Sequence Alignment. 
- 
-![Figure 0](./images/Picture0.png "Figure 0")
+1. Locate the Tools option on the top navigation bar.
 
-2.	This will open up the Multiple Sequence Alignment and SNP/Variation Analysis landing page.
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Protein Tools and select MSA and SNP Analysis. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 ## Specifying alignment parameters
 

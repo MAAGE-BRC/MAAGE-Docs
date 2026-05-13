@@ -5,7 +5,19 @@ The SARS-CoV-2 Wastewater Analysis service is a comprehensive analysis of wastew
 The service analyzes raw short amplicon reads by aligning them to the reference genome (Wuhan-Hu-1) and then performs variant analysis using Freyja.  Freyja is a tool to identify and recover relative lineage abundances from mixed SARS-CoV-2 samples from a sequencing dataset (BAM aligned to the Hu-1 reference).  The method uses lineage-determining mutational "barcodes” with information from the UShER global phylogenetic tree.  We manage updating the barcodes to provide you up to date variant and lineage assignments. The results of this analysis workflow include sample processing status, key variant calling and alignment statistics, and sequencing depth coverage plots. It also provides lineage and VOC abundance plots by sample, date, week, and month for tracking the prevalence and distribution of different variants over time to aid public health response.
 ![An overview of the analysis pipeline](images/image_1_workflow_image.png "An overview of the analysis pipeline") 
 
-How to access the SARS-CoV-2 Wastewater Analysis service under the Services menu at the top of the any MAAGE page. Click the link to launch the service.
+## Locating the Comprehensive Genome Analysis Service
+
+1. Locate the Tools option on the top navigation bar.
+
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Comprehensive Genome Analysis. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
+
+3.	This will open the landing page for the service. 
 
 The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. Start with paired or single reads uploaded to the workspace or directly access Sequence Read Archive (SRA). For each read you must also select the primer during sequencing.  If you are using the sequence read archive the primer information maybe available with the BioSample in information.  The sample date is optional to the service. If provided, the service will show the data organized by day, week, and month.  This service is designed to analyze short amplicon sequences
 

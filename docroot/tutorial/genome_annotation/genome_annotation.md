@@ -63,12 +63,16 @@ The source code for Mat_peptide is available on GitHub (software at https://gith
 PHANOTATE is a bacteriophage genome annotation pipeline [5,6] that identifies open-reading frames and then performs sequence similarity searches to annotate proteins.
 The source code for PHANOTATE is available on GitHub (https://github.com/deprekate/PHANOTATE).
 
-## Locating the Annotation Service App
-1.	At the top of any MAAGE page, find the **Services** tab. 
-![Figure Services_tab](./images/Services_tab.png "Figure Services_tab")
+## Locating the Annotation Service
+1. Locate the Tools option on the top navigation bar.
 
-2.	In the drop-down box, underneath **Genomics**, click on **Genome Annotation**. 
-![Figure Service_tab_Annotation](./images/Service_tab_Annotation.png "Figure Service_tab_Annotation")
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Genome Annotation. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 3.	This will open up the Annotation Service landing page. 
 ![Figure Annotation_landing](./images/Annotation_landing.png "Figure Annotation_landing")

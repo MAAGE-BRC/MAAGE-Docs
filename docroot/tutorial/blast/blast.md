@@ -7,13 +7,19 @@ The **B**asic **L**ocal **A**lignment **S**earch **T**ool (BLAST)[1] is an algor
 ## Creating a folder to hold the BLAST job and related data
 Please refer to the [Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the MAAGE.
 
-## Locating the BLAST Service App
+## Locating the BLAST Service
 
-1\. Click on the Services tab at the top of the page, and then click on BLAST. 
+1\. Locate the Tools option on the top navigation bar.
 
-![Figure 1](./images/Picture1.png "Figure 1")
+![navigation bar](../nav_bar.png "navigation bar")
 
-2\.	This will open the BLAST landing page where researchers can choose a specific program, insert or upload a specific fasta sequence, and select parameters to the service. 
+2\.	From the tools dropdown menu, navigate to Genomics and select BLAST. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
+
+3\.	This will open the BLAST landing page where researchers can choose a specific program, insert or upload a specific fasta sequence, and select parameters to the service. 
 
 ![Figure 2](./images/Picture2.png "Figure 2")
 
@@ -178,7 +184,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 2\.	Even if the View results option had been selected, all BLAST jobs can also be found on the Jobs page.  Click on the Jobs box at the bottom right of any MAAGE page. 
 
-![Figure 35](./images/Picture35.png "Figure 35")
+![Figure 35](../main_menu.png "Figure 35")
 
 3\.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
  
