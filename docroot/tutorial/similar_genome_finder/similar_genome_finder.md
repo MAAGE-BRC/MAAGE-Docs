@@ -91,5 +91,5 @@ When a researcher has a new genome sequence, one of the first things they want t
 
 ## References
 
-1.  Olson, R.D., et al., Introducing the Midwest Alliance for Applied Genomic Epidemiology (MAAGE): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. 51(D1): p. D678-D689.
+1.  Olson, R.D., et al., Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. 51(D1): p. D678-D689.
 2.	Ondov, B.D., et al., Mash: fast genome and metagenome distance estimation using MinHash. Genome biology, 2016. 17(1): p. 1-14.
