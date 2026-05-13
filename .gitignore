@@ -9,3 +9,18 @@ env/
 /docs-venv
 singularity_cmd.txt
 serve_cmd.txt
+
+# Experimental/alternative source tree - ignored entirely
+docroot_fixed/
+
+# Sphinx build output accidentally rendered into the source tree
+docroot/_sources/
+docroot/_images/
+docroot/_downloads/
+docroot/.buildinfo
+docroot/searchindex.js
+docroot/objects.inv
+
+# Rendered HTML next to .rst/.md sources (keep theme overrides in _templates/)
+docroot/**/*.html
+!docroot/_templates/**
