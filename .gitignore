@@ -10,8 +10,9 @@ env/
 singularity_cmd.txt
 serve_cmd.txt
 
-# Experimental/alternative source tree - ignored entirely
+# Experimental/alternative source tree and build script - ignored entirely
 docroot_fixed/
+build_and_deploy.sh
 
 # Sphinx build output accidentally rendered into the source tree
 docroot/_sources/
