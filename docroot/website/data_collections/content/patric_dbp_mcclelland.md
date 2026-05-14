@@ -1,4 +1,3 @@
-
 # PATRIC DBP - McClelland
 
 As part of our Driving Biological Project we have concentrated on a relatively underappreciated area of high-throughput genomics, comprehensive fitness assays. As our model we have used Non-typhoidal Salmonellae (NTS), which cause ~1.4 million cases of food-borne diarrheal disease annually in the United States, and hundreds of millions of cases worldwide, that are associated with hundreds of thousands of death. Despite the importance of this food borne pathogen and over 30 years of intensive study, much of the biology of Salmonella in the various niches in their complete life cycle is still poorly understood.

@@ -5,7 +5,7 @@ Protein Families
 
 As part of the bacterial genome annotation process, protein are mapped to protein families, which allows users to quickly identify the homologs of a proteiun in other closely related organisms and enable comparative genomic analysis across multiple genomes of the same or different taxonomic groups. 
 
-There are 3 types of bacterial protein families computed in MAAGE:
+There are 3 types of bacterial protein families computed:
 
 - **Genus-specific families(PLfams):** The genus-specific protein families are computed using only proteins within a genus and more stringent criteria (MCL inflation = 3.0). This provides higher sequence similarity and better specificity while performing within-genus/species or close strain comparisons.
 

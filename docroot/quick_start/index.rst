@@ -1,7 +1,7 @@
 Quick Start
 ===========
 
-The Midwest Alliance for Applied Genomic Epidemiology (MAAGE) is a platform integrating tools and services with data resouces tailored to the public health response. Find support for pathogen surveillance, outbreak response, genomic epidemiology and more!
+The platform integrates tools and services with data resouces tailored to the public health response. Find support for pathogen surveillance, outbreak response, genomic epidemiology and more!
 
 
 .. toctree::

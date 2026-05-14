@@ -1,5 +1,5 @@
-MAAGE Documentation
-=====================
+Documentation
+=============
 
 .. toctree::
    :maxdepth: 2
@@ -11,4 +11,3 @@ MAAGE Documentation
    quick_references/index
    tutorial/index
    videos/index
-

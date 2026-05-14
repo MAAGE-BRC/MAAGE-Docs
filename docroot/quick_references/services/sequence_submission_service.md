@@ -13,7 +13,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ## Using the Sequence Submission Service
 
-The **Seqeuence Submission** submenu option under the **"TOOLS & SERVICES"** main menu (Genomics category) opens the Sequence Submission Service input form. *Note: You must be logged into MAAGE to use this service.*
+The **Seqeuence Submission** submenu option under the **"TOOLS & SERVICES"** main menu (Genomics category) opens the Sequence Submission Service input form. *Note: You must be logged in to use this service.*
 
 ![Sequence Submission menu option](../images/bv_services_menu.png) 
 
@@ -71,7 +71,7 @@ Name you provide to identify the results in the Workspace.
 
 ## Output Results
 
-Clicking on the Jobs indicator at the bottom of the MAAGE page open the Jobs Status page that displays all current and previous service jobs and their status.
+Clicking on the Jobs indicator at the bottom of the page open the Jobs Status page that displays all current and previous service jobs and their status.
 
 ![Job Indicator](../images/sequence_submission/Picture5.png "Job Indicator")
 
@@ -103,7 +103,7 @@ The Sequence Submission Service generates several folders and files that are dep
 
 ## Submission Button
 
-Clicking the Submit Sequence button in the top right of the page to notify MAAGE team for the submission is ready.
+Clicking the Submit Sequence button in the top right of the page to notify the team that the submission is ready.
 
 ![Submit Button](../images/sequence_submission/Picture8.png "Submit Button")
 

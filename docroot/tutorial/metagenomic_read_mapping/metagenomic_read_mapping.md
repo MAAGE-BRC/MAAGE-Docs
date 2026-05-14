@@ -59,7 +59,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 
 ## Monitoring progress on the Jobs page
 
-1.	Click on the Jobs box at the bottom right of any MAAGE page. 
+1.	Click on the Jobs box at the bottom right of any page. 
 ![Figure 9](./images/Picture9.png "Figure 9")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
@@ -82,7 +82,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 5.	This page shows KMA’s standard sample report format. The fields of the output, from left-to-right, are as follows:
    * **Template**: Identifier of the template (reference gene) sequence that match the query reads
    * **Function**: Template gene function that is assigned by either the CARD or VFDB databases, or in the Feature Group or Fasta file submitted.
-   * **Genome**: The genome that contains template gene.  The name is a hyperlink, and clicking on it will open its Genome Landing page in MAAGE.
+   * **Genome**: The genome that contains template gene.  The name is a hyperlink, and clicking on it will open its Genome Landing page.
    * **Score**: Global alignment score of the template.  This is the ConClave score (accumulated alignment score)[1], from all reads that were accepted to match this template.
    * **Expected**: Expected alignment score if all mapping reads were were normally distributed over the entire database.
    * **Template_length**: Template gene length in nucleotides.
@@ -95,10 +95,10 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
    * **p_value**: p-value corresponding to the obtained q_value 
 ![Figure 15](./images/Picture15.png "Figure 15")
 
-6.	Clicking on any of the template identifiers in the first column, called **#Template**, will open a Specialty Gene List View that shows all the genes in the MAAGE that have BLAT[4] hits to the same template gene. 
+6.	Clicking on any of the template identifiers in the first column, called **#Template**, will open a Specialty Gene List View that shows all the genes in the platform that have BLAT[4] hits to the same template gene. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
-7.	Clicking on the name in the **Genome** column will open a new tab that shows the Genome List view, which shows all the genomes in the MAAGE that fall under the same taxonomy of the selected name. 
+7.	Clicking on the name in the **Genome** column will open a new tab that shows the Genome List view, which shows all the genomes in the platform that fall under the same taxonomy of the selected name. 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
 8.	To see an alignment details, click on the **kma.aln** row and then on the **View** icon.  This will open a text file that shows the alignment between the template and the submitted query sequence. 

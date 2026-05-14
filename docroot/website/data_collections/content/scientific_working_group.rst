@@ -2,7 +2,7 @@
 Scientific Working Group
 =========================
 
-As part of PATRIC, we have established a Scientific Working Group (SWG) comprised of members with deep expertise in a broad range of domains of relevance to PATRIC. The SWG provides advice about the management and performance of the resource, and about the needs of the scientific community in relation to the resource.
+We have established a Scientific Working Group (SWG) comprised of members with deep expertise in a broad range of relevant domains. The SWG provides advice about the management and performance of the resource, and about the needs of the scientific community in relation to the resource.
 
 
 +---------------------------+-------------------------------------------------------------------+

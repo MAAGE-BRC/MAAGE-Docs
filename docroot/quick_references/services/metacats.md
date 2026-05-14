@@ -10,7 +10,7 @@ The meta-CATS metadata genome comparison tool takes sequence data and determines
 * [Metadata-driven Comparative Analysis Tool (meta-CATS) Tutorial](/tutorial/metacats/metacats)
 
 ## Using the Meta-CATS Service
-The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the Meta-CATS Service input form. *Note: You must be logged into MAAGE to use this service.*
+The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the Meta-CATS Service input form. *Note: You must be logged in to use this service.*
 
 ![Meta-CATS menu option](../images/bv_services_menu.png) 
 
@@ -60,7 +60,7 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 ## Output Results
 
-Clicking on the Jobs indicator at the bottom of the MAAGE page open the Jobs Status page that displays all current and previous service jobs and their status. 
+Clicking on the Jobs indicator at the bottom of the page opens the Jobs Status page that displays all current and previous service jobs and their status. 
 
 ![Figure 4](../images/metacats_Picture4.png "Figure 4")
 

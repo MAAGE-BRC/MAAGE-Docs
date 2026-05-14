@@ -39,7 +39,7 @@ HPMI: Host Pathogen Mapping Initiative
 
 
 ## Past Systems Biology Programs (Completed)
-For more information on the already completed bacterial systems biology projects and integration of the data into the PATRIC resource, please visit:
+For more information on the already completed bacterial systems biology projects and integration of the data into the platform, please visit:
 
 * [TB Systems Biology](https://www.patricbrc.org/webpage/website/data_collections/content/tb_systems_biology.html)
 * [Center for Systems Biology of EnteroPathogens (SysBEP)](https://www.patricbrc.org/webpage/website/data_collections/content/center_for_systems_biology_enteropathogens_sysbep.html)

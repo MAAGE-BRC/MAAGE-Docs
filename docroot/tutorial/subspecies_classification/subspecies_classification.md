@@ -6,7 +6,8 @@
 
 ## Locating the Subspecies Classification Service
 
-1. Locate the Tools option on the top navigation bar.
+1\. At the top of any page, find the **SERVICES** tab and then click on **Subspecies Classification Service**.
+![Image 1](images/subspecies-1.png) 
 
 ![navigation bar](../nav_bar.png "navigation bar")
 
@@ -40,10 +41,10 @@ After clicking “submit”, a message will appear below the box to indicate tha
 
 ## Checking the status of a job
 
-1\. Click on the Jobs indicator at the bottom of the MAAGE page.
+1\. Click on the Jobs indicator at the bottom of the page.
 ![Image 9](images/subspecies-9.png)
 
-2\. This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted to MAAGE are also available.
+2\. This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted are also available.
 
 3\. Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results.
 ![Image 10](images/subspecies-10.png)
@@ -54,7 +55,7 @@ After clicking “submit”, a message will appear below the box to indicate tha
 5\. This will open an html report showing a table with three columns specifying: the query identifier for input sequences, the clade classification for each and “tree link”. Clicking on “View Tree” link (red arrow) will allow users to view their sequence of interest within a representative tree for the species of interest.
 ![Image 12](images/subspecies-12.png)
 
-6\. This will open up a new page where users can view their query sequence (red dot) within the MAAGE representative tree for that species. For more information on the Archaeopteryx tree viewer service, please see the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
+6\. This will open up a new page where users can view their query sequence (red dot) within the representative tree for that species. For more information on the Archaeopteryx tree viewer service, please see the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
 ![Image 13](images/subspecies-13.png)
 
 7\. The classification service generates several additional files that are deposited in the “Details”  folder. These include:

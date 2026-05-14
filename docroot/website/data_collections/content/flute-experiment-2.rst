@@ -10,21 +10,21 @@ Peptidoglycan synthesis in Mycobacterium tuberculosis is organized into networks
 
 Peptidoglycan (PG), a complex polymer composed of saccharide chains
 crosslinked by short peptides, is a critical component of the bacterial
-cell wall. PG synthesis has been extensively studied in model organisms
+cell wall. PG synthesis has been extensively studied in model organisms
 but remains poorly understood in mycobacteria, a genus that includes the
 important human pathogen Mycobacterium tuberculosis (Mtb). The principle
-PG synthetic enzymes have similar and, at times, overlapping functions.
+PG synthetic enzymes have similar and, at times, overlapping functions.
 To determine how these are functionally organized,we carried out whole
-genome transposon mutagenesis screens in Mtb strains deleted for ponA1,
+genome transposon mutagenesis screens in Mtb strains deleted for ponA1,
 ponA2, and ldtB, major PG synthetic enzymes. We identified distinct
 factors required to sustain bacterial growth in the absence of each of
-these enzymes. We find that even the homologues PonA1 and PonA2 have
+these enzymes. We find that even the homologues PonA1 and PonA2 have
 unique sets of genetic interactions, suggesting there are distinct PG
 synthesis pathways in Mtb. Either PonA1 or PonA2 is required for growth
-of Mtb, but both genetically interact with LdtB, which has its own
+of Mtb, but both genetically interact with LdtB, which has its own
 distinct genetic network. We further provide evidence that each
 interaction network is differentially susceptible to antibiotics.
-Thus, Mtb uses alternative pathways to produce PG, each with its own
+Thus, Mtb uses alternative pathways to produce PG, each with its own
 biochemical characteristics and vulnerabilities.
 
 | Experimenter/researcher/owner of data: Karen Kieser
@@ -35,18 +35,18 @@ biochemical characteristics and vulnerabilities.
 | SRA accession: SRA277968
 | http://www.ncbi.nlm.nih.gov/sra/?term=SRA277968%5Baccn%5D
 | Library: This TnSeq library consists of insertion mutants of
-  the Himar1 transposon in a Rv0050/PonA1-deletion mutant of the
-| M. tuberculosis H37Rv strain, constructed by Karen Kieser in the Rubin
+  the Himar1 transposon in a Rv0050/PonA1-deletion mutant of the
+| M. tuberculosis H37Rv strain, constructed by Karen Kieser in the Rubin
   lab.
 | Conditions: grown on plates with 7H10 medium
 | Transposon used: Himar1
 | Protocol for library preparation: Himar1 transfection as described
-  in Long et al (2015).
+  in Long et al (2015).
 | Protocol for TnSeq sample preparation: nested PCR, as described
-  in Long et al (2015).
+  in Long et al (2015).
 | Protocol for DNA extraction: (perhaps not relevant)
 | Protocol for sequencing: 54 bp paired-end reads on Illumina
-  GAII (sequencing date: 4/2/2013)
+  GAII (sequencing date: 4/2/2013)
 | Protocol for data processing: mapped reads to reference genome using
   TRANSIT (Ioerger et al., 2015);
 | Reported as unique template counts at TA dinucleotides
@@ -55,15 +55,15 @@ biochemical characteristics and vulnerabilities.
 
 **References:**
 
-Long, J.E., DeJesus, M., Ward, D., Baker, R.E., Ioerger, T.R. and Sassetti, C.M. (2015). Identifying essential genes in Mycobacterium tuberculosis by global phenotypic profiling. in: Methods in Molecular Biology: Gene Essentiality, (Long Jason Lu, ed.), vol. 1279. DeJesus, M.A., Ambadipudi, C., Baker, R., Sassetti, C., and Ioerger, T.R. (2015). TRANSIT – a Software Tool for Himar1 TnSeq Analysis. PLOS Computational Biology, to appear.
+Long, J.E., DeJesus, M., Ward, D., Baker, R.E., Ioerger, T.R. and Sassetti, C.M. (2015). Identifying essential genes in Mycobacterium tuberculosis by global phenotypic profiling. in: Methods in Molecular Biology: Gene Essentiality, (Long Jason Lu, ed.), vol. 1279. DeJesus, M.A., Ambadipudi, C., Baker, R., Sassetti, C., and Ioerger, T.R. (2015). TRANSIT – a Software Tool for Himar1 TnSeq Analysis. PLOS Computational Biology, to appear.
 
-**Results Dataset:** `resampling_dPonA1_wt.xlsx <ftp://ftp.patricbrc.org/BRC_Mirrors/FLUTE/Experiment_2/resampling_dPonA1_wt.xlsx>`_
+**Results Dataset:** `resampling_dPonA1_wt.xlsx <ftp://ftp.patricbrc.org/BRC_Mirrors/FLUTE/Experiment_2/resampling_dPonA1_wt.xlsx>`_
 
 **Conditional Essentials:**
 
 The following genes are indicated as conditional essentials based
-on statistical analysis (resampling) output using Transit software
-(http://saclab.tamu.edu/essentiality/transit/). In this method, for each
+on statistical analysis (resampling) output using Transit software
+(http://saclab.tamu.edu/essentiality/transit/). In this method, for each
 ORF (e.g., Rv0001) Transit calculates to determine whether the
 essentiality of the gene significantly increase or decreases. The
 adjusted p-value uses the Benjamini-Hochberg correction for multiple
@@ -76,8 +76,7 @@ tests, with a threshold of <0.05 for significance.
    <div>
 
 +-----------------+-----------------+-----------------+-----------------+
-| **ORF**         | **log2 FC**     | **q-value**     | **Feature in    |
-|                 |                 |                 | PATRIC**        |
+| **ORF**         | **log2 FC**     | **q-value**     | **Feature**     |
 +-----------------+-----------------+-----------------+-----------------+
 | Rv0007          | -8.44           | 0               | `Feature        |
 |                 |                 |                 | page <https://w |

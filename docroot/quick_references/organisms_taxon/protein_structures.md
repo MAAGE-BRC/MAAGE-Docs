@@ -5,7 +5,7 @@ Protein structure data allows users to search for 3D protein structure files obt
 
 ## Accessing Protein Structure data
 
-Protein structure data can be accessed through multiple routes in the MAAGE: 
+Protein structure data can be accessed through multiple routes in the platform: 
 
 1\. Specifically searching for protein structure data by selecting "Protein Structures" as the Data Type from the Global Search bar.
 
@@ -25,7 +25,7 @@ Protein structure data can be accessed through multiple routes in the MAAGE:
 
 ## Protein Structure List View and Metadata Definitions
 
-Protein structure results are presented in tabular format in MAAGE as shown below. 
+Protein structure results are presented in tabular format as shown below. 
 
 ![Figure 5](../images/structures_Picture5.png "Figure 5")
 
@@ -41,7 +41,7 @@ Below is a list of available metadata fields (columns) and their definitions.
 * **Taxon ID:** The NCBI Taxonomy ID number of the organism.
 * **Taxon Lineage IDs:** The taxonomic hierarchical classification lineage of the source organism; numerical ID. 
 * **Taxon Lineage Names:** The taxonomic hierarchical classification lineage of the source organism; descriptive name. 
-* **Genome ID:** The internal MAAGE identification given to the sequence. 
+* **Genome ID:** The internal identification given to the sequence. 
 * **UniProtKB Accession:** The identifier for the UniProtKB entries.
 * **Gene:** The gene name. 
 * **Product:** The gene’s protein product name. 
@@ -83,7 +83,7 @@ More details are available in the [Selection Action Bar](/quick_references/actio
 
 ## Using the Structure Viewer
 
-Protein structures can be viewed on MAAGE by clicking on the “Structure” action button described above, as shown below. 
+Protein structures can be viewed by clicking on the “Structure” action button described above, as shown below. 
 
 ![Figure 10](../images/structures_Picture10.png "Figure 10")
 

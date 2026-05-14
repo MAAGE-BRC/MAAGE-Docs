@@ -4,10 +4,10 @@
 FTP Site
 =========
 
-The MAAGE FTP site provides bulk access to all the public genomes and other related data in 
+The FTP site provides bulk access to all the public genomes and other related data in 
 various standard file formats. 
 
-MAAGE FTP Site: `ftp://ftp.bvbrc.org <ftp://ftp.bvbrc.org>`_
+FTP Site: `ftp://ftp.bvbrc.org <ftp://ftp.bvbrc.org>`_
 
 Below is the description of primary data directories on the FTP site and their content. 
 
@@ -33,7 +33,7 @@ For example, below is the genome directory for Escherichia coli MG1655 genome.
 
 ftp://ftp.bvbrc.org/genomes/511145.12
 
-Each genome directory provides the following data files for PATRIC and RefSeq annotations (when available). 
+Each genome directory provides the following data files for the available annotations. 
 
 - .fna: FASTA contig sequences
 - .faa: FASTA protein sequence file
@@ -61,7 +61,7 @@ ftp://ftp.bvbrc.org/RELEASE_NOTES/genome_summary
 
 Once you have copied list of genome ids you are interested in a separate file “genome_list”, 
 you can use the following one line shell script to read the list of genome ids from your file 
-and download corresponding .fna files from the PATRIC FTP site. If you are interested in other 
+and download corresponding .fna files from the FTP site. If you are interested in other 
 file type, say .PATRIC.faa or .PATRIC.features.tab, simply replace .fna with that extension. 
 
   ::
@@ -84,8 +84,8 @@ Uploading/Downloading Data From Your Private Workspace using FTP Client
   ::
   
     Host: workspace.patricbrc.org
-    User name: your MAAGE user name
-    Password: your MAAGE password
+    User name: your user name
+    Password: your password
   
 
   

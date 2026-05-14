@@ -3,9 +3,9 @@
 :orphan:
 :github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/common_tasks/index.rst
 
-Common Tasks in MAAGE
+Common Tasks
 ======================
-This page provides an overview with links to User Guides and Tutorials, organized by common tasks in MAAGE.
+This page provides an overview with links to User Guides and Tutorials, organized by common tasks.
 
 .. toctree::
    :maxdepth: 3

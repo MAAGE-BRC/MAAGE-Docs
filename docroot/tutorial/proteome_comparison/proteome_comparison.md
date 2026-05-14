@@ -2,7 +2,7 @@
 
 *Revised: 11/1/2021*
 
-The MAAGE’s Proteome Comparison service can be used to readily identify insertions and deletions in up to nine target genomes that are compared with one reference, which can be a researcher’s private genome in MAAGE, a genome that has been annotated outside, any of the publicly available genomes in MAAGE, or a set of proteins that have been saved as a Feature Group in MAAGE.
+The Proteome Comparison service can be used to readily identify insertions and deletions in up to nine target genomes that are compared with one reference, which can be a researcher’s private genome, a genome that has been annotated outside, any of the publicly available genomes, or a set of proteins that have been saved as a Feature Group.
 
 The Proteome Comparison service is based on the original Sequence-based Comparison tool that was part of RAST[1]. This tool colors each gene based on protein similarity using BLASTP[2] and marks each gene as either unique, a unidirectional best hit or a bidirectional best hit when compared to the reference genome. The output includes a whole-genome schematic that is colored based on BLAST. A table that details all the results can be downloaded for further analysis, as can a scalable vector graphic (svg) diagram of the results that is publication quality.
 
@@ -47,7 +47,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 2.	If the name or genome ID is known, typing that in the text box will filter results in the drop-down box to show the possible genomes that match the input. Clicking on the row that contains the correct genome will fill the box underneath **Select A Genome**. 
 ![Figure 9](./images/Picture9.png "Figure 9")
 
-3.	The reference data can be a fasta file with protein sequences.  If that file has not been uploaded into the MAAGE workspace, they will need to be uploaded.  Click on the folder icon that follows the text box underneath **Or A FASTA File** will open a pop-up window that shows the workspace.  Navigate to the destination folder for the file, and when located, click on the row that contains it. 
+3.	The reference data can be a fasta file with protein sequences.  If that file has not been uploaded into the workspace, they will need to be uploaded.  Click on the folder icon that follows the text box underneath **Or A FASTA File** will open a pop-up window that shows the workspace.  Navigate to the destination folder for the file, and when located, click on the row that contains it. 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
 4.	This will show the contents of the selected folder.  To upload a fasta file to this location, click on the upload icon in the upper right corner.  This will open yet another pop-up window that handles the upload of files.  Note that the type of file is **Feature Protein FASTA**. Click on the blue **Select File** bar in the middle of the page.  This will open a dialog box with your computer.  Fasta documents will be in bold text and available for upload. 
@@ -64,7 +64,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 1.	Up to nine files can be compared to a reference genome in the bidirectional BLAST analysis.  Genomes can be added individually.  Finding a genome of interest is the same as discussed earlier for reference genomes (enter name or genome ID, use drop-down, go to workspace).  Entering the name of a particular genome in the text box underneath **Select Genome** will open the drop-down box below where the name can be clicked.  This will fill the text box with the name of the selected genome.  Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
-2.	The comparison data can be a fasta file with protein sequences.  If the file is in the MAAGE workspace, click on the folder icon at the end of the text box underneath **And/Or Select Protein FASTA File**.  This will open a dialog box where the file can be uploaded or located in the workspace. Once selected, the name will appear in the text box. Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
+2.	The comparison data can be a fasta file with protein sequences.  If the file is in the workspace, click on the folder icon at the end of the text box underneath **And/Or Select Protein FASTA File**.  This will open a dialog box where the file can be uploaded or located in the workspace. Once selected, the name will appear in the text box. Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
 ![Figure 15](./images/Picture15.png "Figure 15")
 
 3.	Feature groups can also be used as comparison data.  To see recently created groups, click on the down arrow at the end of the text box underneath **And/Or Select Feature Group**. This will open a drop-down box that shows the most recently created groups.  Clicking on that group will autofill the text box with the name of the group.  Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
@@ -83,7 +83,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 
 ## Monitoring progress on the Jobs page
 
-1.	Click on the Jobs box at the bottom right of any MAAGE page. 
+1.	Click on the Jobs box at the bottom right of any page. 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
@@ -125,7 +125,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
     * Column A – Accession number for the contig in the reference genome 
     * Column B – The order number of this gene in the genome
     * Column C – Size in amino acids
-    * Column D – MAAGE locus tag
+    * Column D – Locus tag
     * Column E – RefSeq locus tag (if available)
     * Column F – Gene name
     * Column G – Functional annotation
@@ -138,7 +138,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
     * Column L - Contig that contains the gene.
     * Column M - The order number of this gene in the genome or data file.
     * Column N - Size of the protein in amino acids
-    * Column O – MAAGE locus tag
+    * Column O – Locus tag
     * Column P - RefSeq locus tag (if available)
     * Column Q - Gene name
     * Column R - Functional description

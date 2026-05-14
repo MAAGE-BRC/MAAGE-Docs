@@ -4,7 +4,7 @@ Common Tasks Using the Web Interface
 ====================================
 
 In this tutorial, we will present examples of common tasks and show how
-to accomplish them using the MAAGE Web Interface.  To keep this page
+to accomplish them using the Web Interface.  To keep this page
 manageable, we link to instructions on separate pages.
 
 Working with Sequences
@@ -14,7 +14,7 @@ Working with Sequences
 Assemble a Set of Reads into Contigs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MAAGE provides an assembly service that allows you to choose between multiple assemblers,
+The platform provides an assembly service that allows you to choose between multiple assemblers,
 using either single-read libraries, paired-end reads, or reads stored online in the
 `NCBI Sequence Read Archive <https://www.ncbi.nlm.nih.gov/sra/>`_.  We have an
 :doc:`introductory tutorial </tutorial/genome_assembly/assembly>` and
@@ -23,7 +23,7 @@ a :doc:`more detailed guide </quick_references/services/genome_assembly_service>
 Create an Annotated Genome from a set of contigs and Estimate its Quality
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MAAGE provides an annotation service that constructs a private genome from
+The platform provides an annotation service that constructs a private genome from
 contigs and produces a quality report.  See :doc:`/tutorial/genome_annotation/genome_annotation`
 for instructions on submitting the contigs, and :doc:`/tutorial/genome_quality_report/genome_quality_report`
 to read the quality report.  A sample contigs input file and the resulting job output
@@ -38,11 +38,11 @@ The :doc:`/quick_references/services/metagenomic_binning_service` provides this 
 see :doc:`/tutorial/metagenomic_binning/metagenomic_binning`.  Example input files for binning and
 their results can be found here: `Binning Example <https://patricbrc.org/workspace/public/PATRIC@patricbrc.org/PATRIC%20Workshop/Metagenome%20Binning/ICU%20Metagenome>`_.
 
-Annotate a New Genome and Compare it to Similar Genomes in MAAGE
+Annotate a New Genome and Compare it to Similar Genomes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This combines several of the tasks listed elsewhere on this page.  The
 Comprehensive Genome Analysis service takes either reads or contigs and
-creates a private genome integrated into the MAAGE database. It also
+creates a private genome integrated into the platform's database. It also
 creates a web page describing the genome and places it into a phylogenetic
 tree.  There is a tutorial on how to use this service
 :doc:`here </tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis>`,
@@ -53,11 +53,11 @@ Working with Taxonomic Groups
 -----------------------------
 
 Find Representative Genomes for a Taxon
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 NCBI identifies
 `Reference and Representative genomes for each clade and species <https://www.ncbi.nlm.nih.gov/refseq/about/prokaryotes/#representative_genomes>`_.
-To these lists, MAAGE adds UniProt reference genomes, and additional genomes selected by manual
+To these lists, the platform adds UniProt reference genomes, and additional genomes selected by manual
 curation.  Because of their high quality, they are a useful subset for doing certain types of
 analysis.
 
@@ -116,7 +116,7 @@ List the Features in a Protein Family and the Genomes Containing Them
 This procedure is described in :ref:`feature-protein-family-id`.
 
 Find the Function of a Protein Family
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, get a list of the features in the protein family using :ref:`feature-protein-family-id`
 or :ref:`feature-protein-family-list`.  Then use the procedure in :ref:`feature-protein-family-function`.
@@ -152,4 +152,3 @@ Find the Papers Relating to a Specific Feature
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This information is displayed in the right-hand column of the :doc:`/quick_references/organisms_gene/overview`.
-

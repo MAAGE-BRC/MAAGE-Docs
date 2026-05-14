@@ -45,7 +45,7 @@ The schemas are species-specific.  Selecting a schema built from a different spe
 In the parameters section you will select an output folder and output name.
 
   ## Finding the Core Genome MLST Results
-1.	The job can be located from three places on any MAAGE page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any MAAGE page.
+1.	The job can be located from three places on any page of the platform. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any page.
 
 ![an image showing where to find the job results](images/finding_job_results.png "an image showing where to find the job results")
 

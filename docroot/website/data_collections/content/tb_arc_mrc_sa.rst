@@ -10,11 +10,11 @@ Preserving Effective TB Treatment Study (PETTS) Samples from the South African M
 Data download:
 
 - `Broad original files <ftp://ftp.patricbrc.org/BRC_Mirrors/TB-ARC/broad_original/SA.1/variants.tar.gz>`_
-- `PATRIC mapped files <ftp://ftp.patricbrc.org/BRC_Mirrors/TB-ARC/patric_mapped/SA.1.tar.gz>`_
-- `PATRIC FTP site <http://brcdownloads.patricbrc.org/BRC_Mirrors/TB-ARC/patric_mapped/SA.1/>`_
+- `Mapped files <ftp://ftp.patricbrc.org/BRC_Mirrors/TB-ARC/patric_mapped/SA.1.tar.gz>`_
+- `FTP site <http://brcdownloads.patricbrc.org/BRC_Mirrors/TB-ARC/patric_mapped/SA.1/>`_
 
-View data in PATRIC:
+View data in the platform:
 
-- Download the PATRIC mapped files (above)
+- Download the mapped files (above)
 - Go to: `<https://www.patricbrc.org/view/Genome/83332.111#view_tab=browser>`_
 - Click on File -> Open -> Select Files and upload both the corresponding .vcf.gz and .vcf.gz.tbi files, keep the default options for track type, and click Open button

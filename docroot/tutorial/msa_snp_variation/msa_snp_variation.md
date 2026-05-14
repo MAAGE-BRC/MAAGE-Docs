@@ -73,11 +73,11 @@ A message will appear below the box to indicate that the job is now in the queue
 
 ## Checking the status of the job
 
-1.	Click on the Jobs indicator at the bottom of the MAAGE page. 
+1.	Click on the Jobs indicator at the bottom of the page. 
 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
-2.	This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted to MAAGE are also available. 
+2.	This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted are also available. 
 
 3.	Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results. 
 
@@ -95,7 +95,7 @@ A message will appear below the box to indicate that the job is now in the queue
    * **.entropy.svg** – a SVG (scalable vector graphics) image file showing the entropy score plotted against the sequence position.
    * **.snp.tsv** – A tab separated value file allowing users a tabular view of all nucleotide or amino acid variations found within their MSA. 
 
-## Viewing MSA in the MAAGE 
+## Viewing MSA
 
 1.	After selecting the alignment (.afa) file (red box), users can download or view the alignment by selecting the appropriate button (Download or MSA respectively) on the green vertical Action Bar on the right-hand side of the page displays the results files (red arrow). 
 
@@ -138,4 +138,3 @@ The score is the normalized entropy of the observed allele distribution. For nuc
 4.	Edgar, Robert C (2004), MUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics, 5(1):113.
 5.	Darling AE, Mau B, Perna NT (2010) progressiveMauve: Multiple Genome Alignment with Gene Gain, Loss and Rearrangement. PLoS ONE 5(6): e11147. https://doi.org/10.1371/journal.pone.0011147
 6.	Crooks GE, Hon G, Chandonia JM, Brenner SE. WebLogo: a sequence logo generator. Genome Res. 2004 Jun;14(6):1188-90.
-

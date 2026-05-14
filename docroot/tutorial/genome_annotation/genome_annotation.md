@@ -2,13 +2,13 @@
 
 *Revised 09 December 2024*
 
-Genome annotation is the process of identifying functional elements along the sequence of a genome. The Genome Annotation Service in MAAGE uses the RAST tool kit (RASTtk)[1] to annotate genomic features in bacteria and archael genomes, the Viral Genome ORF Reader (VIGOR4)[2,3] or Mat_peptide[4] to annotate viral genomes, and PHANOTATE[5,6] to annotate bacteriophage genomes. All public genomes in MAAGE have been consistently annotated with these services. Researchers can also submit their own private genome to the annotation service, where it will be deposited into their private workspace for their perusal and comparison with other MAAGE genomes using MAAGE analysis tools and services, e.g., Phylogenetic Tree, Genome Alignment, Comparative Systems, Similar Genome Finder and others.
+Genome annotation is the process of identifying functional elements along the sequence of a genome. The Genome Annotation Service uses the RAST tool kit (RASTtk)[1] to annotate genomic features in bacteria and archael genomes, the Viral Genome ORF Reader (VIGOR4)[2,3] or Mat_peptide[4] to annotate viral genomes, and PHANOTATE[5,6] to annotate bacteriophage genomes. All public genomes on the platform have been consistently annotated with these services. Researchers can also submit their own private genome to the annotation service, where it will be deposited into their private workspace for their perusal and comparison with other genomes using the platform's analysis tools and services, e.g., Phylogenetic Tree, Genome Alignment, Comparative Systems, Similar Genome Finder and others.
 
 ## RASTtk Annotation of Bacteria and Archaea
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-The bacterial and archaeal annotation service available in MAAGE uses a modular, updated version of RAST[7]  called the RAST toolkit (RASTtk)[1]. It includes algorithms that were developed by the RAST team and some that were developed by others and incorporated into the overall pipeline (seen in red in the figure above). tRNAscan-SE[8] is used to call the tRNA genes. BLASTN[9] is used to identify repeat regions within the genome, and tools by Croucher[10] are used to identify *Streptococcus* repeat regions. After repeat regions are identified, Prodigal[11], followed by Glimmer[12], are used to call coding sequences (CDS). Antimicrobial resistance is projected for a select group of genera based on a Adaboost machine learning[13], followed by an initial protein annotation event that involves taking every protein called in a genome and using BLAT[14] and BLASTP[15] to identify CDSs that have homology to proteins in specialty databases. Possible virulence factors are identified by blasting against a database containing proteins collected from the Virulence Factor Database[15], Violins[17], and a special curation effort by the MAAGE team[18]. Genes with homology to those identified as being involved in antimicrobial resistance are
-BLATed against proteins from the Comprehensive Antibiotic Resistance Database (CARD)[19], the National Database of Antibiotic Resistant Organisms (NDARO https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/) and a special curation of relevant proteins by MAAGE curators[20]. Genes with homology to transporters are identifed by searching against proteins from the Transporter Classification Database (TCDB)[21], and those similar to genes that have been identified as potential drug targets by comparison to proteins from DrugBank[22] and the Therapeutic Target Database (TTD)[23]. Protein families[24] are assigned, and then hypothetical proteins are identified. All proteins are then mapped to subsystems[25,26] when possible.  PubMLST[27] is used to assign sequence types, and then PhiSpy[28] is used to find prophages in bacterial genomes.
+The bacterial and archaeal annotation service uses a modular, updated version of RAST[7]  called the RAST toolkit (RASTtk)[1]. It includes algorithms that were developed by the RAST team and some that were developed by others and incorporated into the overall pipeline (seen in red in the figure above). tRNAscan-SE[8] is used to call the tRNA genes. BLASTN[9] is used to identify repeat regions within the genome, and tools by Croucher[10] are used to identify *Streptococcus* repeat regions. After repeat regions are identified, Prodigal[11], followed by Glimmer[12], are used to call coding sequences (CDS). Antimicrobial resistance is projected for a select group of genera based on a Adaboost machine learning[13], followed by an initial protein annotation event that involves taking every protein called in a genome and using BLAT[14] and BLASTP[15] to identify CDSs that have homology to proteins in specialty databases. Possible virulence factors are identified by blasting against a database containing proteins collected from the Virulence Factor Database[15], Violins[17], and a special curation effort[18]. Genes with homology to those identified as being involved in antimicrobial resistance are
+BLATed against proteins from the Comprehensive Antibiotic Resistance Database (CARD)[19], the National Database of Antibiotic Resistant Organisms (NDARO https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/) and a special curation of relevant proteins[20]. Genes with homology to transporters are identifed by searching against proteins from the Transporter Classification Database (TCDB)[21], and those similar to genes that have been identified as potential drug targets by comparison to proteins from DrugBank[22] and the Therapeutic Target Database (TTD)[23]. Protein families[24] are assigned, and then hypothetical proteins are identified. All proteins are then mapped to subsystems[25,26] when possible.  PubMLST[27] is used to assign sequence types, and then PhiSpy[28] is used to find prophages in bacterial genomes.
 
 The source code for RASTtk is available on Github (https://github.com/SEEDtk/RASTtk). 
 
@@ -53,7 +53,7 @@ The Mat_peptide[4] pipeline is used to annotate 165 different species that are p
 * Sedoreoviridae
 * Togaviridae
 
-Mat_peptides uses pairwise alignment with reference sequences. Mat_peptide calculates and transfers curated mature protein annotation positions from a reference to a target sequence.  This pipeline is deployed when an appropriate viral taxon that cannot be annotated by Vigor4 is submitted to the MAAGE Annotation service.
+Mat_peptides uses pairwise alignment with reference sequences. Mat_peptide calculates and transfers curated mature protein annotation positions from a reference to a target sequence.  This pipeline is deployed when an appropriate viral taxon that cannot be annotated by Vigor4 is submitted to the Annotation service.
 The source code for Mat_peptide is available on GitHub (software at https://github.com/VirusBRC/vipr_mat_peptide).
 
 
@@ -82,9 +82,9 @@ The source code for PHANOTATE is available on GitHub (https://github.com/depreka
 The starting point for any annotation is an assembly, which produces contigs.  A contig (from the word "contiguous") is a series of overlapping DNA sequences used to make a physical map that reconstructs the original DNA sequence of a chromosome or a region of a chromosome. It is a stretch of DNA sequence encoded as A, G, C, T or N, typically ending in fasta of fa.  The first line of a contig file beings with “ >", followed by information on the contig.  The second and subsequent line(s) contain the sequences. 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
-Contigs  must be submitted to the annotation service. **Submitting a read file will not work.**  Researchers can upload a contig file that was generated in MAAGE, or one that they have assembled independently.  
+Contigs  must be submitted to the annotation service. **Submitting a read file will not work.**  Researchers can upload a contig file that was generated on the platform, or one that they have assembled independently.  
 
-1. If an assembly was generated in MAAGE the contigs can be selected by clicking on the down arrow at the end of the text box.  This will show the contig files that are available. 
+1. If an assembly was generated on the platform the contigs can be selected by clicking on the down arrow at the end of the text box.  This will show the contig files that are available. 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
 2. If the name is not easily seen, begin typing the name in the text box.  The search function will start looking for names that match the text that is entered.
@@ -94,7 +94,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 3. Clicking on the appropriate name will fill the text box.  
 ![Figure 13](./images/Picture13a.png "Figure 13")
 
-4. If an assembly has been generated outside of MAAGE, click on the **Folder** at the end of the text box. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. This opens up a pop-up window where the files for upload can be selected. Click on the icon with the **arrow pointing up**. 
+4. If an assembly has been generated outside of the platform, click on the **Folder** at the end of the text box. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. This opens up a pop-up window where the files for upload can be selected. Click on the icon with the **arrow pointing up**. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
 5. This opens a new window where the file you want to upload can be selected. Click on the **Select File** in the blue bar. 
@@ -110,7 +110,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
-9. Progress of the upload can be seen in the **Uploads** information bar at the bottom of every MAAGE page.  The three columns show completed jobs (first column), jobs in progress (second), and the percent completion of the jobs in progress (third).  Wait until the upload is complete prior to submitting the job. 
+9. Progress of the upload can be seen in the **Uploads** information bar at the bottom of every page.  The three columns show completed jobs (first column), jobs in progress (second), and the percent completion of the jobs in progress (third).  Wait until the upload is complete prior to submitting the job. 
 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
@@ -118,14 +118,14 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 ## Annotation Parameters
-1.	Annotation parameters must be selected next. MAAGE provides annotation for Bacteria, Archaea and Bacteriophages. Bacteria and Archaea are annotated using the RASTtk pipeline. Bacteriophage genomes are annotated using the PHANOTATE pipeline. Viruses are annotated with VIGOR4 or Mat_peptide.   To select a particular annotation strategy from one of those taxa, click on the check box preceding the correct strategy.
+1.	Annotation parameters must be selected next. The platform provides annotation for Bacteria, Archaea and Bacteriophages. Bacteria and Archaea are annotated using the RASTtk pipeline. Bacteriophage genomes are annotated using the PHANOTATE pipeline. Viruses are annotated with VIGOR4 or Mat_peptide.   To select a particular annotation strategy from one of those taxa, click on the check box preceding the correct strategy.
 
 ![Figure 21](./images/Picture21a.png "Figure 21")
 
 2. The taxonomic name must next be selected.  Begin typing in the lowest ranked taxonomic name known for the sequenced isolate.  For bacteria/archaea, try to get to Genus, if possible, so that the annotation will contain two types of protein families; global (cross-genus) and local (within genus)[24].  Once typing begins, a drop-down box will start showing taxonomic names that match the text entered.  
 ![Figure 22](./images/Picture22a.png "Figure 22")
 
-3. Click on the most appropriate name, which will autofill the text box and also the corresponding Taxonomy ID.  If the Taxonomy ID is known, that can be filled in first and the matching taxonomic name will be autofilled.  MAAGE provides two different version of protein families, which are called  PATtyFams [24]. If a taxonomic level above Genus is selected, the annotation will only have global protein families (PGFams) assigned.  If a genus or species is selected, the annotation will include both PGFams, and the local protein families (PLFams), which are genus specific. 
+3. Click on the most appropriate name, which will autofill the text box and also the corresponding Taxonomy ID.  If the Taxonomy ID is known, that can be filled in first and the matching taxonomic name will be autofilled.  The platform provides two different version of protein families, which are called  PATtyFams [24]. If a taxonomic level above Genus is selected, the annotation will only have global protein families (PGFams) assigned.  If a genus or species is selected, the annotation will include both PGFams, and the local protein families (PLFams), which are genus specific. 
 
 ![Figure 23](./images/Picture23a.png "Figure 23")
 
@@ -141,7 +141,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure 27](./images/Picture27a.png "Figure 27")
 
 ## Finding the completed Annotation job 
-1. There are two places to access a completed job in MAAGE.  Clicking on the **Jobs** icon at the bottom right of any page will open the list of jobs that have been submitted. 
+1. There are two places to access a completed job.  Clicking on the **Jobs** icon at the bottom right of any page will open the list of jobs that have been submitted. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
 2. A complete list of all completed jobs will appear from most recent to the very first job ever submitted.  Clicking on any of the column heads will resort the page to show the results in that order. 
@@ -153,7 +153,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 4. The files produced by the specific job will be shown on the Jobs results page.  As with the Jobs page, clicking on an individual row will populate the vertical green bar with possible action icons, like viewing or downloading the data. 
 ![Figure 31](./images/Picture31.png "Figure 31")
 
-5. Completed jobs can also be access through the workspace, which you can access by clicking on the **Workspaces** tab, which is at the top of any MAAGE page. 
+5. Completed jobs can also be access through the workspace, which you can access by clicking on the **Workspaces** tab, which is at the top of any page. 
 ![Figure 32](./images/Picture32.png "Figure 32")
 
 6. This will open a drop-down box for the workspace.  To view the home workspace, click on **home**. 
@@ -173,7 +173,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure Annotation_result_files](./images/Annotation_result_files.png "Figure Annotation_result_files")
 
 ## Annotation job results
-1. Any annotation job run in the MAAGE contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word **Parameters**.
+1. Any annotation job contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word **Parameters**.
 ![Figure 38](./images/Picture38.png "Figure 38")
 
 2. This will open a drop-down box that shows the parameters.  This box can be closed by clicking on the same arrow. 
@@ -191,7 +191,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 6. The **feature_protein.fasta** contains all the protein sequences of the genome in protein FASTA format. 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-7. The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the MAAGE ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 [29] checksum. 
+7. The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 [29] checksum. 
 ![Figure 44](./images/Picture44.png "Figure 44")
 
 8. The **gb** file contains the annotated genome in GenBank format. 
@@ -267,7 +267,7 @@ The four numbers –completeness, contamination, coarse consistency, and fine co
 ![Figure 62](./images/Picture62.png "Figure 62")
 
 ## Viewing the Annotated Genome
-Private genomes that have been annotated in MAAGE can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function.
+Private genomes that have been annotated can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function.
 
 ### Viewing the genome from the job report
 1. At the top right of the annotation job there are three icons that provide a direct link to information about the genome.  Clicking on the **View** icon will open a new tab that contains the Genome landing page, with all the information about the newly annotated genome. 

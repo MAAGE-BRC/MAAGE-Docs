@@ -17,7 +17,7 @@
 * [Whole Genome SNP Analysis Service Tutorial](../../tutorial/whole_genome_snp_analysis/whole_genome_snp_analysis_service.html)
 
 ## Using the Whole Genome SNP Analysis Service
-The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged in to use this service.*
 
 ![Whole Genome SNP Analysis Menu](../images/bv_services_menu.png)
 
@@ -77,7 +77,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename:** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
-* **Edit Type:** Allows changing of the type of the file in terms of how MAAGE interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type:** Allows changing of the type of the file in terms of how the platform interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 

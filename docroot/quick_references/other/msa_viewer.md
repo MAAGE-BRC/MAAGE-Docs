@@ -14,7 +14,7 @@ The MSA Viewer can be accessed in two different ways:
 
 ![MSA Action Button Selection](../images/msa_action_button_select.png)
 
-2. By selecting can be used after completing an alignment job in the MSA and Sequence Nucleotide Polymorphism (SNP)/Variation Service. Alternatively, if you already have an aligned file, you can also view the alignment by uploading it to this service. For more information, see MSA and Variation tutorial linked above. *Note: You must be logged into MAAGE to use this service.*  
+2. By selecting can be used after completing an alignment job in the MSA and Sequence Nucleotide Polymorphism (SNP)/Variation Service. Alternatively, if you already have an aligned file, you can also view the alignment by uploading it to this service. For more information, see MSA and Variation tutorial linked above. *Note: You must be logged into the platform to use this service.*  
 
 ![MSA Action Button Selection 2](../images/msa_action_button_select2.png)
 
@@ -98,4 +98,3 @@ After selecting one or more of the experiments by clicking the checkbox beside t
 2. Castresana, J. (2002). Gblocks, v. 0.91 b. Online version available at: http://molevol.cmima.csic.es/castresana/Gblocks_server.html.
 3. Edgar, R.C. (2004) MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 32(5):1792-1797.
 4. Waterhouse, A.M., Procter, J.B., Martin, D.M.A, Clamp, M. and Barton, G. J. (2009). Jalview Version 2 - a multiple sequence alignment editor and analysis workbench. Bioinformatics25 (9) 1189-1191. doi: 10.1093/bioinformatics/btp033 
-

@@ -1,6 +1,6 @@
 Genomes
 =======
-The Genomes Tab provides a table listing of the genomes in the selected Taxon View (group of selected genomes), as described in the link below. Genomes in MAAGE include extensive additional information including annotations and metadata.
+The Genomes Tab provides a table listing of the genomes in the selected Taxon View (group of selected genomes), as described in the link below. Genomes include extensive additional information including annotations and metadata.
 
 
 .. toctree::

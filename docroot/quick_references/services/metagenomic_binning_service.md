@@ -8,7 +8,7 @@ The Metagenomic Binning Service accepts either reads or contigs, and attempts to
 * [Metagenomic Binning Service Tutorial](/tutorial/metagenomic_binning/metagenomic_binning)
 
 ## Using the Metagenomic Binning Service
-The **Metagenomic Binning** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Binning Service input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Metagenomic Binning** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Binning Service input form (*shown below*). *Note: You must be logged in to use this service.*
 
 ![Metagenomic Binning Menu](../images/bv_services_menu.png)
 
@@ -93,4 +93,3 @@ The Metagenomic Binning Service generates several files that are deposited in th
 5. Wang, S., Sundaram, J. P. & Spiro, D. VIGOR, an annotation program for small viral genomes. BMC bioinformatics 11, 1-10 (2010).
 6. Wang, S., Sundaram, J. P. & Stockwell, T. B. VIGOR extended to annotate genomes for additional 12 different viruses. Nucleic acids research 40, W186-W192 (2012).
 7. Larsen, C. N. et al. Mat_peptide: comprehensive annotation of mature peptides from polyproteins in five virus families. Bioinformatics 36, 1627-1628 (2020).
-
