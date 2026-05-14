@@ -10,7 +10,7 @@ The Taxonomic Classification Service accepts reads or SRR values from sequencing
 ## Using the Taxonomic Classification Service
 The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged in to use this service.*
 
-![Taxonomic Classification Menu](../images/bv_services_menu.png)
+![Taxonomic Classification Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Taxonomic Classification Input Form](../images/taxonomic_classification_service_2_images/taxonomic_classification_input_form_v3.png)

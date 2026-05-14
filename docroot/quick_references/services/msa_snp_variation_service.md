@@ -13,7 +13,7 @@ The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/V
 ## Using the Multiple Sequence Alignment and Variation/SNP Analysis Service
 The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged in to use this service.*
 
-![MSA menu option](../images/bv_services_menu.png) 
+![MSA menu option](../../tutorial/main_menu.png) 
 
 ## Options
 

@@ -11,7 +11,7 @@ The bacterial Protein Family Sorter Service tool enables researchers to examine 
 ## Using the Protein Family Sorter Service
 The **Protein Family Sorter** submenu option under the **Services** main menu (Protein Tools category) opens the Protein Family Sorter input form (*shown below*).
 
-![Protein Family Sorter Service Menu](../images/bv_services_menu.png)
+![Protein Family Sorter Service Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Protein Family Sorter Service Input Form](../images/protein_family_sorter_input_form.png) 

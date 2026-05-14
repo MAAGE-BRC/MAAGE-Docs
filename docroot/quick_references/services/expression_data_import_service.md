@@ -10,7 +10,7 @@ The Differential Expression Import Service facilitates upload of user-provided, 
 ## Using the Expression Import Service
 The **Expression Import** submenu option under the **Services** main menu (Transcriptomics category) opens the Expression Import input form (*shown below*). *Note: You must be logged in to use this service.* The Expression Data Import Service can also be accessed via the Command Line Interface (CLI).
 
-![Expression Import Menu](../images/bv_services_menu.png)
+![Expression Import Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Expression Import Input Form](../images/expression_import_input_form.png) 

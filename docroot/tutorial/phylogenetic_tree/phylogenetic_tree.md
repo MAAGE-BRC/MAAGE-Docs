@@ -87,7 +87,7 @@ Once the genomes and the parameters have been selected, researchers can select m
 
 ## Monitoring progress on the Jobs page
 1.	Click on the Jobs box at the bottom right of any page. 
-![Figure 24](./images/Picture24.png "Figure 24")
+![Figure 24](../jobs.png "Figure 24")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 25](./images/Picture25.png "Figure 25")

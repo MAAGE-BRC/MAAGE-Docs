@@ -84,7 +84,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 ## Monitoring progress on the Jobs page
 
 1.	Click on the Jobs box at the bottom right of any page. 
-![Figure 20](./images/Picture20.png "Figure 20")
+![Figure 20](../jobs.png "Figure 20")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 21](./images/Picture21.png "Figure 21")

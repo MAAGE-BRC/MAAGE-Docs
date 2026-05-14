@@ -47,7 +47,6 @@ After clicking “submit”, a message will appear below the box to indicate tha
 2\. This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted are also available.
 
 3\. Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results.
-![Image 10](images/subspecies-10.png)
 
 4\. The results page will consist of a header describing the job and a list of output files, as shown below. Results can be viewed either by clicking on the “View” icon at the top right corner of the page (red arrow), by double clicking on the “classification_report.html” file or selecting the desired file and clicking on the “View” icon in the green action bar (red boxes).
 ![Image 11](images/subspecies-11.png)

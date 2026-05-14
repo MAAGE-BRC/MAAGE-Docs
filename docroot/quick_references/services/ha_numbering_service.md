@@ -131,7 +131,7 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
 The **“HA Subtype Numbering Conversion”** submenu under the **“TOOLS & SERVICES”** main menu (Protein Tools category) opens the input form.
 *Note: You must be logged into MAAGE to use this service.*
 
-![HA Subtype Numbering Conversion Menu](../images/bv_services_menu.png)
+![HA Subtype Numbering Conversion Menu](../../tutorial/main_menu.png)
 
 Below is a screenshot of the job landing page, as well as a summary of customizable parameters.
 

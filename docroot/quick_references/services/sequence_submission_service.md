@@ -15,7 +15,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 The **Seqeuence Submission** submenu option under the **"TOOLS & SERVICES"** main menu (Genomics category) opens the Sequence Submission Service input form. *Note: You must be logged in to use this service.*
 
-![Sequence Submission menu option](../images/bv_services_menu.png) 
+![Sequence Submission menu option](../../tutorial/main_menu.png) 
 
 ## Parameters
 

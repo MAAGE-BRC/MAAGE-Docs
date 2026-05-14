@@ -22,7 +22,7 @@ The platform provides an entry point to integrated data and tools for viral and 
 
 Primary access to these components is provided through the main menu which is available at the top of the home page. The main menu includes the following options: 
 
-.. figure:: ./images/maage_top_menu2.png
+.. figure:: ../tutorial/main_menu.png
    :alt: Top Menu Bar
 
 -  `Organisms <organisms_menu.html>`_ - links to bacterial and viral data sorted into genera and families, respectively. On each organism page, further divisions into data types are available from the data tabs such as Overview, Taxonomy, Phylogeny, Genome/Strain List, Gene/Features, Protein Families, Protein Structures, etc.

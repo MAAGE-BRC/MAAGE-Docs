@@ -10,7 +10,7 @@ The Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomed
 ## Using the Metagenomic Read Mapping Service
 The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged in to use this service.*
 
-![Metagenomic Read Mapping Service Menu](../images/bv_services_menu.png)
+![Metagenomic Read Mapping Service Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Metagenomic Read Mapping Service Input Form](../images/metagenomic_read_mapping_input_form_v2.png)

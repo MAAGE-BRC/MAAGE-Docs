@@ -10,7 +10,7 @@ The BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algori
 ## Using the BLAST Service
 The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: You must be logged in to use this service.*
 
-![BLAST Menu](../images/bv_services_menu.png)
+![BLAST Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![BLAST Input Form](../images/blast/blast_input_form.png) 

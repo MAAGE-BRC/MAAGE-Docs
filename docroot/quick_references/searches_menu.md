@@ -23,7 +23,7 @@ The platform provides Advanced Searches for each major data type in the database
 
 The Searches menu is available from the top menu on each page. 
 
-![Advanced Searches Menu](./images/searches_top_menu.png)
+![Advanced Searches Menu](searches_menu.png)
 
 Clicking on one of the searches opens the corresponding search input form, as shown in the Genome Search example below.
 

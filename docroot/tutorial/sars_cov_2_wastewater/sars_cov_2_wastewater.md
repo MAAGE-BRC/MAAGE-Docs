@@ -68,19 +68,16 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 ![An image of](images/image_22_job_submitted.png "e")
 ## Finding the SARS-CoV-2 Wastewater Analysis results
 1. The SARS-CoV2 job can be located from three places on any page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any page.
-![An image of the workspace and jobs buttons with the word or between them.](images/image_23_my_jobs.png "An image of the workspace and jobs buttons with the word or between them.") 
+
 2. Access the job though the workspace. Click on the Workspace tab, and then on the “home” in the drop-down box
-![An image of the workspace shortcut.](images/image_24_my_jobs_workspace.png "An image of the workspace shortcut.")
 3. This will take you to your home workspace. Scroll down until you find the folder where you stored the job, and then click on that.
-![An image of an example workspace.](images/image_25_my_jobs_home.png "An image of an example workspace.")
+![An image of an example workspace.](../workspace.png "An image of an example workspace.")
 4. This will open the contents that folder. Completed jobs are indicated by a checkered flag in the first column. Clicking on the row, or the flag, that contains the job, will rewrite the page.
 ![An image of the job icon.](images/image_27_select_job_result.png "An image of the job icon.")
 5. The new page will show all the files produced by the job that was submitted.
-![An image of the top of the job results landing page.](images/image_28_job_results_stats.png "An image of the top of the job results landing page.")
+
 6. Each job submitted to the SARS-CoV-2 Wastewater Analysis service will return a report that summarizes the results. To view this report, click on the row that contains the words “SARS2Wastewater_report.html”.
-![An image selecting the report html file.](images/image_29_select_report.png "An image selecting the report html file.")
 7. The report begins with a detailed description of the service and analysis workflow.
-![An image of the top of the report file.](images/image_30_report_1.png "An image of the top of the report file.")
 8.The sample processing section shows the status of each sample at different steps of the workflow. If a sample fails a step, please scroll down to the ‘warnings’ sample of the report. We strive to capture the errors that cause the sample to fail.
 ![An image of the sample processing status table.](images/image_31_report_2.png "An image of the sample processing status table.")
 9. The Primer Trimming and Alignment Statistics give details about each sample. A description of the columns is available below this table in the report.
@@ -132,4 +129,3 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 * Coverage – Provides the 10x coverage estimate (percent of sites with 10 or greater reads).
 ![An image of raw Freyja results.](images/image_42_raw_freyja_results.png "An image of raw Freyja results.")
 31. The MultiQC report provides the compiled FastQC statistics  for the FASTQ and BAM files. Note: as this service is designed for short amplicon reads which are designed to capture a target sequence multiple times, these reports will show a high number of duplicates. For this sequencing type you can ignore these warnings.
-![An image of MultiQC report.](images/image_43_multiqc.png "An image of MultiQC report.")
