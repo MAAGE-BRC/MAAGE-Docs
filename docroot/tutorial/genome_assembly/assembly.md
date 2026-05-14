@@ -37,8 +37,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 ## Creating a folder to hold the assembly job and related data
 
 1.	It is always good practice to create a folder to keep the results from a particular experiment or project in order.  To create a new folder, go to the **Workspaces** tab and click on **home**.
-![Figure 3](./images/Picture3.png)
-
+![Figure 3](../main_menu.png)
 
 2.	This will open the home directory on your workspace.  To create a new folder, click on the **Add Folder** icon at the top right of the table.
 ![Figure 4](./images/Picture4.png)
@@ -178,14 +177,13 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 
 ### Monitoring progress on the Jobs page
 1.	Clicking on the **Jobs** box at the bottom right of any page/
-![Figure 34](./images/Picture34.png)
+![Figure 34](../jobs.png)
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed.
 ![Figure 35](./images/Picture35.png)
 
 ## Viewing and Interpreting the Assembly Job Results
 1.	On the jobs page, click on the row that has the assembly of interest. This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the **View** icon.
-![Figure 36](./images/Picture36.png)
 
 2.	This will rewrite the page to show the information about the assembly job, and all of the files that are produced when the pipeline runs.  
 ![Figure 37](./images/Picture37.png)

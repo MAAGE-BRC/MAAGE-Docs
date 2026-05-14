@@ -188,22 +188,19 @@ Clicking on Auto will allow the service to select the appropriate strategy.
 ## Finding the SARS-CoV2 job submitted to MAAGE
 
 1.	The SARS-CoV2 job can be located from three places on any MAAGE page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any MAAGE page.
-![Figure 56](./images/Picture56.png "Figure 56")
+![Figure 56](../jobs.png "Figure 56")
 
 2. **Access the job though the workspace**. Click on the Workspace tab, and then on the “home” in the drop-down box.
-![Figure 57](./images/Picture57.png "Figure 57")
+![Figure 57](../workspace.png "Figure 57")
 
 3. This will rewrite the page to show the home workspace. Scroll down until you find the folder where you stored the job, and then click on that.
-![Figure 58](./images/Picture58.png "Figure 58")
 
 4. This will rewrite the page to show the contents of that folder. Completed jobs are indicated by a checkered flag in the first column. Clicking on the row, or the flag, that contains the job, will rewrite the page.
-![Figure 59](./images/Picture59.png "Figure 59")
 
 5. The new page will show all the files produced by the job that was submitted.
 ![Figure 60](./images/Picture60.png "Figure 60")
 
 6. **Accessing the job though My Jobs, or Jobs monitor**. Click on the Workspaces tab and then on My Jobs or click on the Jobs monitor at the lower right of the page.
-![Figure 61](./images/Picture61.png "Figure 61")
 
 7. This will rewrite the page to show all jobs that have been submitted by the researcher. Locate the job of interest and click on that row.
 ![Figure 62](./images/Picture62.png "Figure 62")
