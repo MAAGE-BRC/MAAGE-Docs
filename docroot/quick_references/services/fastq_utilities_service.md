@@ -10,7 +10,7 @@ The Fastq Utilities Service makes available common operations for FASTQ files fr
 ## Using the Fastq Utilities Service
 The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged in to use this service.*
 
-![Fastq Utilities Menu](../images/bv_services_menu.png)
+![Fastq Utilities Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Fastq Utilities Input Form](../images/fastq_utilities_input_form.png) 

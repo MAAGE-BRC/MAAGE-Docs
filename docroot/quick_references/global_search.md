@@ -8,7 +8,7 @@ The platform provides a Global Search capability to quickly locate data of inter
 
 The Global Search box is available on the right side of the menu bar at the top of each page, (except the homepage, where it is in the left center). 
 
-![Global Search Bar](./images/global_search_top_menu.png)
+![Global Search Bar](../tutorial/main_menu.png)
 
 ## Using the Global Search
 Entering a search term in the Global Search box and either pressing **Enter** or clicking the **magnifying glass icon** will start the search. Matching results are returned with a summary information box at the top of the page, and matching top results grouped by data type further down the page. Clicking on the summary result numbers will display page(s) containing those results.  Clicking on a specific item will display that particular result.

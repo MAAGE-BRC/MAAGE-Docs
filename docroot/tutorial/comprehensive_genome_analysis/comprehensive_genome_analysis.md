@@ -9,10 +9,17 @@ Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly
 
 ## Locating the Comprehensive Genome Analysis Service
 
-1.	Click on the Services tab at the top of the page, and then click on Comprehensive Genome Analysis (CGA).
-![Figure 1](./images/Picture1.png "Figure 1")
+1. Locate the Tools option on the top navigation bar.
 
-2.	This will open the landing page for the service. 
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Comprehensive Genome Analysis. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
+
+3.	This will open the landing page for the service. 
 ![Figure 2](./images/Picture2.png "Figure 2")
 
 ### Uploading paired end reads

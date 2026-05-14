@@ -1,0 +1,16 @@
+ 1092  git restore tutorial/primer_design/
+ 1093  git status
+ 1094  git add metacats
+ 1095  git add tutorial/metacats
+ 1096  git commit -m "remove metacats docuentation"
+ 1097  git add tutorial/
+ 1098  git commit -m "remove unused servcies"
+ 1099  git status
+ 1100  history
+ 1101  ls tutorial/x-old_*
+ 1102  rm -r tutorial/x-old_*
+ 1103  git status
+ 1104  rm -r tutorial/sequence_submission
+ 1105  rm -r tutorial/searching_and_sorting
+ 1106  rm -r tutorial/rna_seq
+ 1107  history

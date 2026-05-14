@@ -12,7 +12,7 @@ The RNA-Seq Service can be accessed from the Services Menu at the top of the pag
 ## Using the RNA-Seq Analysis Service
 The **RNA-Seq Analysis** submenu option under the **Services** main menu (Transcriptomics category) opens the RNA-Seq Analysis input form (*shown below*). *Note: You must be logged in to use this service.*
 
-![RNA-Seq Analysis Menu](../images/bv_services_menu.png)
+![RNA-Seq Analysis Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![RNA-Seq Analysis Input Form](../images/rna-seq_analysis_input_form2.png) 

@@ -14,10 +14,17 @@ The code for the binning script is located at:
 The code for the RASTtk pipeline is located at:
 [https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl](https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl)
 
-## Locating the Metagenomic Binning Service App  
+## Locating the Metagenomic Binning Service  
 
-1.	At the top of any page, clicking on the **Tools & Services** tab.  Click on **Metagenomic Binning** in the drop-down box, underneath **Metagenomics**.
-![Figure Service_tab_MB](./images/Service_tab_MB.png "Figure Service_tab_MB")
+1. Locate the Tools option on the top navigation bar.
+
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Metagenomics and select Metagenomic Binning. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 3.	This will open up the Metagenomic Binning Service landing page.  The default page shows starting with a read file.  
 ![Figure MB_landing](./images/MB_landing.png "Figure MB_landing")

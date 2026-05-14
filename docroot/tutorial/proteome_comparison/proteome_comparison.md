@@ -12,11 +12,15 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 
 ## Locating the Proteome Comparison App
 
-1.	At the top of any page, find the Services tab and click on Proteome Comparison. 
-![Figure 1](./images/Picture1.png "Figure 1")
+1. Locate the Tools option on the top navigation bar.
 
-2.	This will open up the Proteome Comparison landing page. 
-![Figure 2](./images/Picture2.png "Figure 2")
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Protein Tools and select Proteome Comparison. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 ## Setting Parameters
 
@@ -80,7 +84,7 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 ## Monitoring progress on the Jobs page
 
 1.	Click on the Jobs box at the bottom right of any page. 
-![Figure 20](./images/Picture20.png "Figure 20")
+![Figure 20](../jobs.png "Figure 20")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 21](./images/Picture21.png "Figure 21")

@@ -15,15 +15,19 @@ A summary diagram of the workflow based on the sequencing platform can be found 
 Genome annotation uses the Viral Genome ORF Reader pipeline (VIGOR4), which was developed at the J. Craig Venter Institute. VIGOR 4 predicts protein sequences encoded in a viral genome by sequence similarity searching against curated viral protein databases. The code for VIGOR4 can be found at https://github.com/VirusBRC/VIGOR4. A schematic of the VIGOR4 program workflow can be found below.
 ![Figure 2](./images/Picture2.png "Figure 2")
 
-## Accessing the SARS-CoV-2 genome assembly and annotation service
+## Locating the Comprehensive Genome Analysis Service
 
-You can find the genome assembly and annotation service under the Services menu at the top of the any MAAGE page. 
-![Figure 3](./images/Picture3.png "Figure 3")
+1. Locate the Tools option on the top navigation bar.
 
-Click the link to launch the service.
-![Figure 4](./images/Picture4.png "Figure 4")
+![navigation bar](../nav_bar.png "navigation bar")
 
-The landing page for the SARS-CoV-2 genome assembly and annotation service has three parts. You can start with reads or contigs, select the files that you would like to analyze, and then select the parameters.
+2.	From the tools dropdown menu, navigate to Viral Tools and select SARS-CV-2 Genome Analysis. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
+
+3.	This will open the landing page for the service. 
 ![Figure 5](./images/Picture5.png "Figure 5")
 
 ## Submitting Reads to the Service
@@ -184,22 +188,19 @@ Clicking on Auto will allow the service to select the appropriate strategy.
 ## Finding the SARS-CoV2 job submitted to MAAGE
 
 1.	The SARS-CoV2 job can be located from three places on any MAAGE page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any MAAGE page.
-![Figure 56](./images/Picture56.png "Figure 56")
+![Figure 56](../jobs.png "Figure 56")
 
 2. **Access the job though the workspace**. Click on the Workspace tab, and then on the “home” in the drop-down box.
-![Figure 57](./images/Picture57.png "Figure 57")
+![Figure 57](../workspace.png "Figure 57")
 
 3. This will rewrite the page to show the home workspace. Scroll down until you find the folder where you stored the job, and then click on that.
-![Figure 58](./images/Picture58.png "Figure 58")
 
 4. This will rewrite the page to show the contents of that folder. Completed jobs are indicated by a checkered flag in the first column. Clicking on the row, or the flag, that contains the job, will rewrite the page.
-![Figure 59](./images/Picture59.png "Figure 59")
 
 5. The new page will show all the files produced by the job that was submitted.
 ![Figure 60](./images/Picture60.png "Figure 60")
 
 6. **Accessing the job though My Jobs, or Jobs monitor**. Click on the Workspaces tab and then on My Jobs or click on the Jobs monitor at the lower right of the page.
-![Figure 61](./images/Picture61.png "Figure 61")
 
 7. This will rewrite the page to show all jobs that have been submitted by the researcher. Locate the job of interest and click on that row.
 ![Figure 62](./images/Picture62.png "Figure 62")

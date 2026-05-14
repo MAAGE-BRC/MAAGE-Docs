@@ -10,7 +10,7 @@ The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.
 ## Using the Genome Annotation Service
 The **Annotation** submenu option under the **Services** main menu (Genomics category) opens the Genome Annotation input form (*shown below*). *Note: You must be logged in to use this service.*
 
-![Annotation Menu](../images/bv_services_menu.png)
+![Annotation Menu](../../tutorial/main_menu.png)
 
 *Note:* Both RASTtk and VIGOR4 also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the Command Line Interface (CLI).
 

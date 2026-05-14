@@ -63,12 +63,16 @@ The source code for Mat_peptide is available on GitHub (software at https://gith
 PHANOTATE is a bacteriophage genome annotation pipeline [5,6] that identifies open-reading frames and then performs sequence similarity searches to annotate proteins.
 The source code for PHANOTATE is available on GitHub (https://github.com/deprekate/PHANOTATE).
 
-## Locating the Annotation Service App
-1.	At the top of any page, find the **Services** tab. 
-![Figure Services_tab](./images/Services_tab.png "Figure Services_tab")
+## Locating the Annotation Service
+1. Locate the Tools option on the top navigation bar.
 
-2.	In the drop-down box, underneath **Genomics**, click on **Genome Annotation**. 
-![Figure Service_tab_Annotation](./images/Service_tab_Annotation.png "Figure Service_tab_Annotation")
+![navigation bar](../nav_bar.png "navigation bar")
+
+2.	From the tools dropdown menu, navigate to Genomics and select Genome Annotation. 
+
+![tools menu](../tools_menu.png "tools menu")
+
+*Note: You must be logged into MAAGE to use this service.* 
 
 3.	This will open up the Annotation Service landing page. 
 ![Figure Annotation_landing](./images/Annotation_landing.png "Figure Annotation_landing")
@@ -138,10 +142,9 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 
 ## Finding the completed Annotation job 
 1. There are two places to access a completed job.  Clicking on the **Jobs** icon at the bottom right of any page will open the list of jobs that have been submitted. 
-![Figure 28](./images/Picture28.png "Figure 28")
+![Figure 28](../../tutorial/jobs.png "Figure 28")
 
 2. A complete list of all completed jobs will appear from most recent to the very first job ever submitted.  Clicking on any of the column heads will resort the page to show the results in that order. 
-![Figure 29](./images/Picture29.png "Figure 29")
 
 3. Clicking on an individual job or row will show possible downstream functions, which appear as icons, in the vertical green bar to the right of the list.  Clicking on the View icon will rewrite the page to show the results of the selected job. 
 ![Figure 30](./images/Picture30.png "Figure 30")
@@ -150,13 +153,11 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure 31](./images/Picture31.png "Figure 31")
 
 5. Completed jobs can also be access through the workspace, which you can access by clicking on the **Workspaces** tab, which is at the top of any page. 
-![Figure 32](./images/Picture32.png "Figure 32")
+![Figure 32](../../tutorial/nav_bar.png "Figure 32")
 
 6. This will open a drop-down box for the workspace.  To view the home workspace, click on **home**. 
-![Figure 33](./images/Picture33.png "Figure 33")
 
 7. This will rewrite the page to show the home directory. Scrolling down the page will show the files and folders in the workspace. 
-![Figure 34](./images/Picture34.png "Figure 34")
 
 8. If the job is in a particular folder, that can be opened by double clicking on the row that has the job. 
 ![Figure 35](./images/Picture35.png "Figure 35")
@@ -278,9 +279,9 @@ Private genomes that have been annotated can be viewed directly from the annotat
 
 ### Finding the genome using the workspace
 1. Private genomes can be located through the workspace.  Click on the **Workspaces** tab at the top of any page.  This will open a drop-down box.  Click on **My Genomes** at the upper right of this box. 
-![Figure 66](./images/Picture66.png "Figure 66")
+![Figure 66](../workspace.png "Figure 66")
 
-1. This will open a table that contains all of the genomes that you have annotated.  The top of the table contains a text box that can be used to filter the data.  Enter the name, or the unique genome ID into this box and then hit return on your keyboard. 
+2. This will open a table that contains all of the genomes that you have annotated.  The top of the table contains a text box that can be used to filter the data.  Enter the name, or the unique genome ID into this box and then hit return on your keyboard. 
 ![Figure 67](./images/Picture67.png "Figure 67")
 
 3. This will filter the genomes to show those that match the text entered.  Clicking on the row that contains the correct genome will highlight the vertical green bar to the right with possible downstream functions.  Clicking on the **Genome** icon will open a new tab that has the Genome landing page for that genome. 
@@ -288,10 +289,9 @@ Private genomes that have been annotated can be viewed directly from the annotat
 
 ### Finding the genome using Global Search
 1. The Global Search can be used to locate public and private data.  The name of the genome can be entered into the box, which can be found on the home page, and also at the top right of any other page. 
-![Figure 69](./images/Picture69.png "Figure 69")
+![Figure 69](../main_menu.png "Figure 69")
 
 2. Entering the Genome ID, if known, will provide a more direct access to an individual genome.  Click return after entering. 
-![Figure 70](./images/Picture70.png "Figure 70")
 
 3. This will re-write the page to show the results of the search.  Clicking on the name under Genomes will re-write the page to show the landing page for that genome. 
 ![Figure 71](./images/Picture71.png "Figure 71")

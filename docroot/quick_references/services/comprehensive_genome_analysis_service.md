@@ -14,7 +14,7 @@ The bacterial Comprehensive Genome Analysis Service provides a streamlined analy
 ## Using the Comprehensive Genome Analysis Service
 The **Comprehensive Genome Analysis** submenu option under the **Services** main menu (Genomics category) opens the Comprehensive Genome Analysis input form (shown below). *Note: You must be logged in to use this service.*
 
-![Comprehensive Genome Analysis Menu](../images/bv_services_menu.png)
+![Comprehensive Genome Analysis Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Comprehensive Genome Analysis Input Form](../images/genome_analysis_input_form.png)

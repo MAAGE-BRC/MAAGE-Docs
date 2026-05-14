@@ -11,7 +11,7 @@ The bacterial Genome Alignment Service uses [progressiveMauve](https://journals.
 ## Using the Genome Alignment Service
 The **Genome Alignment** submenu option under the **Services** main menu (Genomics category) opens the Genome Alignment Service input form (*shown below*).
 
-![Genome Alignment Menu](../images/bv_services_menu.png)
+![Genome Alignment Menu](../../tutorial/main_menu.png)
 
 
 ## Options
