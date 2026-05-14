@@ -1,7 +1,7 @@
 Test Procedures
 ===============
 
-As part of its development, deployment, and maintenance processes, MAAGE performs a full range of tests and validation checks to ensure correct data, analytical processing, and presentation in the resource. Below are the acceptance Test Plan and Report for the MAAGE Beta version. As part of the Test Plan, Test Procedures define testing protocols using representative use cases, parameter settings, and exemplar data sets with expected validated results.  
+As part of its development, deployment, and maintenance processes, the platform performs a full range of tests and validation checks to ensure correct data, analytical processing, and presentation in the resource. Below are the acceptance Test Plan and Report for the Beta version. As part of the Test Plan, Test Procedures define testing protocols using representative use cases, parameter settings, and exemplar data sets with expected validated results.  
 
 Plans and Reports
 -----------------

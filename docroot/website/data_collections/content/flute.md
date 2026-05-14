@@ -1,4 +1,3 @@
-
 # Functionalizing Lists of Unknown TB Entitites (FLUTE)
 
 ![Flute Logo](https://www.patricbrc.org/public/patric/images/FLUTE_logo_blue.png)
@@ -13,7 +12,7 @@
 
 **Project Objectives:** Mycobacterium tuberculosis is one of the most successful pathogens in the world, still responsible for millions of deaths each year. Nearly half of its protein coding genes have functions that are unknown. FLUTE a Functional Genomics Resource Center funded by NIAID, with the goal of defining functions for unknown ORFs, hypothetical genes, and non-coding RNAs in Mtb.
 
-**Project Data:** [PATRIC FTP Site](ftp://ftp.patricbrc.org/BRC_Mirrors/FLUTE), [PATRIC Public Workspace](https://www.patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Functional%20Genomics%20Centers/FLUTE%20-%20Functionalizing%20Lists%20of%20Unknown%20TB%20Entities)
+**Project Data:** [FTP Site](ftp://ftp.patricbrc.org/BRC_Mirrors/FLUTE), [Public Workspace](https://www.patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Functional%20Genomics%20Centers/FLUTE%20-%20Functionalizing%20Lists%20of%20Unknown%20TB%20Entities)
 
 ## Publications
 

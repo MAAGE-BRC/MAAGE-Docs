@@ -35,7 +35,7 @@ saturating mutagenesis to other bacteria.
 The following file provides the insertion counts at TA sites (merged
 over 14 replicates) in .wig format (the reference sequence for the
 coordinates was
- `NC_000962.3 <https://www.ncbi.nlm.nih.gov/protein/NC_000962.3>`__).
+ `NC_000962.3 <https://www.ncbi.nlm.nih.gov/protein/NC_000962.3>`__).
 
 `14_replicates_combined.wig <ftp://ftp.patricbrc.org/BRC_Mirrors/FLUTE/Experiment_3/14_replicates_combined.wig>`__
 

@@ -3,7 +3,7 @@
 Specialty Genes
 ===============
 
-Specialty Genes refers to bacterial genes that are of particular interest to infectious disease researchers, such as virulence factors, antibiotic resistance genes, drug targets, and human homologs. For each class, reference genes are collected from reputed external databases or manually curated by the MAAGE team and then mapped to their homologs based on sequence similarity using BLASTP.
+Specialty Genes refers to bacterial genes that are of particular interest to infectious disease researchers, such as virulence factors, antibiotic resistance genes, drug targets, and human homologs. For each class, reference genes are collected from reputed external databases or manually curated and then mapped to their homologs based on sequence similarity using BLASTP.
 
 We also provide a data summary targeted specifically to `Antimicrobial Resistance (AMR) <./antimicrobial_resistance.html>`_.
 
@@ -39,7 +39,6 @@ Virulence Factors
 -----------------
 Virulence factors refer to the gene products that enable bacteria to establish itself on or within a host organism and enhance its potential to cause disease. We have integrated and mapped virulence factor genes from the following sources:
 
-- `PATRIC_VF <https://alpha.bv-brc.org/view/SpecialtyGeneList/?and(eq(source,PATRIC_VF),eq(evidence,Literature))>`_
 - `VFDB <http://www.mgc.ac.cn/VFs/>`_
 - `Victors <http://www.phidias.us/victors/>`_ 
 

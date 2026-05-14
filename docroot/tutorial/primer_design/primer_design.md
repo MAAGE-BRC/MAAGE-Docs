@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Primer Design Service in the Midwest Alliance for Applied Genomic Epidemiology uses the Primer3 tool [1-4] to provide users with the ability to design primers from a given input sequence under a variety of temperature, size, and concentration constraints. Primer3 can be used to design primers for several uses including, PCR primers (PCR = "Polymerase Chain Reaction"), hybridization probes and sequencing primers. 
+The Primer Design Service uses the Primer3 tool [1-4] to provide users with the ability to design primers from a given input sequence under a variety of temperature, size, and concentration constraints. Primer3 can be used to design primers for several uses including, PCR primers (PCR = "Polymerase Chain Reaction"), hybridization probes and sequencing primers. 
 
 **Keywords:** Primers, probes, oligo, oligomers, virus, bacteria, phage.
  
@@ -14,7 +14,7 @@ The Primer Design Service in the Midwest Alliance for Applied Genomic Epidemiolo
 
 ## Locating the service
 
-1\. At the top of any MAAGE page, find the **SERVICES** tab and then click on **Primer Design**. 
+1\. At the top of any page, find the **SERVICES** tab and then click on **Primer Design**. 
  
 ![Figure 0](./images/Picture0.png "Figure 0")
 
@@ -81,11 +81,11 @@ If users would like to upload a file to their workspace, they can select the **�
 
 ## Checking the status of the annotation job
 
-1\.	Click on the Jobs indicator at the bottom of the MAAGE page.
+1\.	Click on the Jobs indicator at the bottom of the page.
 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
-2\.	This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted to MAAGE are also available. 
+2\.	This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted are also available. 
 
 3\.	Once the job is completed, you can select the job by clicking on it, then click the “View” button on the right-hand bar to see the results. 
 

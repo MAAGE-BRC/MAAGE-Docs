@@ -11,14 +11,14 @@ NIAID Antimicrobial Resistance Sequencing Projects
 .. image:: images/UMSM.jpeg
     :alt: University of Maryland School of Medicine
 
-The following sequencing projects completed by the GCIDs have a focus on understanding antimicrobial resistance (AMR). The metadata provided by the GCID collaborators has been included at PATRIC to facilitate research on AMR and initial analysis capabilities are available.  Where AMR “panel data” was provided by the collaborators, a spreadsheet is available to download_ from PATRIC containing the combined information.   This is just an initial step at including genome-based AMR capabilities at PATRIC.   Additional genome sets and analysis capabilities will be added in the coming months.
+The following sequencing projects completed by the GCIDs have a focus on understanding antimicrobial resistance (AMR). The metadata provided by the GCID collaborators has been included on the platform to facilitate research on AMR and initial analysis capabilities are available.  Where AMR “panel data” was provided by the collaborators, a spreadsheet is available to download_ containing the combined information.   This is just an initial step at including genome-based AMR capabilities on the platform.   Additional genome sets and analysis capabilities will be added in the coming months.
 
 .. _download: ftp://ftp.patricbrc.org/BRC_Mirrors/AMR/PATRIC_genomes_AMR.xlsx
 
 For more information about each projects, follow the project title link to the information available from the individual sequencing centers.
 
 +--------------------------------------------------------------------------------+------------------------+-----------------------+
-| Project Title                                                                  | Institution            | Genome List at PATRIC |
+| Project Title                                                                  | Institution            | Genome List           |
 +================================================================================+========================+=======================+
 | `Acinetobacter Sequencing`_                                                    | Broad Institute        | `Genome List 1`_      |
 +--------------------------------------------------------------------------------+------------------------+-----------------------+

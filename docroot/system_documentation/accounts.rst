@@ -3,7 +3,7 @@
 Accounts
 ========
 
-List of external system and social media accounts used by MAAGE: 
+List of external system and social media accounts used by the platform:
 
 - GitHub: https://github.com/BV-BRC
 - Facebook: https://www.facebook.com/BVBRC19

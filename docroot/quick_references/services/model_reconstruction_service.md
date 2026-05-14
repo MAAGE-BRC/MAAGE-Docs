@@ -8,7 +8,7 @@ The bacterial Model Reconstruction Service integrates and augments technologies 
 * [Metabolic Model Reconstruction Service Tutorial](/tutorial/metabolic_model_reconstruction/metabolic_model_reconstruction)
 
 ## Using the Model Reconstruction Service
-The **Model Reconstruction** submenu option under the **Services** main menu (Metabolomics category) opens the Reconstruct Metabolic Model input form (*shown below*). *Note: You must be logged into MAAGE to use this service.* The Model Reconstruction service is also available via the MAAGE Command Line Interface (CLI).
+The **Model Reconstruction** submenu option under the **Services** main menu (Metabolomics category) opens the Reconstruct Metabolic Model input form (*shown below*). *Note: You must be logged in to use this service.* The Model Reconstruction service is also available via the Command Line Interface (CLI).
 
 ![Model Reconstruction Menu](../images/bv_services_menu.png)
 
@@ -63,7 +63,7 @@ More details are available in the [Action Buttons](/quick_references/action_bar)
 ### ModelSEED Model Viewer
 ![Model Reconstruction Service View Icon](../images/model_reconstruction_view_icon.png)
 
-Clicking on the View icon at the upper right portion of the job result page will open a login screen for the ModelSEED. MAAGE or RAST credentials can be used for login.
+Clicking on the View icon at the upper right portion of the job result page will open a login screen for the ModelSEED. Platform or RAST credentials can be used for login.
 
 ![ModelSEED Login](../images/modelseed_login.png)
 
@@ -76,4 +76,3 @@ After login, the ModelSEED Model Viewer will be displayed, consisting of multipl
 2.	Henry, C.S., et al., High-throughput generation, optimization and analysis of genome-scale metabolic models. Nat Biotechnol, 2010. **28**(9): p. 977-82.
 3.	Overbeek, R., et al., The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). Nucleic Acids Res, 2014. **42**(Database issue): p. D206-14.
 4.	Orth, J.D. and B.O. Palsson, Systematizing the generation of missing metabolic knowledge. Biotechnol Bioeng. **107**(3): p. 403-12.
-

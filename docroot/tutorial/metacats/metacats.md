@@ -14,7 +14,7 @@ metadata, variation analysis, comparative analysis.
 
 ## Locating the meta-CATS App
 
-At the top of any MAAGE page, find the **SERVICES** tab and then click on Meta-CATS in the Genomics group. 
+At the top of any page, find the **SERVICES** tab and then click on Meta-CATS in the Genomics group. 
  
 ![Figure 1](./images/Picture1.png "Figure 1")
 
@@ -59,11 +59,11 @@ A message will appear below the box to indicate that the job is now in the queue
 
 ## Checking the status of the job
 
-1\.	Click on the Jobs indicator at the bottom of the MAAGE page. 
+1\.	Click on the Jobs indicator at the bottom of the page. 
 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
-2\.	This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted to MAAGE are also available. 
+2\.	This will open the Jobs Status page where researchers can see the status of their annotation job. The statuses of all the service jobs that have been submitted are also available. 
 
 3\.	Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results. 
 

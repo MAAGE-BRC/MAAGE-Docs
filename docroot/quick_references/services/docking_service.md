@@ -11,7 +11,7 @@ poses for a given protein structure and a set of small-molecule ligands.  This s
 * [Docking Tutorial](/tutorial/docking/docking)
 
 ## Using the Docking Service
-The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools category) opens the Docking Service input form. *Note: You must be logged into MAAGE to use this service.*
+The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools category) opens the Docking Service input form. *Note: You must be logged in to use this service.*
 
 ![Docking menu option](../images/docking/updated_services_menu.png)
 
@@ -22,8 +22,8 @@ Below is a screenshot of the Docking Service landing page, as well as a summary 
 ## PDB Selection
 
 **PDB ID:** The PDB identifier of the target protein. The PDB identifiers here come from
-the collection loaded into the MAAGE resource. The **Preview PDB** button may be used
-to preview the given PDB structure using the MAAGE structure viewer.
+the collection loaded into the platform. The **Preview PDB** button may be used
+to preview the given PDB structure using the structure viewer.
 
 
 ## Ligand library selection

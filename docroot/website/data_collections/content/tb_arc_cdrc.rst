@@ -13,16 +13,4 @@ With respect to development of new anti-TB therapeutics, the production of an an
 
 With respect to drug resistance profiles, the strains are heterogeneous, but within the set of 200 there are at least 50 sensitive and at least 50 resistant strains for each individual drug.
 
-With respect to M. tuberculosis phylogenetics, epidemiological data from the Republic of Korea have shown that the majority of strains are K family strains, derivatives of the Beijing family (Kang et al., Journal of Medical Microbiology 59, 1191-1197). In the Kampala, Uganda vicinity (where the Ugandan strains were collected), the T2 spoligotype family of strains has been shown to predominate. Therefore we anticipate that the phylogenetic distribution within the proposed strain set is reasonably restricted, which should facilitate sequencing data interpretation. Yet, the two strain sets (Ugandan versus Korean) are different from each other, suggesting that the data provided will be representative of the broader M. tuberculosis population.
-
-Data download:
-
-- `Broad original files <ftp://ftp.patricbrc.org/BRC_Mirrors/TB-ARC/broad_original/CDRC.1/variants.tar.gz>`_
-- `PATRIC mapped files <ftp://ftp.patricbrc.org/BRC_Mirrors/TB-ARC/patric_mapped/CDRC.1.tar.gz>`_
-- `PATRIC FTP site <http://brcdownloads.patricbrc.org/BRC_Mirrors/TB-ARC/patric_mapped/CDRC.1/>`_
-
-View data in PATRIC:
-
-- Download the PATRIC mapped files (above)
-- Go to: `<https://www.patricbrc.org/view/Genome/83332.111#view_tab=browser>`_
-- Click on File -> Open -> Select Files and upload both the corresponding .vcf.gz and .vcf.gz.tbi files, keep the default options for track type, and click Open button
+With respect to M. tuberculosis phylogenetics, epidemiological data from the Republic

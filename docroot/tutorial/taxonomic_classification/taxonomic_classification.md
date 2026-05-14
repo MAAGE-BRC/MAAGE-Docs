@@ -2,17 +2,17 @@
 
 *Revision: 02/29/2024*
 
-Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The MAAGE Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples, but it can also be used to verify the purity of an isolated sample. **Researchers can submit metagenomic samples that are short reads (paired end or single end) as well as submissions to the Sequence Read Archive via accession run numbers.** 
+Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples, but it can also be used to verify the purity of an isolated sample. **Researchers can submit metagenomic samples that are short reads (paired end or single end) as well as submissions to the Sequence Read Archive via accession run numbers.** 
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-The MAAGE Taxonomic Classification service can be used to identify species (Species Identification) and metagenomes (Microbiome) using whole genome sequencing reads.  It has also been recently updated to classify 16S ribosomal RNA reads.  The first step of the service estimates the quality of the reads using FastQC [1].  After this it follows the pipeline established by Lu, et al. [2].  If desired, a researcher can separate the host reads from the microbial ones using HiSAT2 [3],  but if this is not enabled, all reads are classified using Kraken 2 [4].  This is the central feature of the pipeline and uses exact-match database queries of k-mers, rather than inexact alignment of sequences. Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence.  The results from Kraken 2 are used to generate a Krona [5] plot, are used by Pavian [6] to generate a Sankey plot as well as Summary and Interactive Multi-sample Comparison tables.  The 16S rRNA and microbiome pipelines also include Bracken [7] where abundances of reads mapping to different taxa are estimated.  The abundance estimates from Bracken are combined with the Kraken 2 and FastQC results to aggregate results using MultiQC [8], and also to provide alpha and beta estimates of diversity.  The MultiQC report is not included in the Species Identification pipeline.
+The Taxonomic Classification service can be used to identify species (Species Identification) and metagenomes (Microbiome) using whole genome sequencing reads.  It has also been recently updated to classify 16S ribosomal RNA reads.  The first step of the service estimates the quality of the reads using FastQC [1].  After this it follows the pipeline established by Lu, et al. [2].  If desired, a researcher can separate the host reads from the microbial ones using HiSAT2 [3],  but if this is not enabled, all reads are classified using Kraken 2 [4].  This is the central feature of the pipeline and uses exact-match database queries of k-mers, rather than inexact alignment of sequences. Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence.  The results from Kraken 2 are used to generate a Krona [5] plot, are used by Pavian [6] to generate a Sankey plot as well as Summary and Interactive Multi-sample Comparison tables.  The 16S rRNA and microbiome pipelines also include Bracken [7] where abundances of reads mapping to different taxa are estimated.  The abundance estimates from Bracken are combined with the Kraken 2 and FastQC results to aggregate results using MultiQC [8], and also to provide alpha and beta estimates of diversity.  The MultiQC report is not included in the Species Identification pipeline.
 
-The MAAGE service recently expanded to include analysis of reads from 16S ribosomal RNA. The workflow is similar, but does not include read mapping using HiSAT2 and instead, trims the submitted reads using TrimGalore [9].
+The service recently expanded to include analysis of reads from 16S ribosomal RNA. The workflow is similar, but does not include read mapping using HiSAT2 and instead, trims the submitted reads using TrimGalore [9].
 
 
 ## Locating the Taxonomic Classification Service
-1.	At the top of any MAAGE page, find the Services tab.
+1.	At the top of any page, find the Services tab.
 ![Figure 2](./images/Picture2.png "Figure 2")
 
 2.	Click on Taxonomic Classification, which is under the Metagenomics heading.
@@ -24,7 +24,7 @@ The MAAGE service recently expanded to include analysis of reads from 16S riboso
 ## Submitting sequencing reads (single or paired)
 The service accepts both single and paired reads.  Paired read libraries are usually given as file pairs, with each file containing the forward or reverse half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 or READ 2 does not matter.
 
-Reads must first be uploaded to the MAAGE workspace, and once there, they can be selected in several ways.
+Reads must first be uploaded to the workspace, and once there, they can be selected in several ways.
 
 1.	Navigate to the workspace by clicking on the **Folder** icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on OK at the bottom of the pop-up box to select the reads.
 ![Figure 5](./images/Picture5.png "Figure 5")
@@ -43,7 +43,7 @@ Reads must first be uploaded to the MAAGE workspace, and once there, they can be
 ![Figure 9](./images/Picture9.png "Figure 9")
 
 ## Submitting reads from the Sequence Read Archive (SRA)
-MAAGE also supports analysis of existing datasets from SRA. If users submit SRA values, the MAAGE will input the corresponding FASTQ files to the service. 
+The platform also supports analysis of existing datasets from SRA. If users submit SRA values, the corresponding FASTQ files will be input to the service. 
 1.	To submit this type of data, locate the Run Accession number and copy it.
 ![Figure 10](./images/Picture10.png "Figure 10")
 
@@ -60,7 +60,7 @@ Parameters must be selected prior to submission of the Taxonomic Classification 
 ![Figure 13](./images/Picture13.png "Figure 13")
 There are no **Analysis Type** options available if **16S** was originally selected. The 16S pipeline uses Bracken at the genus level ”G”.
 
-3.	**Database** is the next parameter.  If **WGS** was selected originally, there are two database options. The **Kraken2 Standard Database** contains distinct 31-mers, based on completed microbial genomes from NCBI. The **MAAGE Database** includes the RefSeq [10] complete genomes and protein/nucleotide sequences for archaea, bacteria, plasmids, viruses, human GRCh38, fungi, plants, protozoa and UniVec (the NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies).
+3.	**Database** is the next parameter.  If **WGS** was selected originally, there are two database options. The **Kraken2 Standard Database** contains distinct 31-mers, based on completed microbial genomes from NCBI. The other database option includes the RefSeq [10] complete genomes and protein/nucleotide sequences for archaea, bacteria, plasmids, viruses, human GRCh38, fungi, plants, protozoa and UniVec (the NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies).
 
 If **16S** was originally selected, the two database selections are SILVA [11] (16S rRNA genes sequences from bacteria, archaea, and eukaryotes) or Greengenes [12] (16S rRNA gene sequences from bacteria and archaea). These databases do not provide NCBI taxonomy IDs.
 ![Figure 14](./images/Picture14.png "Figure 14")
@@ -83,7 +83,7 @@ If **16S** was originally selected, the two database selections are SILVA [11] (
 9.	After clicking the submit button, your job will be launched.  A successful submission will generate a message indicating that the job has been queued.  
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-10.	 The bottom of each MAAGE page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed).
+10.	 The bottom of each page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed).
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 ## Locating the Taxonomic Classification job – Output files
@@ -208,7 +208,7 @@ Sample Information
 ![Figure 52](./images/Picture52.png "Figure 52")
 
 ## Reporting problems
-1.	This will open a pop-up window where issues with particular jobs can be reported. A description of the particular problem can be provided and clicking the submission button will generate a message to MAAGE team members, notifying them that there has been a problem. We encourage researchers to report all failed jobs, or those that have results that are confusing. In addition, researchers should report long waits that they are experiencing in the queue.
+1.	This will open a pop-up window where issues with particular jobs can be reported. A description of the particular problem can be provided and clicking the submission button will generate a message to the support team, notifying them that there has been a problem. We encourage researchers to report all failed jobs, or those that have results that are confusing. In addition, researchers should report long waits that they are experiencing in the queue.
 ![Figure 53](./images/Picture53.png "Figure 53")
 
 ## Pipelines

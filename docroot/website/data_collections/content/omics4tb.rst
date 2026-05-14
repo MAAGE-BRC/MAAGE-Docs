@@ -11,7 +11,7 @@ Omics4TB
 
 **Project Home Page:** http://www.omics4tb.org
 
-**Project Data:** `PATRIC FTP Site <ftp://ftp.patricbrc.org/BRC_Mirrors/Omics4TB/>`_ and `PATRIC Public Workspace <https://www.patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB>`_
+**Project Data:** `FTP Site <ftp://ftp.patricbrc.org/BRC_Mirrors/Omics4TB/>`_ and `Public Workspace <https://www.patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB>`_
 
 **Project Objectives:** Mycobacterium tuberculosis causes ~9 million new cases of active disease and 1.4 million deaths each year, and our tools to combat tuberculosis (TB) disease are universally outdated and overmatched. This project combines separate advances in systems biology and network modeling to produce an experimentally grounded and verifiable systems-level model of the MTB regulatory networks that affect disease progression. Our consortium of two projects and four Cores aim to reveal key features of TB disease progression in an iterative cycle: perturb carefully chosen subnetworks within both MTB and host; collect matched omics data sets; model, predict, and validate with new experiments.
 
@@ -25,16 +25,16 @@ Summary of Omics4TB Datasets
 |                                                                                             |               | - `MTB Network Portal ChiP-seq`_ - Sorted and indexed ChIP-seq files                                      |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
 | `Mapping and manipulating the Mycobacterium tuberculosis transcriptome                      | `25380655`_   | - `GEO Accession: GSE59086`_ Transcription factor overexpression data from tiling microarray experiments  |
-| using a transcription factor overexpression-derived regulatory network`_                    |               | - `PATRIC: tfoe-meta.xls`_ Metadata file                                                                  |
+| using a transcription factor overexpression-derived regulatory network`_                    |               | - `tfoe-meta.xls`_ Metadata file                                                                          |
 |                                                                                             |               | - `MTB Network Portal TFOE`_ Sample information for each experiment                                       |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
 | A high-resolution network model for global gene regulation in Mycobacterium tuberculosis    | `25232098`_   | - `MTB Network Portal TFOE`_ Data sets and additional information                                         |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
-| A comprehensive map of genome-wide gene regulation                                          | `25977815`_   | - `PATRIC: ChIP-seq`_ ChIP-seq experiment information page                                                |
-| in Mycobacterium tuberculosis                                                               |               | - `PATRIC: TFOE Expression`_ TFOE Experiment information page                                             |
+| A comprehensive map of genome-wide gene regulation                                          | `25977815`_   | - `ChIP-seq`_ ChIP-seq experiment information page                                                        |
+| in Mycobacterium tuberculosis                                                               |               | - `TFOE Expression`_ TFOE Experiment information page                                                     |
 |                                                                                             |               | - `GEO Accession: GSE59086`_ Transcription factor overexpression data from tiling microarray experiments  |
 |                                                                                             |               | - `MTB Network Portal TFOE`_ Sample information for each experiment                                       |
-|                                                                                             |               | - `PATRIC: TFOE Expression Workspace`_ TFOE dataset in PATRIC Public Workspace                            |
+|                                                                                             |               | - `TFOE Expression Workspace`_ TFOE dataset in Public Workspace                                           |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
 | `Network analysis identifies Rv0324 and Rv0880 as regulators                                | `27573104`_   | - `GEO Accession: GSE72459`_ Expression profiling data                                                    |
 | of bedaquiline tolerance in Mycobacterium tuberculosis`_                                    |               |                                                                                                           |
@@ -42,11 +42,11 @@ Summary of Omics4TB Datasets
 | `MiR-155-regulated molecular network orchestrates cell fate                                 |               | - `GEO Accession: GSE79733`_ Expression Profiling data                                                    |
 | in the innate and adaptive immune response to Mycobacterium tuberculosis`_                  |               |                                                                                                           |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
-| Absolute Proteome Composition and Dynamics during                                           | `26094805`_   | - `PATRIC: Proteomics Workspace`_                                                                         |
+| Absolute Proteome Composition and Dynamics during                                           | `26094805`_   | - `Proteomics Workspace`_                                                                                 |
 | dormancy and resuscitation of Mycobacterium tuberculosis                                    |               |                                                                                                           |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
 | MTB Transcriptional Regulator Induction Phenotypic (TRIP) Screen                            |               | - `PeptideAtlas`_ Raw proteomics data                                                                     |
-|                                                                                             |               | - `PATRIC: TRIP Workspace`_                                                                               |
+|                                                                                             |               | - `TRIP Workspace`_                                                                                       |
 +---------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------------------------------------------------+
 
 
@@ -58,18 +58,18 @@ Summary of Omics4TB Datasets
 .. _`Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network`: https://www.patricbrc.org/webpage/website/data_collections/content/omics4tb_tfoe_expression_experiments.html
 .. _`25380655`: http://www.ncbi.nlm.nih.gov/pubmed/25380655
 .. _`GEO Accession: GSE59086`: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59086
-.. _`PATRIC: tfoe-meta.xls`: https://docs.patricbrc.org/_downloads/tfoe-meta.xls
+.. _`tfoe-meta.xls`: https://docs.patricbrc.org/_downloads/tfoe-meta.xls
 .. _`MTB Network Portal TFOE`: http://networks.systemsbiology.net/mtb/content/TFOE-Searchable-Data-File
 
 .. _`25232098`: http://www.ncbi.nlm.nih.gov/pubmed/25232098
 .. _`MTB Network Portal TFOE`: http://networks.systemsbiology.net/mtb/content/TFOE-Searchable-Data-File
 
 .. _`25977815`: http://www.ncbi.nlm.nih.gov/pubmed/25977815
-.. _`PATRIC: ChIP-seq`: https://www.patricbrc.org/webpage/website/data_collections/content/omics4tb_chip_seq_experiments.html
-.. _`PATRIC: TFOE Expression`: https://www.patricbrc.org/webpage/website/data_collections/content/omics4tb_tfoe_expression_experiments.html
+.. _`ChIP-seq`: https://www.patricbrc.org/webpage/website/data_collections/content/omics4tb_chip_seq_experiments.html
+.. _`TFOE Expression`: https://www.patricbrc.org/webpage/website/data_collections/content/omics4tb_tfoe_expression_experiments.html
 .. _`GEO Accession: GSE59086`: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59086
 .. _`MTB Network Portal TFOE`: http://networks.systemsbiology.net/mtb/content/TFOE-Searchable-Data-File
-.. _`PATRIC: TFOE Expression Workspace`: https://www.patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special Collections/NIAID Systems Biology Centers/Omics4TB`
+.. _`TFOE Expression Workspace`: https://www.patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special Collections/NIAID Systems Biology Centers/Omics4TB`
 
 .. _`Network analysis identifies Rv0324 and Rv0880 as regulators of bedaquiline tolerance in Mycobacterium tuberculosis`: https://www.patricbrc.org/webpage/website/data_collections/content/omics4tb_bedaquiline_tolerance.html
 .. _`27573104`: http://www.ncbi.nlm.nih.gov/pubmed/27573104
@@ -80,9 +80,9 @@ Summary of Omics4TB Datasets
 
 .. _`26094805`: https://www.ncbi.nlm.nih.gov/pubmed/26094805
 .. _`PeptideAtlas`: https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS_View?identifier=PASS00655
-.. _`PATRIC: Proteomics Workspace`: https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20proteome%20composition%20and%20dynamics
+.. _`Proteomics Workspace`: https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20proteome%20composition%20and%20dynamics
 
-.. _`PATRIC: Trip Workspace`: https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20TRIP%20relative%20fitness%20profiling
+.. _`Trip Workspace`: https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20TRIP%20relative%20fitness%20profiling
 
 The DNA-binding network of Mycobacterium tuberculosis
 ------------------------------------------------------
@@ -147,7 +147,7 @@ Mycobacterium tuberculosis remains a health concern due to its ability to enter 
 
 Raw proteomics data is available from PeptideAtlas located `here <https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS_View?identifier=PASS00655>`__
 
-Integrated relative quantification dataset is available from PATRIC workspace located `here <https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20proteome%20composition%20and%20dynamics>`__
+Integrated relative quantification dataset is available from the workspace located `here <https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20proteome%20composition%20and%20dynamics>`__
 
 MTB Transcriptional Regulator Induction Phenotypic (TRIP) Screen
 -----------------------------------------------------------------
@@ -160,4 +160,4 @@ in absence or presence of drug, averaged across experimental replicates. Also re
 are the accompanying z-scores for each TFI strain under each condition. Data for the 
 individual replicates are provided in the second tab.
 
-Integrated dataset is available from the PATRIC workspace located `here <https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20TRIP%20relative%20fitness%20profiling>`__
+Integrated dataset is available from the workspace located `here <https://patricbrc.org/workspace/PATRIC@patricbrc.org/home/Special%20Collections/NIAID%20Systems%20Biology%20Centers/Omics4TB/MTB%20TRIP%20relative%20fitness%20profiling>`__

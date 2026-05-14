@@ -1,7 +1,7 @@
 Data Sources and Protocols
 ==========================
 
-MAAGE uses standardized protocols for collecting, processing, annotating, and integrating bacterial and viral data from multiple sources. The links below provide detailed descriptions for each major data type.
+The platform uses standardized protocols for collecting, processing, annotating, and integrating bacterial and viral data from multiple sources. The links below provide detailed descriptions for each major data type.
 
 .. toctree::
    :maxdepth: 1
@@ -17,6 +17,3 @@ MAAGE uses standardized protocols for collecting, processing, annotating, and in
    protein_families
    specialty_genes
    transcriptomics
-
-
-

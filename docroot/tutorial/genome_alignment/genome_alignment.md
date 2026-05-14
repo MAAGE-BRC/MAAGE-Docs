@@ -3,7 +3,7 @@
 *Revised: February 12, 2024*
 
 DNA sequence alignment is a prerequisite to many comparative genomic analyses.
-For longer genomic DNA, it helps to identify medium and large-scale rearrangements, as well as insertions and deletions. The MAAGE Genome Alignment service uses progressiveMauve[1] which constructs positional homology multiple genome alignments to align regions conserved in subsets of the genomes.  The service uses genomes that are annotated within the MAAGE resource (they can be private or public genomes), and up to 20 genomes can be compared.
+For longer genomic DNA, it helps to identify medium and large-scale rearrangements, as well as insertions and deletions. The Genome Alignment service uses progressiveMauve[1] which constructs positional homology multiple genome alignments to align regions conserved in subsets of the genomes.  The service uses genomes that are annotated within the platform (they can be private or public genomes), and up to 20 genomes can be compared.
 
 ## Submitting the Genome Alignment job
 
@@ -13,7 +13,7 @@ For longer genomic DNA, it helps to identify medium and large-scale rearrangemen
 2.	This will open the landing page for the **Genome Alignment** service.
 ![Figure 2](./images/Picture2.png "Figure 2")
 
-3.	Genomes must be selected, either by using the name or the genome ID.  The genome **MUST** be in the MAAGE resource.  Private or public genomes can be selected. The first genome selected will be the reference genome, which other genomes will be compared to.  Entering the genome ID in the text box underneath Select Genome will open a drop-down box that shows the corresponding genome.  Clicking on the name will autofill the name of the genome in the text box.
+3.	Genomes must be selected, either by using the name or the genome ID.  The genome **MUST** be in the platform.  Private or public genomes can be selected. The first genome selected will be the reference genome, which other genomes will be compared to.  Entering the genome ID in the text box underneath Select Genome will open a drop-down box that shows the corresponding genome.  Clicking on the name will autofill the name of the genome in the text box.
 ![Figure 3](./images/Picture3.png "Figure 3")
 
 4.	Beginning to type the name in the text box underneath **Select Genomes** will show all possible genomes that match that text, starting with the private genomes (indicated by the lock symbol in front of the name).
@@ -43,7 +43,7 @@ For longer genomic DNA, it helps to identify medium and large-scale rearrangemen
 12.	A name must be entered in the text box underneath **Output Name**.  At this point, the job can be submitted.
 ![Figure 13](./images/Picture13.png "Figure 13")
 
-The MAAGE genome alignment service also allows users to adjust the Seed Weight and Weight.  To do this, click on the down arrow next to **Advanced (Optional)**. This will expand the **Parameters** box to show the **Seed Weight** slider, and the **Weight** text box. 
+The genome alignment service also allows users to adjust the Seed Weight and Weight.  To do this, click on the down arrow next to **Advanced (Optional)**. This will expand the **Parameters** box to show the **Seed Weight** slider, and the **Weight** text box. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
 14.	The **Seed Weight** parameter determines the minimum length of an inexact, ungapped match to be considered as an alignment anchor. By default, Mauve chooses this value to be appropriate for the length of sequences being aligned. The default seed size for 1MB genomes is typically around 11, is around 15 for 5MB genomes, and continues to grow with the size of the genomes being aligned.  The Weight determines the minimum pairwise score for a region to be considered as a locally collinear block (LCB). By default, an LCB weight of 3 times the seed size will be used. The default value is often too low, however, and this value should be set manually.
@@ -98,7 +98,7 @@ The MAAGE genome alignment service also allows users to adjust the Seed Weight a
 ![Figure 30](./images/Picture30.png "Figure 30")
 
 ## Source Code
-The code used in the MAAGE service can be found here:
+The code used in the service can be found here:
 https://github.com/PATRIC3/p3_mauve
 
 ## References

@@ -6,7 +6,7 @@
 The Phylogenetic Tree (Gene Tree) Building Service enables construction of custom phylogenetic trees built from user-selected genomes, genes or proteins. Trees can be built based on either nucleotide or protein input sequences. The "FastTree" option computes large minimum evolution trees with profiles instead of a distance matrix. [1,2]. We also offer two maximum likelihood tree building algorithms: PhyML [3] and RaxML [4]. User-defined settings are required for either. PhyML and RaxML infer a more evolutionarily-accurate phylogenetic topology by applying a substitution model to the nucleotide sequences. This algorithm is best applied to datasets containing: 
 1) fewer than 100 very long sequences, and
 2) between 100 and 1,000 small or medium length sequences.
-The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the MAAGE or downloaded and viewed in other software.   
+The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the platform or downloaded and viewed in other software.   
 
 ### See also
 * [Gene Tree Service](https://bv-brc.org/app/GeneTree)
@@ -15,22 +15,22 @@ The service returns a Newick file which can be rendered in the interactive Archa
 
 ## Locating the service
 
-At the top of any MAAGE page, find the **SERVICES** tab and then click on Gene Tree (Viral Services category). 
+At the top of any page, find the **SERVICES** tab and then click on Gene Tree (Viral Services category). 
  
 ![Figure 0](./images/Picture0.png "Figure 0")
 
-This will open the phylogenetic tree input form. *Note: You must be logged into MAAGE to use this service.* 
+This will open the phylogenetic tree input form. *Note: You must be logged in to use this service.* 
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
 ## Selecting input data
-The MAAGE offers several algorithms for tree building. Users may opt to build trees, using either aligned or unaligned nucleotide or protein sequences. We will describe the various input methods below.
+The platform offers several algorithms for tree building. Users may opt to build trees, using either aligned or unaligned nucleotide or protein sequences. We will describe the various input methods below.
 
 1\.	To select the type of input sequence: nucleotide or protein, select the appropriate box. 
 
 ![Figure 2](./images/Picture2.png "Figure 2")
 
-2\.	If you have previously aligned nucleotide or protein datasets using MAAGE, these fasta files can be added from your workspace either by clicking on the folder icon and searching for it, or simply typing the file name in the appropriate box. 
+2\.	If you have previously aligned nucleotide or protein datasets using the platform, these fasta files can be added from your workspace either by clicking on the folder icon and searching for it, or simply typing the file name in the appropriate box. 
 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
@@ -78,7 +78,7 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 
 ![Figure 13](./images/Picture13.png "Figure 13")
 
-9\.	The bottom right corner of the MAAGE page displays an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. 
+9\.	The bottom right corner of the page displays an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. 
 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
@@ -91,7 +91,7 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
-3\.	This will open a pop-up window where issues with specific jobs can be reported. Users can add any additional information and click the submission button to generate a message to MAAGE team members, notifying them that there has been a problem. 
+3\.	This will open a pop-up window where issues with specific jobs can be reported. Users can add any additional information and click the submission button to generate a message to the team, notifying them that there has been a problem. 
 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
@@ -103,7 +103,7 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-6.\. The resulting tree can be viewed in the MAAGE interactive Archaeopteryx.js Tree Viewer. To launch the viewer, click the **VIEW** icon at the top right of the page, to the left of the green bar.
+6.\. The resulting tree can be viewed in the interactive Archaeopteryx.js Tree Viewer. To launch the viewer, click the **VIEW** icon at the top right of the page, to the left of the green bar.
 
 ![Figure 19a](./images/Picture19a.png "Figure 19a")
 
@@ -112,7 +112,7 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 
 The [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx) provides detailed information about its features and options. 
 
-7\.	Click on the tree_report.html file. This will populate the vertical green bar with several icons for downloading the data, viewing it, deleting or renaming the file, copying or sharing with another MAAGE user, moving it to a different directory, or changing the type tagged to the file. To examine the tree_report.html, click on the View icon. 
+7\.	Click on the tree_report.html file. This will populate the vertical green bar with several icons for downloading the data, viewing it, deleting or renaming the file, copying or sharing with another user, moving it to a different directory, or changing the type tagged to the file. To examine the tree_report.html, click on the View icon. 
 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
@@ -141,4 +141,3 @@ The service generates several files that are deposited in the Private Workspace 
 2.	Price MN, Dehal PS, Arkin AP. FastTree 2--approximately maximum-likelihood trees for large alignments. PLoS One. 2010 Mar 10;5(3):e9490. doi: 10.1371/journal.pone.0009490. PMID: 20224823; PMCID: PMC2835736.
 3.	Guindon, S. and Gascuel, O., (2003) Syst Biol. 52: 696-704  
 4.	Stamatakis, A. et al. (2005) Bioinformatics 21: 456-463
-

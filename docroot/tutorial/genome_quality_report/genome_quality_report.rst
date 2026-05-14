@@ -63,7 +63,7 @@ Summary Section
 The summary section at the top of the page contains basic information about the whole genome. The following information is presented.
 
 Genome ID:
-    This is the PATRIC ID number of the genome being analyzed. The link takes you to the main :doc:`/quick_references/organisms_genome/overview`
+    This is the ID number of the genome being analyzed. The link takes you to the main :doc:`/quick_references/organisms_genome/overview`
     for the genome.
 
 Genome Name:
@@ -74,7 +74,7 @@ Reference Genomes:
     Normally, this is the ID of the highest-quality genome of the same species or genus. If it is blank, then either no quality genomes were
     found, or the genome itself is the one that would be normally chosen for this species. If the genome was produced by the binning service,
     then the genome is the closest genome believed to be of the same species. There may be multiple genomes listed for a binning result genome
-    in rare circumstances. The reference genomes are always public PATRIC genomes, and the links lead to each genome's main page.
+    in rare circumstances. The reference genomes are always public genomes, and the links lead to each genome's main page.
 
 Coarse Consistency:
     This is the percentage of roles whose presence or absence was correctly predicted by EvalCon. A higher number indicates the genome annotation
@@ -266,7 +266,7 @@ The Contig Report lists all of the contigs containing features that implement po
 The four columns are as follows.
 
 Contig Name:
-    The name of the contig. This is its PATRIC ID normally, but may be its node identifier if the report was produced during binning. The link takes you to a list of
+    The name of the contig. This is its ID normally, but may be its node identifier if the report was produced during binning. The link takes you to a list of
     all the features in the contig.
 
 Length:
@@ -279,5 +279,3 @@ Good Features:
 Feature Link:
     Indicates the number of features implementing problematic roles. If there is only one, the link will take you to the feature's :doc:`/quick_references/organisms_gene/overview`.
     If there is more than one, the link will take you to the :doc:`/quick_references/organisms_taxon/features` for the features in question.
-
-

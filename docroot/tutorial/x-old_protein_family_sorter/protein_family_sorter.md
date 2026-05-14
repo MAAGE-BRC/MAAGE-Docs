@@ -1,10 +1,10 @@
 # Protein Family Sorter Tool
 
-The Protein Family Sorter tool enables researchers to examine the distribution of specific protein families across different genomes.  The tool uses PATtyFams[1], the protein families that are assigned in the MAAGE annotation process.  There are two types of PATtyFams.  The global families, known as **PGFams**, can be used for cross genus comparisons.  The local families (**PLFams**) are for intra-genus comparisons.
+The Protein Family Sorter tool enables researchers to examine the distribution of specific protein families across different genomes.  The tool uses PATtyFams[1], the protein families that are assigned in the annotation process.  There are two types of PATtyFams.  The global families, known as **PGFams**, can be used for cross genus comparisons.  The local families (**PLFams**) are for intra-genus comparisons.
 
 ## Locating the Protein Family Sorter App
 
-1.	At the top of any MAAGE page, find the Services tab and click on Protein Family Sorter. 
+1.	At the top of any page, find the Services tab and click on Protein Family Sorter. 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
 2.	This will open up the Protein family Sorter landing page. 
@@ -37,7 +37,7 @@ The Protein Family Sorter tool enables researchers to examine the distribution o
 
 ## Selecting Protein Family Type
 
-1.	MAAGE offers three types of protein families. The default, PGFams, are protein families that cross the genus boundary. PLFams are protein families across a genus. FigFams[2] are an older protein family that is not updated, where the protein families are united by function. Clicking on the down arrow at the end of the text box under Family Type will show the two types of protein families. Clicking on one will select it for the analysis.
+1.	The platform offers three types of protein families. The default, PGFams, are protein families that cross the genus boundary. PLFams are protein families across a genus. FigFams[2] are an older protein family that is not updated, where the protein families are united by function. Clicking on the down arrow at the end of the text box under Family Type will show the two types of protein families. Clicking on one will select it for the analysis.
 ![Figure 10](./images/Picture10.png "Figure 10")
 
 ## Submitting the Protein Family Sorter job
@@ -71,7 +71,7 @@ The Protein Family Sorter tool enables researchers to examine the distribution o
 7.	The text box filter can also be used to find protein family IDs, which is an excellent way to see presence and absence across a group of genomes.  Entering the IDs in the table and then clicking on the filter icon will reload the table to show the protein families that meet that criterion. 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-8.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  In MAAGE, perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the **Phylogenetic Tree Service**, which could be used to see if a group of genomes are “tree-able.” 
+8.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  Perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the **Phylogenetic Tree Service**, which could be used to see if a group of genomes are “tree-able.” 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 9.	The “non-perfect” protein families can also be examined, both selecting the **Non perfect Families** button, or filtering by the **Number of Proteins per Family**. 
@@ -103,7 +103,7 @@ The Protein Family Sorter tool enables researchers to examine the distribution o
 7.	Clicking on **Advanced** will show the different clustering options. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-8.	MAAGE allows researcher to cluster by either **Protein Families**, **Genomes**, or **Both**.  The default is set to Both. 
+8.	The platform allows researchers to cluster by either **Protein Families**, **Genomes**, or **Both**.  The default is set to Both. 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
 9.	To see the **Clustering algorithm** choices, click on the down arrow that follows **Pearson correlation**, which is the default setting.  

@@ -1,7 +1,7 @@
 :orphan:
 
-Reconstructing Genomes from Metagenomic Samples Using the RAST Binning Service (RBS)
-====================================================================================
+Reconstructing Genomes from Metagenomic Samples Using the Binning Service
+=========================================================================
 
 The ability to reconstruct fairly complete genomes from metagenomic
 samples is almost certainly a key technology that will accelerate our
@@ -20,9 +20,7 @@ for unculturable organisms. For background we particularly recommend
 but there have been several other excellent efforts that have been
 reported over the last few years.
 
-RBS is a server that grew out of the RAST annotation project; it is now
-supported and maintained as part of the PATRIC project. In this tutorial
-we will discuss what RBS does. For a discussion of how to use it see
+In this tutorial we will discuss what the binning service does. For a discussion of how to use it see
 :doc:`/tutorial/metagenomic_binning/metagenomic_binning`.
 
 The Server: an Overview
@@ -32,15 +30,15 @@ As input to the server, a user supplies a metagenomic sample in one of
 the following forms:
 
 #. two files containing paired-end reads,
-#. a file of contigs representing an assembled sample. Note that RBS
+#. a file of contigs representing an assembled sample. Note that the binning service
    is able to function without coverage data; however, if coverage
    information is present in the FASTA sequence identifier or comment,
-   RBS will find it and use this information to improve the binning.
+   the binning service will find it and use this information to improve the binning.
 
 
-The output is a set of *Genome Packages*. Each genome package is a
-*Rast Genome* along with an *Evaluation Report* which estimates the
-quality of the RAST genome.
+The output is a set of *Genome Packages*. Each genome package is an
+annotated genome along with an *Evaluation Report* which estimates the
+quality of the genome.
 
 The goal is to reconstruct complete (or near-complete) genomes from the
 sample data. Reconstructing a complete genome including the
@@ -80,7 +78,7 @@ but there are other good choices.
 Once we selected a role, which we call the *seed role*, we
 constructed a blast database containing a representative collection of
 protein sequences that implement the seed role.
-A crude version of this database can be built using the PATRIC command line tools,
+A crude version of this database can be built using the command line tools,
 described in :doc:`/cli_tutorial/cli_getting_started`. The following sequence
 does the trick.
 
@@ -109,28 +107,28 @@ score (see section 5 below), and should be set aside for further processing.
 Step 2: For Each Sample, Compute a Set of Reference Genomes
 -----------------------------------------------------------
 
-At this point, RBS has computed a set of bins, where each bin conceptually contains a
+At this point, the binning service has computed a set of bins, where each bin conceptually contains a
 single *seed role* and the contig that contains that seed role. Our
 overall objective is to determine which contigs from the cross-assembly
-associated with the sample should be placed into each bin. That is, RBS
+associated with the sample should be placed into each bin. That is, the binning service
 needs to split the contig pool into subsets that go with each bin, and an
 extra set of contigs that could not be placed (there may be many of
 these coming from the non-abundant organisms included in the sample, as
 well as those contigs whose placement would be ambiguous). There are
 several possible strategies for placing contigs into
-bins. RBS uses *reference genomes*. This involves
+bins. The binning service uses *reference genomes*. This involves
 associating a known, sequenced reference genome with each of the bins.
 These reference genomes play a central role in the next step, which
 involves actually splitting up the pool of contigs in the
 sample.
 
 So, how should we go about assigning a sequenced reference genome to
-each bin? RBS attempts to find a reference genome that is
+each bin? The binning service attempts to find a reference genome that is
 phylogenetically close to each bin. To be useful, the reference genome
 needs to be substantially closer to the genome represented by the
 bin than to any of the genomes represented by other bins. A *blastn* is
 used to compare the seed role instance in the bin contig to all of the
-seed roles from the PATRIC database as computed in the preparation step
+seed roles from the database as computed in the preparation step
 above. If the seed roles in two bins appear to belong to the same species,
 they are combined into a single bin.
 
@@ -170,15 +168,15 @@ of a bin? Fortunately, several such tools exist. The most notable is
         isolates, single cells, and metagenomes.  Genome Research, 25:
         1043-1055.
 
-We also annotate the bin using PATRIC RAST, and perform a consistency check
+We also annotate the bin and perform a consistency check
 on the annotation as a second check on the quality. The consistency-checking
 tool maintains a database of which functional roles tend to occur in the presence
 of others and which should not appear in the presence of others. This database
-is applied to the annotations from RAST to produce a coarse score (percentage of
+is applied to the annotations to produce a coarse score (percentage of
 roles that are correctly present or absent) and a fine score (percentage of roles
 that are correctly absent or present in the correct number).
 
-The RBS output displays the high-quality bins separately from the bins of more
+The output displays the high-quality bins separately from the bins of more
 dubious quality.
 
 

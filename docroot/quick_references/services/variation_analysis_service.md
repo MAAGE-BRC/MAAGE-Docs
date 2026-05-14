@@ -8,7 +8,7 @@ The Variation Analysis Service can be used to identify and annotate sequence var
 * [Variation Analysis Service Tutorial](/tutorial/variation_analysis/variation_analysis)
 
 ## Using the Variation Analysis Service
-The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged in to use this service.*
 
 ![Variation Analysis Menu](../images/bv_services_menu.png)
 
@@ -38,7 +38,7 @@ Allows direct upload of read files from the [NCBI Sequence Read Archive](https:/
 
 **LAST:** LAST can handle big sequence data, like comparing two vertebrate genomes. It can align billions of DNA reads to a genome, and will indicate reliability of each aligned column. In addition, it can compare DNA to proteins, with frameshifts, compare PSSMs to sequences, calculates the likelihood of chance similarities between random sequences, does split and spliced alignment, and can be trained for unusual kinds of sequences (like nanopore).
 
-**minimap2:** minimap2 is a versatile sequence mapping and alignment program for the most popular long read sequencing platforms like Oxford Nanopore Technologies (ONT) and Pacific Biosciences (PacBio). It is very fast and accurate compared to other long-read mappers. minimap2 works efficiently with query sequences from a few kilobases to ~100 megabases in length at an error rate ~15%. It also works with accurate short reads of ≥100 bp in length. Currently, this option uses minimap2 default parameters.
+**minimap2:** minimap2 is a versatile sequence mapping and alignment program for the most popular long read sequencing platforms like Oxford Nanopore Technologies (ONT) and Pacific Biosciences (PacBio). It is very fast and accurate compared to other long-read mappers. minimap2 works efficiently with query sequences from a few kilobases to ~100 megabases in length at an error rate ~15%. It also works with accurate short reads of ≥100 bp in length. Currently, this option uses minimap2 default parameters.
 
 ### SNP Caller
 
@@ -90,7 +90,7 @@ The Variation Service generates several files that are deposited in the Private 
   * Ref_nt_pos_change - nucleotide change
   * Ref_aa_pos_change - amino acid change
   * Frameshift - frameshift variant
-  * Gene_ID - MAAGE feature (peg) id
+  * Gene_ID - feature (peg) id
   * Locus_tag - RefSeq locus tag
   * Gene_name - gene name
   * Function - function description
@@ -111,7 +111,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename:** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
-* **Edit Type:** Allows changing of the type of the file in terms of how MAAGE interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type:** Allows changing of the type of the file in terms of how the platform interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 

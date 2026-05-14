@@ -10,7 +10,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
 
 ## Locating the Assembly Service App
 
-1. At the top of any MAAGE page, find the Services tab and click on it
+1. At the top of any page, find the Services tab and click on it
 ![Figure 1](./images/Picture1.png)
 
 2. In the drop-down box, underneath Genomics, click on Assembly.
@@ -25,7 +25,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
  
 2. The reads must be located in the workspace. To initiate the upload, first click on the folder icon.
 
-3. At the top of any MAAGE page, find the Services tab and click on it
+3. At the top of any page, find the Services tab and click on it
 ![Figure 5](./images/Picture5.png)
 
 4. This opens up a window where the files for upload can be selected. Click on the icon with the arrow pointing up. 
@@ -43,7 +43,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
 8. This will auto-fill the name of the document into the text box. 
 ![Figure 10](./images/Picture10.png)
 
-9. Pay attention to the upload monitor in the lower right corner of the MAAGE page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.
+9. Pay attention to the upload monitor in the lower right corner of the page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.
 ![Figure 11](./images/Picture11.png)
 
 10. Repeat to upload the second pair of reads.
@@ -52,7 +52,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
 11. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 13](./images/Picture13.png)
 
-12. The assembly protocol in MAAGE assumes that the paired end reads are not interleaved and that the library creation was standard.  It will also infer the platform from the type of reads that it sees.  If one wishes to change these parameters, click on the down arrow following Advanced in the Paired read library box.  This will extend the box to show three additional parameters that can be selected.
+12. The assembly protocol assumes that the paired end reads are not interleaved and that the library creation was standard.  It will also infer the platform from the type of reads that it sees.  If one wishes to change these parameters, click on the down arrow following Advanced in the Paired read library box.  This will extend the box to show three additional parameters that can be selected.
 ![Figure 14](./images/Picture14.png)
 
 13. Interleaved files occur when the R1 and R2 reads are combined in one file, so that for each read pair, the R1 read in the file comes immediately before the R2 read, followed by the R1 read for the next read pair, and so on.  This happens rarely, but if the read files are interleaved, click on the arrow at the end of the text box underneath the words “File 1 Interleaved” and click on True.
@@ -86,7 +86,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
 
 ## Submitting reads that are present at the Sequence Read Archive (SRA)
 
-1. MAAGE also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number that you will find at SRA and copy it.
+1. The platform also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number that you will find at SRA and copy it.
 ![Figure 24](./images/Picture24.png)
 
 2. Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.  This will move the file into the Selected libraries box.
@@ -94,7 +94,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
 
 ## Setting Parameters
 
-1. The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that MAAGE offers.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection.
+1. The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the available strategies.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection.
 
   * Unicycler[1] is an assembly pipeline that can assemble Illumina-only read sets where it functions as a SPAdes-optimizer. It can also assembly long-read-only sets (PacBio or Nanopore) where it runs a miniasm plus Racon pipeline. For the best possible assemblies, give it both Illumina reads and long reads, and it will conduct a hybrid assembly.  Unicycler builds an initial assembly graph from short reads using the de novo assembler and then uses a novel semi-global aligner to align long reads to it. The latest version of Unicycler is available here (https://github.com/rrwick/Unicycler).
 
@@ -120,11 +120,11 @@ Selecting Auto will use Canu if only long reads are submitted. If long and short
 4. A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words Output Name.
 ![Figure 29](./images/Picture29.png)
 
-5. The MAAGE assembly service also has options to trim the reads using TrimGalore[6], correct assembly errors (or “polish) using Racon[7] and/or Pilon[8], and also provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word “Advanced” in the Parameters box.
+5. The assembly service also has options to trim the reads using TrimGalore[6], correct assembly errors (or “polish) using Racon[7] and/or Pilon[8], and also provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word “Advanced” in the Parameters box.
 
 Both racon and pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads.  Where there is a discrepancy, racon or pilon will correct the assembly if the majority of the reads call for that.  Racon is for long reads (PacBio or Nanopore) and pilon is for shorter reads (Illumina or Ion Torrent).  Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time.
 
-MAAGE allows for 0 to 4 racon or pilon iterations.
+The platform allows for 0 to 4 racon or pilon iterations.
 ![Figure 30](./images/Picture30.png)
 
 ## Submitting the Assembly job
@@ -132,11 +132,11 @@ MAAGE allows for 0 to 4 racon or pilon iterations.
 1. Once reads are in the Selected libraries and all the parameters have been selected, the Assemble button at the bottom of the page will turn blue.  The assembly will be submitted once this button is clicked.
 ![Figure 31](./images/Picture31.png)
 
-2. A message will appear at the bottom of the page, indicating that the submitted job has entered the MAAGE queue.
+2. A message will appear at the bottom of the page, indicating that the submitted job has entered the queue.
 ![Figure 32](./images/Picture32.png)
 
 ## Monitoring progress on the Jobs page
-1. Clicking on the Jobs box at the bottom right of any MAAGE page/
+1. Clicking on the Jobs box at the bottom right of any page/
 ![Figure 33](./images/Picture33.png)
 
 2. This will open the Jobs Landing page where the status of submitted jobs is displayed.
@@ -228,4 +228,3 @@ MAAGE allows for 0 to 4 racon or pilon iterations.
 8.	Walker, B.J., et al., Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PloS one, 2014. 9(11): p. e112963.
 9.	Wick, R.R., et al., Bandage: interactive visualization of de novo genome assemblies. Bioinformatics, 2015. 31(20): p. 3350-3352.
 10.	Gurevich, A., et al., QUAST: quality assessment tool for genome assemblies. Bioinformatics, 2013. 29(8): p. 1072-1075.
-

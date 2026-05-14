@@ -20,7 +20,7 @@ The **Protein Family Sorter** submenu option under the **Services** main menu (P
 Input box for selecting genomes to include in the comparison. Click the arrow icon (->) to add to the set of Selected Genomes.
 
 ## Select Genome Group
-Input box for selecting genome group(s) to include in the comparison.  Click the folder icon to navigate through the workspace to locate the genome group(s) of interest. Click the arrow icon (->) to add to the set of Selected Genomes. *Note: You must be logged into MAAGE to access genome groups in your private workspace.*
+Input box for selecting genome group(s) to include in the comparison.  Click the folder icon to navigate through the workspace to locate the genome group(s) of interest. Click the arrow icon (->) to add to the set of Selected Genomes. *Note: You must be logged in to access genome groups in your private workspace.*
 
 ## Selected Genomes
 List of genomes or genome groups that will be used in the comparison

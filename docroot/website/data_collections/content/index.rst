@@ -1,6 +1,6 @@
 :orphan:
 
-PATRIC Content Pages
+Content Pages
 ==================================
 
 .. toctree::

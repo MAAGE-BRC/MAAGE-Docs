@@ -8,7 +8,7 @@ The Genome Browser provides an interactive graphical representation of the align
   * Exploring a (private) genome tutorial
 
 ## Accessing the Genome Browser
-Clicking the Genome Browser Tab in a Genome View displays the interactive Genome Browser, shown below. You may also access the Genome Browser from MAAGE tables that contain genomes by selecting the genome row and clicking the Genome Browser button in the vertical green Action Bar on the right side of the table.
+Clicking the Genome Browser Tab in a Genome View displays the interactive Genome Browser, shown below. You may also access the Genome Browser from tables that contain genomes by selecting the genome row and clicking the Genome Browser button in the vertical green Action Bar on the right side of the table.
 
 ![Genome Browser](../images/genome_browser.png)
 
@@ -35,7 +35,7 @@ The Genome Browser provides an interactive graphical representation of the align
 * **Highlight** a region of the browser using the Highlight Button in the Zoom Bar next to the sequence range near the top of the browser. Clear highlighted sections via the View menu. Note: A highlighted notation will remain when using the Share Button.
 
 ## Browser Tracks and Downloading
-By default, the Genome Browser initially displays MAAGE and RefSeq (if available)  annotated data tracks. If available, additional tracks from other annotation sources are located in the Available Tracks column, along the left side of the Genome Browser.
+By default, the Genome Browser initially displays the platform's and RefSeq (if available) annotated data tracks. If available, additional tracks from other annotation sources are located in the Available Tracks column, along the left side of the Genome Browser.
 
 * **Add or remove tracks** by either selecting or unselecting the track name in the Available Tracks box on the left side, or alternately, either clicking the "x" beside the track name or clicking and dragging the track between the Available Tracks box and the browser window.
 

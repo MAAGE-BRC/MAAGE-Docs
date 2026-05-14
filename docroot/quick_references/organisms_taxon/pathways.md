@@ -18,7 +18,7 @@ Pathways come from the Kyoto Encyclopedia of Genes and Genomes, commonly known a
 
 * **RefSeq Locus Tag:** Unique identifier assigned specific gene in the genome associated with the pathway within the NCBI Reference Sequence (RefSeq) database 
 
-* **BRC ID:** MAAGE identifier associated with the gene/feature
+* **BRC ID:** Identifier associated with the gene/feature
 
 * **Gene:** Gene name, if available
 

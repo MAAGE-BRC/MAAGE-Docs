@@ -10,11 +10,11 @@ Different assemblers are designed for different type of read technologies. Secon
 
 What follows is a tutorial showing how to submit reads of various types for assembly and selecting parameters for the assembly algorithm.  Note that reads from different sequencing platforms of the same organism can be submitted in one job. If PacBio and Illumina reads are available, both would be combined to generate the best assembly. This is called a hybrid assembly.
 
-The MAAGE Genome Assembly service uses a number of open source, third-part bioinformatics programs that are depicted below.
+The Genome Assembly service uses a number of open source, third-part bioinformatics programs that are depicted below.
 
 ![Figure Assembly_pipeline_v4](./images/Assembly_pipeline_v4.png)
 
-## Files accepted by MAAGE Assembly Service
+## Files accepted by the Assembly Service
 
 The assembly service accepts read files in either fastq, fasta, fastq.gz, or fasta.gz format. 
 
@@ -55,7 +55,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 
 ## Locating the Assembly Service App
 
-1.	At the top of any MAAGE page, find the **Tools & Services** tab and click on it.
+1.	At the top of any page, find the **Tools & Services** tab and click on it.
 ![Figure 8](./images/Picture8.png)
 
 2.	In the drop-down box, underneath **Genomics**, click on **Genome Assembly (B)**.
@@ -87,7 +87,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 7.	This will auto-fill the name of the document into the text box.  
 ![Figure 17](./images/Picture17.png)
 
-8.	Pay attention to the **Upload Monitor** in the lower right corner of the MAAGE page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.
+8.	Pay attention to the **Upload Monitor** in the lower right corner of the page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.
    
 ![Figure 18](./images/Picture18.png)
 
@@ -117,7 +117,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)
 
-1.	MAAGE also supports analysis of existing datasets from SRA. To submit this type of data, locate the **Run Accession number** that you will find at SRA and copy it.
+1.	The platform also supports analysis of existing datasets from SRA. To submit this type of data, locate the **Run Accession number** that you will find at SRA and copy it.
 
 ![Figure 25](./images/Picture25.png)
 
@@ -127,7 +127,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 
 ## Setting Parameters
 
-1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under **Assembly Strategy** will open a drop-down box that shows all the strategies that MAAGE offers.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection: 
+1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under **Assembly Strategy** will open a drop-down box that shows all the strategies offered.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection: 
 
 * **Unicycler** [1] is an assembly pipeline that can assemble Illumina-only read sets where it functions as a SPAdes-optimizer. It can also be used to assembly long read sets (PacBio or Nanopore), as long as short reads are included.  This is a hybrid assembly.  Unicycler builds an initial assembly graph from short reads using the *de novo* assembler and then uses a novel semi-global aligner to align long reads to it. The latest version of Unicycler is available here (https://github.com/rrwick/Unicycler).
 
@@ -156,11 +156,11 @@ The latest version of the SPAdes toolkit that includes plasmidSPAdes is availabl
 4.	A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words **Output Name**.
 ![Figure 30](./images/Picture30.png)
 
-5.	The MAAGE assembly service also has options to trim the reads using TrimGalore[7]. The assembly pipeline also has an option for nomalizing the reads.  It uses BBNorm to normalize coverage by down-sampling reads over high-depth areas of a genome, to result in a flat coverage distribution (http://sourceforge.net/projects/bbmap/). Assembly errors can be improved (or “polished) using Racon[8] and/or Pilon[9].  The servicealso provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word **Advanced** in the **Parameters** box.
+5.	The assembly service also has options to trim the reads using TrimGalore[7]. The assembly pipeline also has an option for nomalizing the reads.  It uses BBNorm to normalize coverage by down-sampling reads over high-depth areas of a genome, to result in a flat coverage distribution (http://sourceforge.net/projects/bbmap/). Assembly errors can be improved (or “polished) using Racon[8] and/or Pilon[9].  The servicealso provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word **Advanced** in the **Parameters** box.
 
 Polishing requires some explanation.  If there is a position in an assembly where the reads disagree, it indicates that the assembly is wrong.  Pilon and Racon will look at the locations of the discrepancies, and, if the majority and quality indicate, they will correct the call of the base pair. Polishing the long reads reuires Minimap2[10] to map the reads to the assembly, and then Racon is used to correct the assembly.  Polishing short reads first uses Bowtie 2[11], which generates a SAM file.  SAMtools [12] creates a BAM file from the SAM file, as this is a requirement of Pilon prior to read correction.
 
-Once the assembly has been corrected (polished) with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. MAAGE allows for 0 to 4 racon or pilon iterations, with the default being 2 iterations.
+Once the assembly has been corrected (polished) with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. The platform allows for 0 to 4 racon or pilon iterations, with the default being 2 iterations.
 
 ![Figure 31](./images/Picture31.png)
 
@@ -169,11 +169,11 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 1.	Once reads are in the Selected libraries and all the parameters have been selected, the **Assemble** button at the bottom of the page will turn blue.  The assembly will be submitted once this button is clicked.
 ![Figure 32](./images/Picture32.png)
 
-2.	A message will appear at the bottom of the page, indicating that the submitted job has entered the MAAGE queue.
+2.	A message will appear at the bottom of the page, indicating that the submitted job has entered the queue.
 ![Figure 33](./images/Picture33.png)
 
 ### Monitoring progress on the Jobs page
-1.	Clicking on the **Jobs** box at the bottom right of any MAAGE page/
+1.	Clicking on the **Jobs** box at the bottom right of any page/
 ![Figure 34](./images/Picture34.png)
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed.
@@ -211,7 +211,7 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 
 ### Contig file
 
-1.	The whole point of the assembly service is the generation of a contig file from the submitted reads.  The contig file can be used in downstream services.  Note that the file, which can be clicked on from the Jobs page, has the type matched as “contigs” in the information panel beyond the green bar.  The contig file can be used as is in MAAGE or downloaded for use in other resources or pipelines.
+1.	The whole point of the assembly service is the generation of a contig file from the submitted reads.  The contig file can be used in downstream services.  Note that the file, which can be clicked on from the Jobs page, has the type matched as “contigs” in the information panel beyond the green bar.  The contig file can be used as is on the platform or downloaded for use in other resources or pipelines.
 ![Figure 45](./images/Picture45.png)
 
 2.	Once the contig file is downloaded, it can be opened for viewing in a text file on the computer.

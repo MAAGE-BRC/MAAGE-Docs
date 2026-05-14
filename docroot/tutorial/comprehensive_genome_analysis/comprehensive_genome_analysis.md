@@ -2,10 +2,10 @@
 
 *Revised: 1/26/2022*
 
-One of the most common use cases for analysis of private genomes at MAAGE is for researchers to assemble and then annotate their genome sequences using two separate services. The streamlined Comprehensive Genome Analysis ‘meta-service’ addresses this need by accepting sequencing reads, computing the assembly and annotation, and providing a user-friendly description of the genome. The output includes a genome quality assessment, AMR genes and phenotype predictions, specialty genes, subsystem overview, identification of the closest genome sequences, a phylogenetic tree and a list of features that distinguish the genome from its nearest neighbors. The Comprehensive Genome Analysis Service has quickly risen to be one of the most popular services[1].
+One of the most common use cases for analysis of private genomes is for researchers to assemble and then annotate their genome sequences using two separate services. The streamlined Comprehensive Genome Analysis ‘meta-service’ addresses this need by accepting sequencing reads, computing the assembly and annotation, and providing a user-friendly description of the genome. The output includes a genome quality assessment, AMR genes and phenotype predictions, specialty genes, subsystem overview, identification of the closest genome sequences, a phylogenetic tree and a list of features that distinguish the genome from its nearest neighbors. The Comprehensive Genome Analysis Service has quickly risen to be one of the most popular services[1].
 
 Creating a folder to hold the assembly job and related data
-Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the MAAGE or PATRIC .
+Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder.
 
 ## Locating the Comprehensive Genome Analysis Service
 
@@ -54,7 +54,7 @@ Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annota
 
 ## CGA job results-Full Genome Report
 
-1.	MAAGE and PATRIC now provide a genome announcement style document for any genome annotated using the Comprehensive Genome Analysis service.  To see this document, select the row that contains the FullGenomeReport.html and click on the view or download icon in the vertical green bar.
+1.	The platform now provides a genome announcement style document for any genome annotated using the Comprehensive Genome Analysis service.  To see this document, select the row that contains the FullGenomeReport.html and click on the view or download icon in the vertical green bar.
 ![Figure 6](./images/Picture6.png "Figure 6")
 
 2.	The full genome report provides a detailed summary of the genome.  It begins with a summary of the genome quality, and then provides information for each step of the service, which includes assembly, annotation, and analysis of specialty genes and functional categories, and a phylogenetic tree of the new genome and its closest high-quality relatives. 
@@ -72,28 +72,28 @@ Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annota
 6.	The Genome Annotation section also includes a circular diagram of the genes, their orientation, homology to AMR genes and virulence factors, and GC content and skew.  Genes on the forward and reverse strands are colored based on the subsystem[2] that they belong to. A separate, downloadable svg or png of the circular graph image is available in the jobs list. 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
-7.	MAAGE BLATs[3] all genes in a new genome against specialty gene databases, including genes known to provide antibiotic resistance[4-6], virulence factors[7-9], transporters[10, 11], and known drug targets[12].  The CGA service shows the hits in the new genome that has homology to genes in those databases in a tabular form. 
+7.	The platform BLATs[3] all genes in a new genome against specialty gene databases, including genes known to provide antibiotic resistance[4-6], virulence factors[7-9], transporters[10, 11], and known drug targets[12].  The CGA service shows the hits in the new genome that has homology to genes in those databases in a tabular form. 
 ![Figure 12](./images/Picture12.png "Figure 12")
 
-8.	MAAGE provides AMR phenotype predictions using custom built AdaBoost (adaptive boosting) machine learning classifiers[13]. 
+8.	The platform provides AMR phenotype predictions using custom built AdaBoost (adaptive boosting) machine learning classifiers[13]. 
 ![Figure 13](./images/Picture13.png "Figure 13")
 
-9.	In addition, MAAGE provides a k-mer based detection method for antimicrobial resistance genes[6] and shows the number of genes that share these k-mers. 
+9.	In addition, the platform provides a k-mer based detection method for antimicrobial resistance genes[6] and shows the number of genes that share these k-mers. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
-10.	MAAGE’s subsystem analysis identifies genes based on specific biological processes that they are hypothesized to be active in.  The full genome report includes a pie chart showing the subsystems super classes[2], and an indication of the number of subsystems within that superclass (first number) and the number of annotated genes that are part of the superclass (second number).
+10.	The subsystem analysis identifies genes based on specific biological processes that they are hypothesized to be active in.  The full genome report includes a pie chart showing the subsystems super classes[2], and an indication of the number of subsystems within that superclass (first number) and the number of annotated genes that are part of the superclass (second number).
 ![Figure 15](./images/Picture15.png "Figure 15")
 
-11.	The CGA service identifies the closest relatives to the selected genome. It picks the closest reference and representative genomes using Mash/MinHash[14], and then takes five of MAAGE’s global protein families[15] that are shared across all the selected genomes to build a tree based on the amino acid and nucleotide alignments of those proteins, which are aligned using MUSCLE[16], and RaxML[17] is used to build the tree. The genome submitted to the CGA is in red. 
+11.	The CGA service identifies the closest relatives to the selected genome. It picks the closest reference and representative genomes using Mash/MinHash[14], and then takes five global protein families[15] that are shared across all the selected genomes to build a tree based on the amino acid and nucleotide alignments of those proteins, which are aligned using MUSCLE[16], and RaxML[17] is used to build the tree. The genome submitted to the CGA is in red. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
 ## Viewing the genome 
 
-Private genomes that have been annotated in MAAGE or PATRIC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function. Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation) for instructions on viewing the genome using the View, CDS or Browser icons.
+Private genomes that have been annotated can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function. Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation) for instructions on viewing the genome using the View, CDS or Browser icons.
 
 ## CGA job results-download files
 
-1.	Any job run in the MAAGE contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word “**Parameters**.” 
+1.	Any job run on the platform contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word “**Parameters**.” 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
 2.	This will open a drop-down box that shows the parameters.  This box can be closed by clicking on the same arrow. 
@@ -102,7 +102,7 @@ Private genomes that have been annotated in MAAGE or PATRIC can be viewed direct
 3.	The **genome** contains a special “Genome Typed Object (GTO)” JSON-format file that encapsulates all the data from the annotated genome.
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-4.	MAAGE provides a circular visualization of the genome that uses Circos[18], which can also be found in the Full Genome Report.  The download files include a portable graphics format (**circos.png**) and a scaled vector format (**circos.svg**).
+4.	The platform provides a circular visualization of the genome that uses Circos[18], which can also be found in the Full Genome Report.  The download files include a portable graphics format (**circos.png**) and a scaled vector format (**circos.svg**).
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 5.	The Full Genome Report contains a phylogenetic tree based on five shared protein families.  This is also available as a separate download in svg format (**codonTree.svg**).  The genome annotated is highlighted in red.
@@ -167,4 +167,3 @@ The CGA service provides downloadable files and statistics for the assembly port
 16.	Edgar, R.C., MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic acids research, 2004. 32(5): p. 1792-1797.
 17.	Stamatakis, A., RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics, 2014. 30(9): p. 1312-1313.
 18.	Krzywinski, M., et al., Circos: an information aesthetic for comparative genomics. Genome research, 2009. 19(9): p. 1639-1645.
-

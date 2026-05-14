@@ -1,18 +1,18 @@
 # Genome Annotation Service
 
 ## Overview
-The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/), for bacteria and the [Viral Genome ORF Reader (VIGOR4)](https://github.com/JCVenterInstitute/VIGOR4) for viruses. The service accepts a FASTA formatted contig file and an annotation recipe based on taxonomy to provide an annotated genome, to provide annotation of genomic features. Once the annotation process has started by clicking the “Annotate” button, the genome is queued as a “job” for the Annotation Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the annotation job has successfully completed, the output file will appear in the workspace, available for use in the MAAGE comparative tools and/or can be downloaded if desired.
+The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/), for bacteria and the [Viral Genome ORF Reader (VIGOR4)](https://github.com/JCVenterInstitute/VIGOR4) for viruses. The service accepts a FASTA formatted contig file and an annotation recipe based on taxonomy to provide an annotated genome, to provide annotation of genomic features. Once the annotation process has started by clicking the “Annotate” button, the genome is queued as a “job” for the Annotation Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the annotation job has successfully completed, the output file will appear in the workspace, available for use in the comparative tools and/or can be downloaded if desired.
 
 ## See also
 * [Genome Annotation Service](https://bv-brc.org/app/Annotation)
 * [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation)
 
 ## Using the Genome Annotation Service
-The **Annotation** submenu option under the **Services** main menu (Genomics category) opens the Genome Annotation input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Annotation** submenu option under the **Services** main menu (Genomics category) opens the Genome Annotation input form (*shown below*). *Note: You must be logged in to use this service.*
 
 ![Annotation Menu](../images/bv_services_menu.png)
 
-*Note:* Both RASTtk and VIGOR4 also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the MAAGE Command Line Interface (CLI).
+*Note:* Both RASTtk and VIGOR4 also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the Command Line Interface (CLI).
 
 ![Annotation Input Form](../images/genome_annotation_service/annotation_input_form2.png)
 
@@ -48,7 +48,7 @@ protein family predictions.
 ![Job Launch Message](../images/job_launch_message.png)
 
 ## Output Results
-Clicking on the Jobs indicator at the bottom of the MAAGE page open the Jobs Status page that displays all current and previous service jobs and their status. 
+Clicking on the Jobs indicator at the bottom of the page open the Jobs Status page that displays all current and previous service jobs and their status. 
 
 ![Jobs Indicator Bar](../images/jobs_indicator_bar.png)
 
@@ -69,7 +69,7 @@ The Genome Annotation Service generates several files that are deposited in the 
 * **embl** - contains an EMBL dump of the annotated genome.
 * **feature_dna.fasta** - contains all the feature sequences of the genome in DNA FASTA format.
 * **feature_protein.fasta** - contains all the protein sequences of the genome in protein FASTA format.
-* **features.txt** - is a tab-delimited text file listing all the features of the genome. For each feature, it contains the MAAGE ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 checksum.
+* **features.txt** - is a tab-delimited text file listing all the features of the genome. For each feature, it contains the feature ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 checksum.
 * **.gb** - contains the annotated genome in GENBANK format.
 * **.genome** - contains a special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome.
 See [Extracting and Mining Genome Typed Objects](cli_extracting_and_mining) for more information.
@@ -77,7 +77,7 @@ See [Extracting and Mining Genome Typed Objects](cli_extracting_and_mining) for 
 * **.gff3** - lists all the features of the genome in General Feature Format (GFF3 is the most recent version of GFF)
 * **.pep** - a fasta file of predicted proteins
 * **.rpt** - a summary file of program results
-* **GenomeReport.html** - contains summary report of the genome quality, described in [Analyzing Genome Quality](/tutorial/genome_quality_report/genome_quality_report). Also contains a link to the genome in the MAAGE Genome Browser.
+* **GenomeReport.html** - contains summary report of the genome quality, described in [Analyzing Genome Quality](/tutorial/genome_quality_report/genome_quality_report). Also contains a link to the genome in the Genome Browser.
 * **.tar.gz** - a compressed tarfile of the SEED form of the exported genome
 * **.txt** - plain text form of the features in the genome
 * **.tbl** - predicted features in GenBank tbl format
@@ -96,12 +96,10 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
-* **Edit Type** Allows changing of the type of the file in terms of how MAAGE interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type** Allows changing of the type of the file in terms of how the platform interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 1. Brettin T, Davis JJ, Disz T, Edwards RA, Gerdes S, Olsen GJ, Olson R, Overbeek R, Parrello B, Pusch GD, Shukla M, Thomason JA 3rd, Stevens R, Vonstein V, Wattam AR, Xia F. (2015). RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5: 8365.
-2.	https://github.com/JCVenterInstitute/VIGOR4 
-
-
+2.	https://github.com/JCVenterInstitute/VIGOR4

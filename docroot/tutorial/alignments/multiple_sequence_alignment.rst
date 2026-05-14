@@ -19,7 +19,7 @@ List the Features of Interest and Select Them
 ---------------------------------------------
 
 Since it is a tool, rather than a service, Multiple-Sequence Alignment is not available from the menus at the top of the
-PATRIC web pages.  Instead, you select a group of features from a feature list and click on the tool icon in the green
+web pages.  Instead, you select a group of features from a feature list and click on the tool icon in the green
 sidebar.
 
 You can do a feature search to find the features you want, or you can use a feature group.  In this example, we will align
@@ -52,7 +52,7 @@ The resulting alignment is shown below.
 
 .. image:: images/alignment.png
 
-Each codon is assigned a different color.  There are 15 color schemes defined in PATRIC.  You can choose any one of them, or turn
+Each codon is assigned a different color.  There are 15 color schemes defined in the platform.  You can choose any one of them, or turn
 color-coding off entirely, by clicking the **colors** icon on the green control bar.
 
 The default display shows the name of each genome containing the feature in a particular row of the alignment.  In our example, this
@@ -71,4 +71,3 @@ less than 50% gap characters *and* less than 50% conservation.  To get all the c
 
 Finally, you can use the **DWNLD** button to download the alignment, either as an alignment in FASTA or text format, or as a
 tree in SVG or Newick format.
-

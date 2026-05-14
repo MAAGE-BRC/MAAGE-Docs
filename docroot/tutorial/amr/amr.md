@@ -1,10 +1,10 @@
 # Examining Antimicrobial Resistance (AMR)
 
-## 1. Finding AMR data in PATRIC
+## 1. Finding AMR data
 
 1.1. Using Global Search to find antibiotic information
 
-- 1.1.1. The Global Search box is located at the top right of every PATRIC page.
+- 1.1.1. The Global Search box is located at the top right of every page.
 ![Step 1](./images/image1.png "Step 1")
 
 - 1.1.2. Enter the name of an antibiotic of interest, and then click on the down arrow that follows All Data Types.
@@ -50,30 +50,30 @@
 - 1.3.1. Information on AMR can be found by clicking on the Data tab, and then on Antibiotic Resistance under Data Types.
 ![Step 14](./images/image14.png "Step 14")
 
-## 2.	Exploring AMR data in PATRIC-Overview
-2.1. PATRIC has a new landing page where information on individual antibiotics and the information on antimicrobial resistance for particular genomes and genes, and regions can be accessed. To find this data, click on the Data tab and then on Antibiotic Resistance, which you can see under Data Types.
+## 2.	Exploring AMR data-Overview
+2.1. The platform has a landing page where information on individual antibiotics and the information on antimicrobial resistance for particular genomes and genes, and regions can be accessed. To find this data, click on the Data tab and then on Antibiotic Resistance, which you can see under Data Types.
 ![Step 15](./images/image14.png "Step 15")
 
 2.2. This will open a page that defines antimicrobial resistance (AMR), and gives you access to different types of information on the antibiotics, the phenotypes, genes and regions associated with AMR.
 ![Step 16](./images/image15.png "Step 16")
 
-2.3. Information about the antibiotics that are included in the resource. To see a total list of all the antibiotics available in PATRIC, click on “View all antibiotics” that is in the Antibiotics panel.
+2.3. Information about the antibiotics that are included in the resource. To see a total list of all the antibiotics available, click on “View all antibiotics” that is in the Antibiotics panel.
 ![Step 17](./images/image16.png "Step 17")
 
-2.4. AMR phenotypes, which are liked at the level of individual genomes and are also summarized across taxon levels. You can see all genomes across PATRIC that have AMR phenotypic data by clicking on “View all AMR phenotype data” that is in the AMR phenotype panel.
+2.4. AMR phenotypes, which are liked at the level of individual genomes and are also summarized across taxon levels. You can see all genomes that have AMR phenotypic data by clicking on “View all AMR phenotype data” that is in the AMR phenotype panel.
 ![Step 18](./images/image17.png "Step 18")
 
-2.5. PATRIC also provides information on genes that are linked to antibiotic resistance. Data is assembled from several sources, including the Antibiotics Resistance Database [1], the Comprehensive Antibiotics Resistance Database [2] and NCBI’s Bacterial Antimicrobial Resistance Reference Database (also called NDARO) [3]. The PATRIC curation team has also been working on AMR genes, and that data is in the resource as well. You can see all genes available in PATRIC that have some association with AMR resistance or susceptibility by clicking on “View all AMR genes” that is in the AMR genes panel.
+2.5. The platform also provides information on genes that are linked to antibiotic resistance. Data is assembled from several sources, including the Antibiotics Resistance Database [1], the Comprehensive Antibiotics Resistance Database [2] and NCBI’s Bacterial Antimicrobial Resistance Reference Database (also called NDARO) [3]. The curation team has also been working on AMR genes, and that data is in the resource as well. You can see all genes available that have some association with AMR resistance or susceptibility by clicking on “View all AMR genes” that is in the AMR genes panel.
 ![Step 19](./images/image18.png "Step 19")
 
-2.6. PATRIC has also identified small genomic regions that are associated with antibiotic resistance. That effort, which examines AMR for a few taxa, has been published [4]. You can see of the small regions currently available in PATRIC that have some association with AMR resistance by clicking on “View all AMR regions” that is in the AMR Regions panel.
+2.6. Small genomic regions that are associated with antibiotic resistance have also been identified. That effort, which examines AMR for a few taxa, has been published [4]. You can see of the small regions currently available that have some association with AMR resistance by clicking on “View all AMR regions” that is in the AMR Regions panel.
 ![Step 20](./images/image19.png "Step 20")
 
 ## 3. Antibiotic View-Drilling down on information related to specific antibiotics
 3.1. Go to the Antibiotics panel and click on “View all antibiotics”.
 ![Step 21](./images/image20.png "Step 21")
 
-3.2. This will open a table that shows all of the antibiotics that PATRIC has data on.
+3.2. This will open a table that shows all of the antibiotics that the platform has data on.
 ![Step 22](./images/image21.png "Step 22")
 
 3.3. There is a filter above the table that you can use to search for a particular antibiotic of interest.
@@ -91,7 +91,7 @@
 3.7. To see the AMR phenotypes associated with the selected antibiotic, click on the AMR Phenotypes tab.
 ![Step 27](./images/image26.png "Step 27")
 
-3.8. This will open a table that shows all the genomes in PATRIC that have been identified as being resistant, susceptible, or intermediate to the selected antibiotic. Clicking on the filter at the top right side of the table allows you to see additional information.
+3.8. This will open a table that shows all the genomes that have been identified as being resistant, susceptible, or intermediate to the selected antibiotic. Clicking on the filter at the top right side of the table allows you to see additional information.
 ![Step 28](./images/image27.png "Step 28")
 
 3.9. A dynamic filter will appear above the table. Clicking on different features of interest will filter the table to show the genomes that match those choices.
@@ -127,7 +127,7 @@
 3.19.	There are several tabs across the top of the Feature Landing page that contain additional information.  Click on the tab called Compare Region Viewer.
 ![Step 39](./images/image38.png "Step 39")
 
-3.20.	The Compare Region view shows the gene neighborhood, and looks for conservation across this neighborhood across all the genomes in PATRIC.
+3.20.	The Compare Region view shows the gene neighborhood, and looks for conservation across this neighborhood across all the genomes in the platform.
 ![Step 40](./images/image39.png "Step 40")
 
 3.21.	To find information on the regions that are associated with the selected antibiotic, click on the AMR Regions tab that you will see on the Antibiotic View page.

@@ -2,12 +2,12 @@
 
 ## Annotation sources
 
-MAAGE provides two basic annotation sources, RefSeq, and MAAGE. RefSeq sequences from NCBI, have each been annotated by the submitting researcher using methodologies of their choice. MAAGE re-annotates all bacterial genomes using RAST tool kit [(RASTtk)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/) and viral genomes with VIGOR4 to provide annotation consistency across a wide variety of genomes. The original RefSeq annotations have been retained and are still available for comparison purposes.
+The platform provides two basic annotation sources, RefSeq, and the platform's own annotation. RefSeq sequences from NCBI, have each been annotated by the submitting researcher using methodologies of their choice. The platform re-annotates all bacterial genomes using RAST tool kit [(RASTtk)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/) and viral genomes with VIGOR4 to provide annotation consistency across a wide variety of genomes. The original RefSeq annotations have been retained and are still available for comparison purposes.
 
-Bacterial genomes that are in more than 500 contigs are not annotated by RAST, nor are plasmid-only genomes. There is approximately a two-month interval between when sequences are submitted to RefSeq and re-annotation/integration with MAAGE, thus there may be a significant difference in the number of genomes at NCBI and at MAAGE.
+Bacterial genomes that are in more than 500 contigs are not annotated by RAST, nor are plasmid-only genomes. There is approximately a two-month interval between when sequences are submitted to RefSeq and re-annotation/integration with the platform, thus there may be a significant difference in the number of genomes at NCBI and on the platform.
 
 ## Annotated Features
-Currently, MAAGE supports the following bacterial genomic feature types:
+Currently, the platform supports the following bacterial genomic feature types:
 
 * -10_signal
 * -35_signal

@@ -11,7 +11,7 @@ The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/V
 * [MSA Viewer](/quick_references/other/msa_viewer)
 
 ## Using the Multiple Sequence Alignment and Variation/SNP Analysis Service
-The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged into MAAGE to use this service.*
+The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged in to use this service.*
 
 ![MSA menu option](../images/bv_services_menu.png) 
 
@@ -60,7 +60,7 @@ A user-specified label. This name will appear in the workspace when the annotati
 ![Figure 3](../images/msa_Picture3.png "Figure 3") 
 
 ## Output Results
-Clicking on the Jobs indicator at the bottom of the MAAGE page open the Jobs Status page that displays all current and previous service jobs and their status.
+Clicking on the Jobs indicator at the bottom of the page opens the Jobs Status page that displays all current and previous service jobs and their status.
 
 ![Figure 4](../images/msa_Picture4.png "Figure 4") 
 
@@ -84,7 +84,7 @@ After selecting one of the output files by clicking it, a set of options becomes
   - **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
   - **Guide:** Links to the corresponding Quick Reference guide
   - **Download:** Downloads the selected item.
-  - **MSA:** Displays the aligned FASTA directly on the MAAGE site with the [MSA Viewer](/quick_references/other/msa_viewer).  
+  - **MSA:** Displays the aligned FASTA directly on the platform with the [MSA Viewer](/quick_references/other/msa_viewer).  
   - **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
   - **Delete:** Deletes the file.
   - **Rename:** Allows renaming of the file.

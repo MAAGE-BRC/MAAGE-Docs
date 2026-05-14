@@ -2,7 +2,7 @@
 
 *Revision: 10/24/2023*
 
-Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The MAAGE Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired end or single end) as well as submissions to the Sequence Read Archive via accession numbers. Kraken [1], first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. [Kraken2](https://ccb.jhu.edu/software/kraken2/), which matches the accuracy and speed of Kraken, and supports 16S rRNA databases.  Kraken2 uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline.
+Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired end or single end) as well as submissions to the Sequence Read Archive via accession numbers. Kraken [1], first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. [Kraken2](https://ccb.jhu.edu/software/kraken2/), which matches the accuracy and speed of Kraken, and supports 16S rRNA databases.  Kraken2 uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline.
 ![Overview of the analysis pipeline](images/detailed_output_overview.png "An overview of the analysis pipeline") 
 
 We support taxonomic classification for whole genome sequencing data (WGS) and for 16s rRNA sequencing.
@@ -15,7 +15,7 @@ If Whole Genome Sequencing (WGS) is selected:
 This is an overview of the Whole Genome analysis steps. Each sample (either a single read or paired read files) is run through the pipeline. Then the kraken2 results for each sample are compared against each other.
 
 ![Schematic of WGS FASTQ processing](./images/whole_genome_sequencing_fastq_processing_overview.png "A schematic of WGS FASTQ processing") 
-1\. User input: If users submit Sequence Read Archive values (SRAs) and the MAAGE will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go through the same steps. 
+1\. User input: If users submit Sequence Read Archive values (SRAs) the platform will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go through the same steps. 
 
 2\. If the reads are from a host, select the host from the dropdown. If a host is selected in the filter host reads drop down, [Hisat2](http://daehwankimlab.github.io/hisat2/) will align the reads to the host genome then remove any aligned reads that aligned to the host genome from the sample.  Then FastQC will run on the host removed reads. The host removed reads are used in the Kraken2 command.  [Hisat2](http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads.  If the default parameter, 'None' is selected, this step is not run, and the raw reads are used in the Kraken2 command.
 
@@ -38,7 +38,7 @@ If 16S ribosomal RNA is selected:
 
 ![16S FASTQ processing](./images/16s_fastq_processing_overview.png "16S FASTQ processing")
 ![16S analysis](./images/16s_default_analysis_overview.png "16S analysis") 
-1\. User input: If users submit Sequence Read Archive values (SRAs) and the MAAGE will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go through the same steps. 
+1\. User input: If users submit Sequence Read Archive values (SRAs) the platform will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go through the same steps. 
 
 2\. The reads are trimmed using [Trim Galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
 
@@ -62,7 +62,7 @@ The Following tools are used for both 16S ribosomal RNA and Whole Genome Sequenc
 
 ## I. Locating the Taxonomic Classification Service App
 
-1\. At the top of any MAAGE page, find the Services tab. 
+1\. At the top of any page, find the Services tab. 
 ![Figure 4](./images/tools_and_services_toolbar.png "Figure 4") 
 
 2\. Click on Taxonomic Classification in the Metagenomics group. 
@@ -79,7 +79,7 @@ Paired read libraries are usually given as file pairs, with each file containing
 1\. To upload a FASTQ file that contains paired reads, locate the box called “Paired read library.” 
 ![Figure 7](./images/paired_reads_input.png "Figure 7") 
 
-2\. The reads must be saved in the workspace as file type reads to submit them to a MAAGE service.
+2\. The reads must be saved in the workspace as file type reads to submit them to a service.
 To initiate the upload, first click on the folder icon. 
 ![Figure 8](./images/paired_input_read_1.png "Figure 8") 
 
@@ -98,7 +98,7 @@ To initiate the upload, first click on the folder icon.
 7\. This will auto-fill the name of the document into the text box as seen below.
 ![Figure 13](./images/upload_file_1.png "Figure 13") 
 
-8\. Pay attention to the upload monitor in the lower right corner of the MAAGE page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete. 
+8\. Pay attention to the upload monitor in the lower right corner of the page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete. 
 
 ![Figure 14](./images/file_uploading.png "Figure 14") 
 
@@ -130,7 +130,7 @@ To initiate the upload, first click on the folder icon.
 ![Figure 21](./images/single_read_selected_libaries.png "Figure 21") 
 
 ## IV. Submitting reads that are present at the Sequence Read Archive (SRA)
-1\. MAAGE also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number and copy it.
+1\. The platform also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number and copy it.
 ![Figure 22](./images/SRA_site.png "Figure 22") 
 
 2\. Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.
@@ -155,7 +155,7 @@ Parameters must be selected prior to job submission. The algorithm used for Taxo
 2\. An analysis type must be selected for the Taxonomic Classification job. Click on the Analysis Type drop down arrow to choose between Species Identification or Microbiome Analysis. For a detailed description of both outlines please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
 ![Figure 26](./images/select_analysis_type.png "Figure 26")
 
-3\. A reference database must be selected for the Taxonomic Classification job.  Click on the Database dropdown arrow to choose between Kraken2 Standard Database and the MAAGE Database. For a detailed description of both the databases please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
+3\. A reference database must be selected for the Taxonomic Classification job.  Click on the Database dropdown arrow to choose between available databases. For a detailed description of the databases please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
 ![Figure 27](./images/select_database.png "Figure 27")
 
 4\. Choose the host genome that will be removed from the reads. Click on the Host Genome dropdown arrow to and click on the host genome for your samples. For metagenomic samples, homo sapiens is the most common host genome.
@@ -176,7 +176,7 @@ Parameters must be selected prior to job submission. The algorithm used for Taxo
 9\. After clicking the submit button, your job will be launched.  A successful submission will generate a message indicating that the job has been queued.  
 ![Figure 33](./images/job_queued.png "Figure 33") 
 
-The bottom of each MAAGE page has an indicator that shows the number of jobs that are queued, running, or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed).
+The bottom of each page has an indicator that shows the number of jobs that are queued, running, or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed).
 ![Figure 34](./images/job_status_tool_bar.png "Figure 34") 
 
 ## V. Viewing the Taxonomic Classification job – Output files
@@ -190,7 +190,7 @@ The bottom of each MAAGE page has an indicator that shows the number of jobs tha
 3\. Clicking on the row that contains the job of interest will open two icons in the vertical green bar.  To report an issue with a job, click on the Report Issue icon.
 ![Figure 37](./images/report_job.png "Figure 37") 
 
-4\. This will open a pop-up window where jobs can be reported. Please provide a detailed description of the problem.  Clicking the submission button will generate a message to MAAGE team members, notifying them that there is a problem. We encourage researchers to report all failed jobs, or those that have confusing results. In addition, researchers should report long waits that they are experiencing in the queue.
+4\. This will open a pop-up window where jobs can be reported. Please provide a detailed description of the problem.  Clicking the submission button will generate a message to the team, notifying them that there is a problem. We encourage researchers to report all failed jobs, or those that have confusing results. In addition, researchers should report long waits that they are experiencing in the queue.
 ![Figure 38](./images/report_job_window.png "Figure 38") 
 
 5\. A job that has been successfully completed can be viewed by clicking on the row (which will turn the row blue) and then clicking on the View icon in the vertical green bar.

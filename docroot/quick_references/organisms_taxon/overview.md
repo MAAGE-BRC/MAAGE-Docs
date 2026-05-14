@@ -1,7 +1,7 @@
 # Taxonomic Overview
 
 ## Overview
-For the chosen taxon level, the Taxon Overview Tab provides summary information for corresponding data in MAAGE, including Taxon Info, Reference/Representative Genomes, Genomes by Antimicrobial Resistance, Genomes by Metada, and relevant Recent PubMed Articles.  
+For the chosen taxon level, the Taxon Overview Tab provides summary information for corresponding data, including Taxon Info, Reference/Representative Genomes, Genomes by Antimicrobial Resistance, Genomes by Metada, and relevant Recent PubMed Articles.  
 
 ## See also
   * [Taxonomy](/quick_references/organisms_taxon/taxonomy)

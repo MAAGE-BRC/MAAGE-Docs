@@ -1,7 +1,7 @@
 # Private Genomes
 
 ## Overview
-MAAGE allows users to have their own private genomes stored in the workspace and also available integrated with the rest of the MAAGE public genome data to enable comparative analysis.
+The platform allows users to have their own private genomes stored in the workspace and also available integrated with the rest of the public genome data to enable comparative analysis.
 
 ## See also:
   * [Genome Annotation Service Quick Reference Guide](/quick_references/services/genome_annotation_service)
@@ -14,7 +14,7 @@ MAAGE allows users to have their own private genomes stored in the workspace and
 A private genome is automatically created as a result of running the Genome Annotation Service. See the [Genome Annotation Service Quick Reference Guide](/quick_references/services/genome_annotation_service) for details.
 
 ## Accessing and Using Private Genomes
-Upon successful completion of an annotation job, the resulting annotated genome is integrated into the other genome data in the website, but is only viewable by the owner (submitter) of the annotation job. This integration allows use of all the MAAGE genome display and analysis tools, including comparisons with other public genomes.
+Upon successful completion of an annotation job, the resulting annotated genome is integrated into the other genome data in the website, but is only viewable by the owner (submitter) of the annotation job. This integration allows use of all the genome display and analysis tools, including comparisons with other public genomes.
 
 ### Directly Accessing Private Genomes
 
@@ -26,13 +26,13 @@ This will display the Genomes Tab with a table containing all of the user's priv
 
 ![Genomes Tab with List of Private Genomes](../images/private_genomes_list.png)
 
-Private genomes can be used like any other genome in MAAGE. Selecting one of the genomes and clicking the Genome button in the right-hand vertical green Action Bar will display the Genome Overview for that genome.
+Private genomes can be used like any other genome in the platform. Selecting one of the genomes and clicking the Genome button in the right-hand vertical green Action Bar will display the Genome Overview for that genome.
 
 ![Private Genome Overview Tab](../images/private_genome_overview.png)
 
 ### Accessing Private Genomes in the Context of Other Genomes
 
-As described above, private genomes are integrated with public genomes in MAAGE, but are only accessible and viewable by the owner of the genome. Private genomes will be displayed whenever the context (scope) of the view includes the genome, such as in the taxonimic level. Private genomes are denoted by a **"false"** in the *Public* metadata field (columnn) for that genome, which can be seen by adding the field to the table display by clicking the **"+"** sign in the top right corner of the table, shown below.
+As described above, private genomes are integrated with public genomes in the platform, but are only accessible and viewable by the owner of the genome. Private genomes will be displayed whenever the context (scope) of the view includes the genome, such as in the taxonimic level. Private genomes are denoted by a **"false"** in the *Public* metadata field (columnn) for that genome, which can be seen by adding the field to the table display by clicking the **"+"** sign in the top right corner of the table, shown below.
 
 ![Public Field in Genome Metadata](../images/genomes_public_field.png)
 
@@ -43,6 +43,6 @@ The Filters option in the Genomes Tab allows quick access to private genomes in 
 From the Genomes Tab, Private and public genomes can be grouped together for further comparative tools and services, such as [Variation Analysis](/quick_references/services/variation_analysis_service), [Phylogenetic Tree](/quick_references/services/phylogenetic_tree_building_service), [Genome Alignment](/quick_references/services/genome_alignment_service), [Protein Family Sorter](/quick_references/services/protein_family_service), and [Proteome Comparison](/quick_references/services/proteome_comparison_service). 
 
 ## Genome Sharing
-It is possible to share a genome annoted using the Genome Annotation Service with specified other registered MAAGE users. This allows these other users to interact with the genome in the website in the same way as the user who originally annotated the genome. Selecting one or more of the genomes in the table enables the "Share" button in the vertical green Action Bar on the right side of the table. Clicking the Share button opens a dialog box for selecting other users with whom to share the genome.
+It is possible to share a genome annoted using the Genome Annotation Service with specified other registered users. This allows these other users to interact with the genome in the website in the same way as the user who originally annotated the genome. Selecting one or more of the genomes in the table enables the "Share" button in the vertical green Action Bar on the right side of the table. Clicking the Share button opens a dialog box for selecting other users with whom to share the genome.
 
 ![Sharing a Private Genome](../images/share_private_genome.png)

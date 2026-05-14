@@ -5,7 +5,7 @@ The SARS-CoV-2 Wastewater Analysis service is a comprehensive analysis of wastew
 The service analyzes raw short amplicon reads by aligning them to the reference genome (Wuhan-Hu-1) and then performs variant analysis using Freyja.  Freyja is a tool to identify and recover relative lineage abundances from mixed SARS-CoV-2 samples from a sequencing dataset (BAM aligned to the Hu-1 reference).  The method uses lineage-determining mutational "barcodes” with information from the UShER global phylogenetic tree.  We manage updating the barcodes to provide you up to date variant and lineage assignments. The results of this analysis workflow include sample processing status, key variant calling and alignment statistics, and sequencing depth coverage plots. It also provides lineage and VOC abundance plots by sample, date, week, and month for tracking the prevalence and distribution of different variants over time to aid public health response.
 ![An overview of the analysis pipeline](images/image_1_workflow_image.png "An overview of the analysis pipeline") 
 
-How to access the SARS-CoV-2 Wastewater Analysis service under the Services menu at the top of the any MAAGE page. Click the link to launch the service.
+How to access the SARS-CoV-2 Wastewater Analysis service under the Services menu at the top of any page. Click the link to launch the service.
 
 The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. Start with paired or single reads uploaded to the workspace or directly access Sequence Read Archive (SRA). For each read you must also select the primer during sequencing.  If you are using the sequence read archive the primer information maybe available with the BioSample in information.  The sample date is optional to the service. If provided, the service will show the data organized by day, week, and month.  This service is designed to analyze short amplicon sequences
 
@@ -55,7 +55,7 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 21. Once the “Submit” button turns blue, click “Submit” and your job will be sent to the “Job List”.
 ![An image of](images/image_22_job_submitted.png "e")
 ## Finding the SARS-CoV-2 Wastewater Analysis results
-1. The SARS-CoV2 job can be located from three places on any MAAGE page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any MAAGE page.
+1. The SARS-CoV2 job can be located from three places on any page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any page.
 ![An image of the workspace and jobs buttons with the word or between them.](images/image_23_my_jobs.png "An image of the workspace and jobs buttons with the word or between them.") 
 2. Access the job though the workspace. Click on the Workspace tab, and then on the “home” in the drop-down box
 ![An image of the workspace shortcut.](images/image_24_my_jobs_workspace.png "An image of the workspace shortcut.")
@@ -107,7 +107,7 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 ![An image of the where to find the barcode version.](images/image_38.png "An image of the where to find the barcode version.")
 26.	The analysis warnings field will populate with warnings from the analysis. Warnings are captured when a sample fails analysis step which will be displayed in the sample processing table above.
 ![An image of the warnings header.](images/image_39.png "An image of the warnings header.")
-27.	Please remember to cite the MAAGE and  the authors of the tools we host.
+27.	Please remember to cite the authors of the tools we host.
 ![An image of the reference section. Please remember to include us in your citations!](images/image_40.png "An image of the reference section. Please remember to include us in your citations!")
 28. Return to the job landing page by clicking on your job name in the file path at the top of the page.
 29. View the raw Freyja results by highlight the file ‘freyja_results.tsv’ and click the ‘view’ eye icon on the green action bar.
