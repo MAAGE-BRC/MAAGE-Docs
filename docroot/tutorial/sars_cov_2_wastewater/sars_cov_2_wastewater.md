@@ -67,7 +67,7 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 21. Once the “Submit” button turns blue, click “Submit” and your job will be sent to the “Job List”.
 ![An image of](images/image_22_job_submitted.png "e")
 ## Finding the SARS-CoV-2 Wastewater Analysis results
-1. The SARS-CoV2 job can be located from three places on any MAAGE page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any MAAGE page.
+1. The SARS-CoV2 job can be located from three places on any page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any page.
 ![An image of the workspace and jobs buttons with the word or between them.](images/image_23_my_jobs.png "An image of the workspace and jobs buttons with the word or between them.") 
 2. Access the job though the workspace. Click on the Workspace tab, and then on the “home” in the drop-down box
 ![An image of the workspace shortcut.](images/image_24_my_jobs_workspace.png "An image of the workspace shortcut.")
@@ -119,7 +119,7 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 ![An image of the where to find the barcode version.](images/image_38.png "An image of the where to find the barcode version.")
 26.	The analysis warnings field will populate with warnings from the analysis. Warnings are captured when a sample fails analysis step which will be displayed in the sample processing table above.
 ![An image of the warnings header.](images/image_39.png "An image of the warnings header.")
-27.	Please remember to cite the MAAGE and  the authors of the tools we host.
+27.	Please remember to cite the authors of the tools we host.
 ![An image of the reference section. Please remember to include us in your citations!](images/image_40.png "An image of the reference section. Please remember to include us in your citations!")
 28. Return to the job landing page by clicking on your job name in the file path at the top of the page.
 29. View the raw Freyja results by highlight the file ‘freyja_results.tsv’ and click the ‘view’ eye icon on the green action bar.

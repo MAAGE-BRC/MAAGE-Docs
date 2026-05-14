@@ -13,7 +13,7 @@ Clicking the Proteins Tab in a Taxon View displays the Proteins Table (shown bel
 
 ![Proteins Table](../images/proteins_tab.png)
 
-The list in the Proteins table includes annotations created by the MAAGE annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if availalble. 
+The list in the Proteins table includes annotations created by the annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if availalble. 
 
 ### Proteins Table Tools
 Within this table you may do the following:

@@ -23,7 +23,7 @@ This service uses 95% as the threshold. A second allele call is performed with t
 * [Whole Genome SNP Analysis Service Tutorial](../../tutorial/core_genome_mlst/core_genome_mlst.html)
 
 ## Using the Whole Genome SNP Analysis Service
-The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged in to use this service.*
 
 ## Genome Input
 

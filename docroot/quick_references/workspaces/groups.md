@@ -1,7 +1,7 @@
 # Data Groups
 
 ## Overview
-In MAAGE, "Groups" are custom collections of selected genomes or features. They are particularly useful for organizing and managing data sets of interest for further exploration and analysis.
+"Groups" are custom collections of selected genomes or features. They are particularly useful for organizing and managing data sets of interest for further exploration and analysis.
 
 ## See also:
   * [Workspace](/quick_references/workspaces/workspace)
@@ -18,7 +18,7 @@ Once created, the new group will appear in the home Workspace. By default, Genom
 ![Genome Group](../images/genome_group.png)
 
 ## Using Workspace Groups
-Many MAAGE website features are available to work with data in groups, including analyzing the items in the group with MAAGE tools and services. For example, after creating a Genome Group, you could use the Phylogenetic Tree Building Service to build a phylogenetic tree using the genomes in the group by selecting the group from the "select genome group" dropdown list. All the genome groups you have created will appear in this list.
+Many platform features are available to work with data in groups, including analyzing the items in the group with the available tools and services. For example, after creating a Genome Group, you could use the Phylogenetic Tree Building Service to build a phylogenetic tree using the genomes in the group by selecting the group from the "select genome group" dropdown list. All the genome groups you have created will appear in this list.
 
 ![Phylogenetic Tree Using Genome Group](../images/phylo_tree_genome_group.png)
 

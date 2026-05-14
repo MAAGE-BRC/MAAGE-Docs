@@ -2,7 +2,7 @@
 
 ## Overview
 
-MAAGE provides Advanced Searches for each major data type in the database, to enable location of specific data of interest. Advanced Searches are available for the following data types:
+The platform provides Advanced Searches for each major data type in the database, to enable location of specific data of interest. Advanced Searches are available for the following data types:
 
 * Taxa
 * Genomes

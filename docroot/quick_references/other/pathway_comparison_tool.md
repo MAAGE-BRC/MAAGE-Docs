@@ -41,7 +41,7 @@ After selecting one or more of the rows in the table by clicking the checkbox on
 * **Guide:** Opens the Quick Reference Guide for the page.
 * **Download:**  Downloads the selected items (rows).
 * **Copy Rows:** Copies the contents of the selected rows as text to the clipboard. Options include *All Columns (with headers), All Columns (without headers), Selected Columns (with headers),* and *Selected Columns (without headers)*. 
-* **Services:** Provides links to tools and services in MAAGE that can accept the selected items as input.
+* **Services:** Provides links to tools and services that can accept the selected items as input.
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected item(s).
 * * **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
 * **Pathway:** Displays the Pathway Summary Table containing a list of all the pathways in which the selected features are found.

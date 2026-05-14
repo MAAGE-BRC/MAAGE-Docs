@@ -1,7 +1,7 @@
 # Exploring a Private Genome
 
 ## Locating a privately annotated genome-Global Search
-1. Open the drop-down box using the arrow following All Data Types in the global search at the right of blue banner across any PATRIC page.
+1. Open the drop-down box using the arrow following All Data Types in the global search at the right of blue banner across any page.
 ![Step 1](./images/image1.png "Step 1")
 
 2. Enter the name of the genome you annotated. This can be as simple as using the name of the strain that you used (red arrow).
@@ -34,7 +34,7 @@
 
 ## Tabs on the Genome Landing Page
 ### AMR Phenotype
-1. Every landing page at PATRIC has a number of tabs across the top, each of which contains different information. Clicking on AMR Phenotype will show the antibiotics that the isolate is resistant to, differentiating between predicted and actual phenotypes. It includes minimum inhibitory concentration (MIC) values, a variety of columns that show different information on lab typing, and also testing standards. If a particular genome does not have the actual phenotype information, or does not have any predictions from the PATRIC AMR pipeline, this table will be empty.
+1. Every landing page has a number of tabs across the top, each of which contains different information. Clicking on AMR Phenotype will show the antibiotics that the isolate is resistant to, differentiating between predicted and actual phenotypes. It includes minimum inhibitory concentration (MIC) values, a variety of columns that show different information on lab typing, and also testing standards. If a particular genome does not have the actual phenotype information, or does not have any predictions from the AMR pipeline, this table will be empty.
 ![Step 11](./images/image11.png "Step 11")
 
 ###	Phylogeny
@@ -45,7 +45,7 @@
 ![Step 13](./images/image13.png "Step 13")
 
 ### Genome Browser
-1. Clicking on the Genome Browser tab will show the annotations on the JBrowse viewer [2]. Private genomes will only show the PATRIC annotation, but public genomes will also have RefSeq annotation available for comparison.  Researchers can move along the contigs and zoom in and out of the annotation (red box), even to the level of seeing the nucleotide sequence with 6-frame translations.
+1. Clicking on the Genome Browser tab will show the annotations on the JBrowse viewer [2]. Private genomes will only show the platform annotation, but public genomes will also have RefSeq annotation available for comparison.  Researchers can move along the contigs and zoom in and out of the annotation (red box), even to the level of seeing the nucleotide sequence with 6-frame translations.
 ![Step 14](./images/image14.png "Step 14")
 
 2. If the genome is in multiple contigs, the browser will load the first contig. To explore different contigs, click on the down arrow (red arrow) that will open up a list of the available contigs. Scroll down that list to choose the contig of interest, and clicking on the name will reload the browser with that information.
@@ -55,7 +55,7 @@
 ![Step 16](./images/image16.png "Step 16")
 
 ###	Circular Viewer
-1. PATRIC also provides a circular view of the genome and annotations. All contigs are united into a single circle.  Researchers can change the tracks they want to see by using the filter on the left-hand side, and also upload custom tracks and personal data. Users can upload custom tracks or their own data, resize the image, and download it as a publication quality scaled vector graphic (svg). Mousing over genes in the circular view will generate a pop-up box that shows the location and functional description of the gene.
+1. The platform also provides a circular view of the genome and annotations. All contigs are united into a single circle.  Researchers can change the tracks they want to see by using the filter on the left-hand side, and also upload custom tracks and personal data. Users can upload custom tracks or their own data, resize the image, and download it as a publication quality scaled vector graphic (svg). Mousing over genes in the circular view will generate a pop-up box that shows the location and functional description of the gene.
 ![Step 17](./images/image17.png "Step 17")
 
 2.  Double clicking on a particular gene will open up additional information about that gene.
@@ -72,14 +72,14 @@
 2. Mousing over the icons in the vertical green bar will generate a pop-up box that describes the downstream application.
 ![Step 21](./images/image21.png "Step 21")
 
-3. Clicking on the filter above the table allows researchers to select different types of annotations, like the coding sequences (CDS), tRNA or rRNA genes.  When public genomes are examined, researchers can also filter on RefSeq or PATRIC annotations.
+3. Clicking on the filter above the table allows researchers to select different types of annotations, like the coding sequences (CDS), tRNA or rRNA genes.  When public genomes are examined, researchers can also filter on RefSeq or platform annotations.
 ![Step 22](./images/image22.png "Step 22")
 
 4. Entering a specific keyword into the filter, and hitting return, will resort the table to show all the genes that have text matching that keyword.
 ![Step 23](./images/image23.png "Step 23")
 
 ### Specialty Genes
-1. Clicking on the Features tab will show a list of all the genes in the genome. PATRIC BLASTs all the genes in the genome against specific databases that contain genes identified as virulence factors (from the Virulence Factor Database [3,4], PATRIC virulence factors [5], and Victors, which is part of the Phidias database [5], which are involved in antibiotic resistance (the Antibiotic Resistance Database[6] and the Comprehensive Antibiotic Resistance Database[7]), and have been used as drug targets, or are human homologs. The left side of this page contains a filter to narrow the results, and a table listing the results on the right.
+1. Clicking on the Features tab will show a list of all the genes in the genome. The platform BLASTs all the genes in the genome against specific databases that contain genes identified as virulence factors (from the Virulence Factor Database [3,4], curated virulence factors [5], and Victors, which is part of the Phidias database [5], which are involved in antibiotic resistance (the Antibiotic Resistance Database[6] and the Comprehensive Antibiotic Resistance Database[7]), and have been used as drug targets, or are human homologs. The left side of this page contains a filter to narrow the results, and a table listing the results on the right.
 ![Step 24](./images/image24.png "Step 24")
 
 1. Clicking on the check box in front of a single sequence will display information about the particular sequence at the far right, and will also populate the vertical green bar with possible downstream actions that apply to the selected gene.
@@ -104,11 +104,11 @@
 4. Mousing over the icons in the vertical green bar will generate a pop-up box that describes the downstream application.
  ![Step 31](./images/image31.png "Step 31")
 
-5. PATRIC has three types of protein families. FIGFams [9] contain isofunctional homologs.  Two new sets of protein families, called PATtyFams [10], are assembled from the function-based groups into families by use of k-mers and a Markov Cluster algorithm (MCL) [11, 12]. To select different protein families associated with the genome, click on the down arrow that follow the text box under Filter By.  A drop-down box will appear where researchers can select the family type.  
+5. The platform has three types of protein families. FIGFams [9] contain isofunctional homologs.  Two new sets of protein families, called PATtyFams [10], are assembled from the function-based groups into families by use of k-mers and a Markov Cluster algorithm (MCL) [11, 12]. To select different protein families associated with the genome, click on the down arrow that follow the text box under Filter By.  A drop-down box will appear where researchers can select the family type.  
 ![Step 32](./images/image32.png "Step 32")
 
 ### Pathways
-1. PATRIC maps genes with functional evidence to the pathways they belong to. The source of pathway information comes from the Kyoto Encyclopedia of Genes and Genomes (KEGG) [13, 14], to which PATRIC maps protein data to.   
+1. The platform maps genes with functional evidence to the pathways they belong to. The source of pathway information comes from the Kyoto Encyclopedia of Genes and Genomes (KEGG) [13, 14], to which protein data is mapped.   
 ![Step 33](./images/image33.png "Step 33")
 
 2. Clicking on the check box in front of a single pathway (red arrow) will display information about the particular pathway at the far right, and will also populate the vertical green bar with possible downstream actions that apply to the selected family.

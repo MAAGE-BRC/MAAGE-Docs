@@ -8,7 +8,7 @@ Genomic Features are defined segments of a genome. Most often features will code
 
 Genome Annotation
 -----------------
-Genome annotation refers to the systematic analysis of a genome to identify all protein and RNA coding genes and characterize their functions. MAAGE supports genome annotations from multiple sources, including:
+Genome annotation refers to the systematic analysis of a genome to identify all protein and RNA coding genes and characterize their functions. The platform supports genome annotations from multiple sources, including:
 
 - Original annotations from GenBank / RefSeq
 - Consistent annotations across all bacterial genomes using RAST anotation pipeline
@@ -62,4 +62,3 @@ Relevant Services and Tools
 - `BLAST <https://alpha.bv-brc.org/app/BLAST>`_
 - `Protein Family Sorter <https://alpha.bv-brc.org/app/ProteinFamily>`_
 - `Proteome Comparison <https://alpha.bv-brc.org/app/SeqComparison>`_
-

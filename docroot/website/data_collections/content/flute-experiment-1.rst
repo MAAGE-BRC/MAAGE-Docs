@@ -97,10 +97,10 @@ insight into the adaptation to the host environment.
 |                                   | Rv_rep3.wig>`__                   |
 +-----------------------------------+-----------------------------------+
 
-**Annotations in PATRIC:**
+**Annotations:**
 
 +-----------------------------------+-----------------------------------+
-| **LOCUS_TAG**                     | **Annotation in PATRIC**          |
+| **LOCUS_TAG**                     | **Annotation**                    |
 +-----------------------------------+-----------------------------------+
 | Rv3193c                           | `Feature                          |
 |                                   | page <https://www.patricbrc.org/p |
@@ -188,9 +188,9 @@ insight into the adaptation to the host environment.
    <div>
 
 The following genes are indicated as conditional essentials based
-on statistical analysis (resampling) output using Transit software
-(http://saclab.tamu.edu/essentiality/transit/). In this method, for each
-ORF (e.g., Rv0001) Transit calculates to determine whether the
+on statistical analysis (resampling) output using Transit software
+(http://saclab.tamu.edu/essentiality/transit/). In this method, for each
+ORF (e.g., Rv0001) Transit calculates to determine whether the
 essentiality of the gene significantly increase or decreases. The
 adjusted p-value uses the Benjamini-Hochberg correction for multiple
 tests, with a threshold of <0.05 for significance.
@@ -238,8 +238,7 @@ tests, with a threshold of <0.05 for significance.
    <div>
 
 +-----------------+-----------------+-----------------+-----------------+
-| **ORF**         | **log2 FC**     | **q-value**     | **Feature in    |
-|                 |                 |                 | PATRIC**        |
+| **ORF**         | **log2 FC**     | **q-value**     | **Feature**     |
 +-----------------+-----------------+-----------------+-----------------+
 | Rv0362          | -9.05           | 0               | `Feature        |
 |                 |                 |                 | page <https://w |

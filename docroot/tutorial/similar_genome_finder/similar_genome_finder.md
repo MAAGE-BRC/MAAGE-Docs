@@ -2,9 +2,14 @@
 
 *Revised: 05 August 2024*
 
-When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. MAAGE[1] provides a new service that allows researchers to do this using Mash/MinHash[2]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
+When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. The platform[1] provides a service that allows researchers to do this using Mash/MinHash[2]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
 
+<<<<<<< HEAD
 ## Locating the Similar Genome Analysis Service
+=======
+1.	At the top of any page, find the Services tab. Click on Similar Genome Finder. 
+![Figure Service_tab](./images/Service_tab_SGF.png "Figure Service_tab") 
+>>>>>>> remotes/upstream/main
 
 1. Locate the Tools option on the top navigation bar.
 
@@ -19,7 +24,11 @@ When a researcher has a new genome sequence, one of the first things they want t
 3.	This will open up the Similar Genome Finder landing page.
 ![Figure Landing_page](./images/Landing_page.png "Figure Landing_page") 
 
+<<<<<<< HEAD
 4.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available in MAAGE or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
+=======
+3.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available on the platform or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
+>>>>>>> remotes/upstream/main
 ![Figure Select_Genome](./images/Select_Genome.png "Figure Select_Genome") 
 
 5.	Click the down arrow at the right of the text box under **Search By Genome Name Or Genome ID**. This will open a drop-down box that shows all of the researcher’s private genomes, which have a **Lock** icon in front of them.  To select a specific genome, scroll down and find the genome of interest, and then click on it.
@@ -31,9 +40,9 @@ When a researcher has a new genome sequence, one of the first things they want t
 7.	Alternatively, it is not necessary to use the filters for different types of public genomes, or the private genomes.  Entering the name, or the genome ID in the text box will open a drop-down box that shows possible matches.  Note that reference genomes are denoted with a **[Ref]** in front of the name.  Representative genomes would have a **[Rep]** and private genomes have the lockbox icon seen above.  All of the other public genomes have no indicator in front of the name.  Clicking on the genome of interest will autofill the box as seen above.
 ![Figure 7](./images/Picture7.png "Figure 7") 
 
-## Loading a genome that is not in MAAGE
+## Loading a genome that is not in the platform
 
-1\.	The Similar Genome Finder tool is one of the few places in MAAGE, outside of the Assembly and Annotation pipelines, where genomes that have not been annotated in MAAGE can be explored. To do this, click on the folder icon that is at the end of the text box underneath **Or Upload FASTA/FASTQ**. 
+1\.	The Similar Genome Finder tool is one of the few places on the platform, outside of the Assembly and Annotation pipelines, where genomes that have not been annotated can be explored. To do this, click on the folder icon that is at the end of the text box underneath **Or Upload FASTA/FASTQ**. 
 ![Figure 8](./images/Picture8.png "Figure 8") 
 
 2\.	This will open a pop-up window that has a direct link to the workspace.  To upload a new file, click on the **Upload** icon at the top right of that window.
@@ -84,10 +93,10 @@ When a researcher has a new genome sequence, one of the first things they want t
 2\.	The table also includes the metadata for the genomes, which includes the country of isolation, any host that the genome was isolated from, the year the strain was collected, and the data that it was completed.  Also included are the **Distance** and **P values**, and the number of **K-mer Counts** (number out of 1000 total) that the genome shared with the submitted genome.
 ![Figure Metadata](./images/Metadata.png "Figure Metadata") 
 
-3\.	To see information on an individual genome, click on the check box preceding it in the first column.  This will populate the box to the right of the vertical green bar with the information that MAAGE has on that particular genome.
+3\.	To see information on an individual genome, click on the check box preceding it in the first column.  This will populate the box to the right of the vertical green bar with the information that the platform has on that particular genome.
 ![Figure Select_one](./images/Select_one.png "Figure Select_one") 
 
-4\.	The genomes can also be grouped together, and this group can be used in other MAAGE tools like the Phylogenetic Tree service, the Protein Family Sorter, or the Proteome Comparison service.  Click on the check boxes for the desired genomes, and then click on the **Group** icon in the vertical green bar.
+4\.	The genomes can also be grouped together, and this group can be used in other tools like the Phylogenetic Tree service, the Protein Family Sorter, or the Proteome Comparison service.  Click on the check boxes for the desired genomes, and then click on the **Group** icon in the vertical green bar.
 ![Figure Group](./images/Group.png "Figure Group") 
 
 5\.	This will open a pop-up box.  To create a new group, click on the down arrow at the end of the text box that has the words Existing Group.  Click on New Group, and then name it in the text box under Group Name.  Once this has been completed, click on the **Add** button at the bottom right of the box. This will successfully create a new group, which will be available in the workspace, and also when a tool using genome groups is launched.
@@ -100,6 +109,5 @@ When a researcher has a new genome sequence, one of the first things they want t
 
 ## References
 
-1.  Olson, R.D., et al., Introducing the Midwest Alliance for Applied Genomic Epidemiology (MAAGE): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. 51(D1): p. D678-D689.
+1.  Olson, R.D., et al., Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. 51(D1): p. D678-D689.
 2.	Ondov, B.D., et al., Mash: fast genome and metagenome distance estimation using MinHash. Genome biology, 2016. 17(1): p. 1-14.
-

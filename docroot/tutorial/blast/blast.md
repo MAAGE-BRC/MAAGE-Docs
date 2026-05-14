@@ -5,7 +5,7 @@
 The **B**asic **L**ocal **A**lignment **S**earch **T**ool (BLAST)[1] is an algorithm and program for comparing primary biological sequence information, such as the amino-acid sequences of proteins or the nucleotides of DNA and/or RNA sequences. A BLAST search allows a researcher to compare a subject protein or nucleotide sequence (called a **query**) with a library or database of sequences, and identify database sequences that resemble the query sequence above a certain threshold.  An excellent resource on BLAST is provided by Madden[2].
 
 ## Creating a folder to hold the BLAST job and related data
-Please refer to the [Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the MAAGE.
+Please refer to the [Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder.
 
 ## Locating the BLAST Service
 
@@ -25,7 +25,7 @@ Please refer to the [Assembly Service Tutorial](/tutorial/genome_assembly/assemb
 
 ## Selecting the Search Program
 
-There are four BLAST programs provided by MAAGE, and each has a specific query sequence and database. Clicking on the button in front of the program name will select it and will also select the appropriate databases.
+There are four BLAST programs provided, and each has a specific query sequence and database. Clicking on the button in front of the program name will select it and will also select the appropriate databases.
 
 * BLASTN – The query sequence is DNA (nucleotide), and when enabled the program will search against DNA databases of contig or gene sequences.
 * BLASTX – The query sequence is DNA (nucleotide), and when enabled the program will search against the protein sequence database.
@@ -35,7 +35,7 @@ There are four BLAST programs provided by MAAGE, and each has a specific query s
 ![Figure 3](./images/Picture3.png "Figure 3")
 
 ## Selecting the Query Source
-1\.	There are three types of Query sources that are provided by MAAGE.  Clicking on the button in front of the query type will select it and will also reformat the page to support that selection.  
+1\.	There are three types of Query sources that are provided.  Clicking on the button in front of the query type will select it and will also reformat the page to support that selection.  
 
 ![Figure 4](./images/Picture4.png "Figure 4")
 
@@ -73,7 +73,7 @@ There are four BLAST programs provided by MAAGE, and each has a specific query s
 
 ## Selecting the Database
 
-1\.	MAAGE has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
+1\.	The platform has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
 * Reference and representative genomes (bacteria, archaea)
 * Reference and representative genomes (virus)
 * Selected genome list
@@ -114,17 +114,17 @@ There are four BLAST programs provided by MAAGE, and each has a specific query s
 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-9\.	**Fasta file.**  Searching within a fasta file is also provided.  The file can be present in MAAGE, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace.  
+9\.	**Fasta file.**  Searching within a fasta file is also provided.  The file can be present on the platform, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace.  
 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-10\. It is also possible to upload a fasta file from outside MAAGE. Clicking on the folder icon at the end to the text box opens a pop-up window. Click on the upload icon in the upper right corner of the window.  This will open the dialog box with the computer that has been described above. 
+10\. It is also possible to upload a fasta file from outside the platform. Clicking on the folder icon at the end to the text box opens a pop-up window. Click on the upload icon in the upper right corner of the window.  This will open the dialog box with the computer that has been described above. 
 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
 ## Selecting the Database type
 
-1\.	The available database will be determined by the query source.  When there is a nucleotide sequence with BLASTN or BLASTX selected, MAAGE provides searches against a database of contigs or gene.  Clicking on the down arrow that follows “Contigs” will show both choices, and types.  Clicking on the desired row will select the database. 
+1\.	The available database will be determined by the query source.  When there is a nucleotide sequence with BLASTN or BLASTX selected, the platform provides searches against a database of contigs or gene.  Clicking on the down arrow that follows “Contigs” will show both choices, and types.  Clicking on the desired row will select the database. 
 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
@@ -140,7 +140,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 ## Naming the BLAST job
 
-1\.	Every job submitted to MAAGE needs a name.  This is entered into the text box underneath the words Output name. 
+1\.	Every job submitted needs a name.  This is entered into the text box underneath the words Output name. 
 
 ![Figure 26](./images/Picture26.png "Figure 26")
 
@@ -182,7 +182,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-2\.	Even if the View results option had been selected, all BLAST jobs can also be found on the Jobs page.  Click on the Jobs box at the bottom right of any MAAGE page. 
+2\.	Even if the View results option had been selected, all BLAST jobs can also be found on the Jobs page.  Click on the Jobs box at the bottom right of any page. 
 
 ![Figure 35](../main_menu.png "Figure 35")
 
@@ -218,7 +218,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 ![Figure 40](./images/Picture40.png "Figure 40")
 
-8\. The **blast_out.archive** file can be viewed by selecting the row and clicking on the View icon.  This will reload the page to show the archive file. This file is the entire file generated from a BLAST job, which MAAGE uses to create the blast_out.json file used in the MAAGE viewers. This file could be used in an alternate viewer outside of MAAGE. 
+8\. The **blast_out.archive** file can be viewed by selecting the row and clicking on the View icon.  This will reload the page to show the archive file. This file is the entire file generated from a BLAST job, which the platform uses to create the blast_out.json file used in the platform viewers. This file could be used in an alternate viewer outside of the platform. 
 
 ![Figure 41](./images/Picture41.png "Figure 41")
 
@@ -230,7 +230,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-11\. The service also provides a **blast_out.raw.json** file. BLAST uses a list of BLAST identifiers that are not the same identifiers that we use at MAAGE, so this file includes those identifiers.  It can be viewed by selecting the row and then clicking on the View icon.  This will rewrite the page to show the file. 
+11\. The service also provides a **blast_out.raw.json** file. BLAST uses a list of BLAST identifiers that are not the same identifiers used by the platform, so this file includes those identifiers.  It can be viewed by selecting the row and then clicking on the View icon.  This will rewrite the page to show the file. 
 
 ![Figure 44](./images/Picture44.png "Figure 44")
 
@@ -238,7 +238,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 ![Figure 45](./images/Picture45.png "Figure 45")
 
-13\. MAAGE also provides an interface that shows the BLAST hits and the alignments.  To see them, click on the **View** icon at the *upper right of the Jobs page*. 
+13\. The platform also provides an interface that shows the BLAST hits and the alignments.  To see them, click on the **View** icon at the *upper right of the Jobs page*. 
 
 ![Figure 46](./images/Picture46.png "Figure 46")
 
@@ -262,7 +262,7 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-19\. Clicking on the **ID Mapping** icon will open a drop-down box that allows researcher to find other identifiers, either within or outside of the MAAGE, that the subject data has. 
+19\. Clicking on the **ID Mapping** icon will open a drop-down box that allows researcher to find other identifiers, either within or outside of the platform, that the subject data has. 
  
 ![Figure 52](./images/Picture52.png "Figure 52")
 
@@ -282,5 +282,3 @@ An output folder must be created or selected to hold the job.  Folder creation i
 
 1. Altschul, S. F. J. e. BLAST algorithm.  (2001).
 2. Madden, T. The BLAST sequence analysis tool. The NCBI handbook 2, 425-436 (2013).
-
-

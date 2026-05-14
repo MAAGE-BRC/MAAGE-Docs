@@ -45,7 +45,7 @@ For these options, clicking the **Filter** button applies these filter options t
 
 In the Tabular View, the right panel displays a list of the protein families based on the criteria specified in the left-hand filter panel. Fields (columns) in the table include the following:
 
-* **ID**: MAAGE identifier for the protein family
+* **ID**: Identifier for the protein family
 * **Proteins**: Number of proteins in the protein family   
 * **Genomes**: Number of genomes containing proteins in the protein family  
 * **Description**: Functional description of the proteins in the family  
@@ -62,7 +62,7 @@ After selecting one or more of the protein families by clicking the checkbox bes
 
 * **Hide:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Opens the Quick Reference Guide for the page.
-* **Services:** Provides links to tools and services in MAAGE that can accept the selected items as input.
+* **Services:** Provides links to tools and services on the platform that can accept the selected items as input.
 * **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
 * **Pathway:** Displays the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Download:**  Downloads the selected items (rows).

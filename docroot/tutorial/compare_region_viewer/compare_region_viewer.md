@@ -44,11 +44,10 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 14.	 Likewise, a Feature Group can be selected by clicking on **Selected feature group**. Then click on the **Update** button at the  bottom of the filter.
 ![Feature Group](./images/Figure_11_Feature_group.png "Feature Group.")
 
-16.	MAAGE also provides a downloadable scaled vector graph (svg) of the image that can be used in presentation and publications.  Clicking on the **Export** button will download a svg to your computer.![Export](./images/Figure_12_Export.png "Export.")
+16.	The platform also provides a downloadable scaled vector graph (svg) of the image that can be used in presentation and publications.  Clicking on the **Export** button will download a svg to your computer.![Export](./images/Figure_12_Export.png "Export.")
 
 ## References
-1.	Olson, R.D., et al., Introducing the Midwest Alliance for Applied Genomic Epidemiology (MAAGE): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. **51**(D1): p. D678-D689.
+1.	Olson, R.D., et al., Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. **51**(D1): p. D678-D689.
 2.	Overbeek, R., et al., The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). 2013. **42**(D1): p. D206-D214.
 3.	Davis, J.J., et al., PATtyFams: Protein families for the microbial genomes in the PATRIC database. 2016. **7**: p. 118.
 4.	Altschul, S.F., et al., Basic local alignment search tool. Journal of molecular biology, 1990. **215**(3): p. 403-410.
-

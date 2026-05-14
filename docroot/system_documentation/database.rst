@@ -9,7 +9,7 @@ See **Data Section** for list and description of data types supported.
 Database Schema
 ----------------
 
-The primary data store for MAAGE is a distributed SolrCloud database. The SolrCloud configuration allows "collections" to be defined using xml schema files. These collection definitions, combined with the data indexes are deployed on one or more SolrCloud hosts. Multiple machines can utilize the same set of collections and/or indexes to address scalability, high availability and higher throughput and query performance by allowing more concurrent queries. 
+The primary data store for the platform is a distributed SolrCloud database. The SolrCloud configuration allows "collections" to be defined using xml schema files. These collection definitions, combined with the data indexes are deployed on one or more SolrCloud hosts. Multiple machines can utilize the same set of collections and/or indexes to address scalability, high availability and higher throughput and query performance by allowing more concurrent queries. 
 
 Below is a list of the collections and the main fields/attributes available in each collection. Refer to https://github.com/PATRIC3/patric_solr_cloud for the most updated configurations and schemas.
 
@@ -48,7 +48,7 @@ Below is a list of the collections and the main fields/attributes available in e
 Data Dictionaries
 -----------------
 
-MAAGE uses several data dictionaries to support controlled vocabularies for certain biological entities and annotations, which provide consistent naming across data from heterogenous sources for more efficient search and query. 
+The platform uses several data dictionaries to support controlled vocabularies for certain biological entities and annotations, which provide consistent naming across data from heterogenous sources for more efficient search and query. 
 
 The following Collections store such data dictionaries and related information. 
 
@@ -61,7 +61,7 @@ The following Collections store such data dictionaries and related information.
 - **model_template_biomass**: Model template biomass. Part of the Biochemistry database from ModelSEED and used for metabolic modeling and FBA.  
 - **model_template_reaction**: Model template reactions. Part of the Biochemistry database from ModelSEED and used for metabolic modeling and FBA.  
 - **pathway_ref**: Relationship between EC numbers and metabolic pathways and their location on the pathway maps from KEGG. 
-- **protein_family_ref**: Information about the PATRIC Global and Local Protein Families and their functauional roles. 
+- **protein_family_ref**: Information about the Global and Local Protein Families and their functauional roles. 
 - **sp_gene_ref**: Specialty gene refernece datasets, collected and curated from external sources as described in the Data Section. 
 - **subsystem_ref**: Information about the Subsystems, their classification, and corresponding functinal roles. 
 - **taxonomy**: Information about taxoinomnic classification from NCBI Taxonomy database. 

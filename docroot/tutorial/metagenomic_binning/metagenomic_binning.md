@@ -2,11 +2,11 @@
 
 *Revised: 14 November 2024*
 
-The MAAGE metagenomic binning service utilizes the MAAGE database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs [1]. Reads are assembled using either MetaSPAdes [2] or MEGAHIT [3].  Each set of binned contigs represents a draft genome that will be annotated by RASTtk [4] for bacteria, or with VIGOR4 [5,6] or  Mat_Peptide [7] for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The MAAGE metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other MAAGE tools and services.
+The metagenomic binning service utilizes the platform database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs [1]. Reads are assembled using either MetaSPAdes [2] or MEGAHIT [3].  Each set of binned contigs represents a draft genome that will be annotated by RASTtk [4] for bacteria, or with VIGOR4 [5,6] or  Mat_Peptide [7] for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other tools and services on the platform.
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-Metagenomic binning jobs that include assembly take, on average, take an hour to complete.  However, the MAAGE assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
+Metagenomic binning jobs that include assembly take, on average, take an hour to complete.  However, the assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
 
 The code for the binning script is located at:
 [https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl](https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl)
@@ -37,7 +37,7 @@ The code for the RASTtk pipeline is located at:
 ##  Submitting sequencing reads (single or paired)
 The service accepts both single and paired reads.  Paired read libraries are usually given as file pairs, with each file containing the forward or reverse half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 or READ 2 does not matter.
 
-Reads must first be uploaded to the MAAGE workspace, and once there, they can be selected in several ways.
+Reads must first be uploaded to the workspace, and once there, they can be selected in several ways.
 1.	Navigate to the workspace by clicking on the **Folder** icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on **OK** at the bottom of the pop-up box to select the reads. 
 ![Figure Selecting_reads](./images/Selecting_reads.png "Figure Selecting_reads")
 
@@ -56,7 +56,7 @@ Reads must first be uploaded to the MAAGE workspace, and once there, they can be
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)  
 
-MAAGE also supports analysis of existing datasets from SRA. If users submit SRA values, the MAAGE will input the corresponding FASTQ files to the service. 
+The platform also supports analysis of existing datasets from SRA. If users submit SRA values, the corresponding FASTQ files will be input to the service. 
 
 1.	To submit data from the SRA, locate the Run Accession number and copy it.  
 ![Figure SRA_page](./images/SRA_page.png "Figure SRA_page")
@@ -66,7 +66,7 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 
 ### Starting with contigs  
 
-1. MAAGE also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the **Assembled Contigs** button.  
+1. The platform also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the **Assembled Contigs** button.  
 ![Figure Start_contigs](./images/Start_contigs.png "Figure Start_contigs")
 
 2.	This will reload the page to show contigs only as the **Input file**.  Selecting contig files are similar to what has been described for the read files above.  
@@ -74,12 +74,12 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 
 ## Setting Parameters when reads are the input  
 
-Parameters must be selected prior to the submission of the Metagenomic Binning job in MAAGE.  The **Parameters** box changes slightly if one began with reads, or with contigs.
+Parameters must be selected prior to the submission of the Metagenomic Binning job.  The **Parameters** box changes slightly if one began with reads, or with contigs.
 ![Figure Reads_Contigs](./images/Reads_Contigs.png "Figure Reads_Contigs")
 
 ### Assembly Strategy  
 
-1.	**Assembly Strategy**.  If reads had been selected in the **Start With** box, an assembly strategy must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that MAAGE offers.  A description of each strategy is listed below. 
+1.	**Assembly Strategy**.  If reads had been selected in the **Start With** box, an assembly strategy must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the available strategies.  A description of each strategy is listed below. 
  
     * The **MetaSPAdes**[2] software is part of the SPAdes toolkit, and requires paired reads. The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
     * **MEGAHIT**[3] is a *de novo* assembler that can assemble either paired or single reads. The MEGAHIT software is available here: https://github.com/voutcn/megahit).  
@@ -128,7 +128,7 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 
 ## Finding the completed Metagenomic binning job  
 
-1.	There are two places to access a completed job in MAAGE.  Clicking on the **Workspaces** tab, and then on **My Jobs** in the drop-down box.  Researchers can also click on the **Jobs** icon at the bottom right of any page.  Either of those actions will open the list of jobs that have been submitted.
+1.	There are two places to access a completed job.  Clicking on the **Workspaces** tab, and then on **My Jobs** in the drop-down box.  Researchers can also click on the **Jobs** icon at the bottom right of any page.  Either of those actions will open the list of jobs that have been submitted.
 ![Figure Finding_jobs](./images/Finding_jobs.png "Figure Finding_jobs")
 
 2.	Once located, the job can be viewed by first clicking on the row that has the name, and then clicking on the **View** icon in the green action bar.  
@@ -146,7 +146,7 @@ The Metagenomic Binning service returns a number of files when the job is comple
 *	**Bin**: The number of the particular viral bin.  The table will show all the bins that were generated.
 *	**Virus ID**: This is the GenBank accession number for the reference used for this binned genome.
 *	**Taxon ID**:  This is the taxonomy ID for the reference used for this binned genome.
-*	**Genome ID**: The ID number assigned to the genome in MAAGE that represents the bin. Clicking on this number takes you to the genome.  If the viral genome is not one that MAAGE currently annotated, this cell will say Not annotated.
+*	**Genome ID**: The ID number assigned to the genome that represents the bin. Clicking on this number takes you to the genome.  If the viral genome is not one currently annotated, this cell will say Not annotated.
 *	**Genome Name**:  The name given to the bin. This is usually the species of the closest reference genome.
 *	**Length**: The number of DNA base pairs in the bin.
 *	**Completeness (%)**: CheckV[8] is used to estimates genome completeness.  It bases this score on comparison with a large database of complete viral genomes derived from NCBI GenBank and environmental samples and reports a confidence level for the estimate.
@@ -157,14 +157,14 @@ The Metagenomic Binning service returns a number of files when the job is comple
 3.	To view the Bacterial Binning report, click on the row that contains **BinningReport.html**  and then on the **View** icon in the green action bar.
 ![Figure View_report](./images/View_BinningReport.png "Figure View_report")
 
-4.	This will rewrite the page to show the bacterial binning report. The top part of the page shows information about the binning job. Immediately below is a brief description of the results. The binning report shows all of the bins found by the MAAGE metagenomic processor. The bins are divided into two categories– those of high quality (good) and those of questionable quality (bad).  Each of the columns contains specific information:
+4.	This will rewrite the page to show the bacterial binning report. The top part of the page shows information about the binning job. Immediately below is a brief description of the results. The binning report shows all of the bins found by the metagenomic processor. The bins are divided into two categories– those of high quality (good) and those of questionable quality (bad).  Each of the columns contains specific information:
 *	**Score**: A weighted sum of the completeness and consistency scores, less the contamination score. The contamination is weighted very heavily, so a highly contaminated bin may have a negative score. The maximum score is 2090 and the minimum score is -5000. The bins are sorted from the highest score to the lowest. Clicking on this number takes you to the detail report on the bin.
-*	**Genome ID**: The ID number assigned to the genome in MAAGE that represents the bin. Clicking on this number takes you to the genome.
+*	**Genome ID**: The ID number assigned to the genome that represents the bin. Clicking on this number takes you to the genome.
 *	**Genome Name**: The name given to the bin. This is usually the species of the closest reference genome followed by the phrase clonal population.
 *	**Reference Genome**: The ID of the reference genomes used to create the bin. There is usually only one. Sometimes there are two, indicating that the bin represents multiple strains that could not be easily distinguished during the binning. 
 *	**Coarse Consistency**: The percent of predictable roles whose presence or absence matches the computations of the consistency tool. A high coarse consistency indicates the bin is either a single genome or a cluster of very close strains.
 *	**Fine Consistency**: The percent of predictable roles whose number of occurrences matches the computations of the consistency tool. This number is always lower than the coarse consistency. A high fine consistency indicates a bin that can be treated like a functioning genome. A fine consistency of 87% is the minimum required for a bin to be considered a good genome.
-*	**Completeness** and **Contamination**: Two internal MAAGE tools are used– EvalG[9], which computes completeness and contamination using marker roles, and EvalCon[9], which determines whether the proteins found in the genome make sense together. A genome that is sufficiently complete (80%), with sufficiently low contamination (10%), and sufficiently consistent proteins (87%) is considered good and is shown in the first table.  
+*	**Completeness** and **Contamination**: Two internal tools are used– EvalG[9], which computes completeness and contamination using marker roles, and EvalCon[9], which determines whether the proteins found in the genome make sense together. A genome that is sufficiently complete (80%), with sufficiently low contamination (10%), and sufficiently consistent proteins (87%) is considered good and is shown in the first table.  
 *	**Hypothetical**: The percent of the annotated proteins in the genome that are named “Hypothetical.” A high percental of hypothetical proteins is an indication of a poor-quality genome.
 *	**Contig count**:  The number of contigs from the assembled sample that were placed in the bin.
 *	**DNA size (bp)**:  The number of DNA base pairs in the bin.
@@ -178,12 +178,12 @@ The Metagenomic Binning service returns a number of files when the job is comple
 5.	Several of the cells in the binning report are hyperlinks.  The number underneath **Score** is a hyperlink that opens the **GenomeReport**.  The one underneath **GenomeID** is actually the unique identifier assigned to that particular genome.  If clicked, the landing page for that private genome will open.  Underneath **Reference Genome** is the unique identifier for the genome that served as a reference for this particular annotation job, and clicking on it will open the landing page for that genome.  Finally, **Potentially Problematic Roles** is on top of a number that describes the number of annotated genes that have potential problems.  Clicking on it will open the **GenomeReport**, where you can scroll down and see the number of problematic genes in the newly annotated genome.
 ![Figure Hyperlinks](./images/Hyperlinks.png "Figure Hyperlinks")
 
-7.	When a binned virus can be annotated by the MAAGE viral annotation pipeline, the viral binning report will provide a hyperlink to the genome landing page for that virus.
+7.	When a binned virus can be annotated by the viral annotation pipeline, the viral binning report will provide a hyperlink to the genome landing page for that virus.
 ![Figure ViralID](./images/Viral_genomID_link.png "Figure ViralID")
 
 
 *Bins and contig files*
-1.	The metagenomic binning job will return a bin for each genome that has been annotated by the pipeline.  The bacterial bins start with **bin** and have a checkered flag before the name, and the viral bins that can be annotated by MAAGE begins with **vBin**.  Viruses that cannot be annotated at this time do not have a binning job with a checkered flag.  Bacterial contigs are found in the rows that being with **bin** and end with **.fa**.  The viral contigs begin with **vBin** and also end with **.fa**. 
+1.	The metagenomic binning job will return a bin for each genome that has been annotated by the pipeline.  The bacterial bins start with **bin** and have a checkered flag before the name, and the viral bins that can be annotated begin with **vBin**.  Viruses that cannot be annotated at this time do not have a binning job with a checkered flag.  Bacterial contigs are found in the rows that being with **bin** and end with **.fa**.  The viral contigs begin with **vBin** and also end with **.fa**. 
 ![Figure Bin_analysis](./images/Bin_analysis.png "Figure Bin_analysis")
 
 2.	The details in both bacterial and viral binning jobs can be accessed by double clicking on the row that has the checkered flag. Details on the files returned by the annotation jobs that produce these bins can be found in the Annotation Tutorial (https://www.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
@@ -228,6 +228,3 @@ The Metagenomic Binning service returns a number of files when the job is comple
 7. Larsen, C. N. et al. Mat_peptide: comprehensive annotation of mature peptides from polyproteins in five virus families. Bioinformatics 36, 1627-1628 (2020).
 8.Nayfach, S. et al. CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nature biotechnology 39, 578-585 (2021).
 9. Parrello, B. et al. A machine learning-based service for estimating quality of genomes using PATRIC. BMC bioinformatics 20, 1-9 (2019).
-
-
-

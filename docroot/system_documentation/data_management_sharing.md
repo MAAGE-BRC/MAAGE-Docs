@@ -1,13 +1,13 @@
 # Data Management and Sharing 
 
-As a NIAID-funded resource, MAAGE complies with the [NIH Policy for Data Management and Sharing](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html) (Notice Number: NOT-OD-21-013), which promotes the management and sharing of scientific data generated from NIH-funded or conducted research. 
+As a NIAID-funded resource, the platform complies with the [NIH Policy for Data Management and Sharing](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html) (Notice Number: NOT-OD-21-013), which promotes the management and sharing of scientific data generated from NIH-funded or conducted research. 
 
 ## Data Types
-MAAGE is an integrated data and analysis resource designed to support genomic and related infectious disease research for viral and bacterial pathogens. As such, the primary data type is genomic sequences, primarily ingested from public repositories such as NCBI GenBank. MAAGE reannotates genomes with curated subsystem data for consistency, curates and standardizes metadata, and formats the data to enable the integrated tools to perform comparative analysis computations. MAAGE also annotates genomes from assembled reads collected from SRA for specialized phenotypic characteristics, such as antimicrobial resistance (AMR). Annotations may be derived from computations such as gene and other feature prediction algorithms, subsystem and other functional groupings, and phenotype prediction such as AMR. Appropriate references to the computations performed are available in the user documentation.
+The platform is an integrated data and analysis resource designed to support genomic and related infectious disease research for viral and bacterial pathogens. As such, the primary data type is genomic sequences, primarily ingested from public repositories such as NCBI GenBank. The platform reannotates genomes with curated subsystem data for consistency, curates and standardizes metadata, and formats the data to enable the integrated tools to perform comparative analysis computations. The platform also annotates genomes from assembled reads collected from SRA for specialized phenotypic characteristics, such as antimicrobial resistance (AMR). Annotations may be derived from computations such as gene and other feature prediction algorithms, subsystem and other functional groupings, and phenotype prediction such as AMR. Appropriate references to the computations performed are available in the user documentation.
 
-Data from expression studies have also been curated and structured for comparative analyses. Additional data are incorporated from various resources, such as protein structures from PDB as well as computed structures, e.g., from AlphaFold, to augment annotations and comparative analyses. Further, MAAGE has integrated data sets from other NIAID programs, such as the Systems Biology Centers (SBCs). Additional metadata from serology and surveillance efforts may also be associated with genome sequences and other data types. Data from these resources has appropriate provenance information to enable traceability to the source.
+Data from expression studies have also been curated and structured for comparative analyses. Additional data are incorporated from various resources, such as protein structures from PDB as well as computed structures, e.g., from AlphaFold, to augment annotations and comparative analyses. Further, the platform has integrated data sets from other NIAID programs, such as the Systems Biology Centers (SBCs). Additional metadata from serology and surveillance efforts may also be associated with genome sequences and other data types. Data from these resources has appropriate provenance information to enable traceability to the source.
 
-The table below summarizes the MAAGE data types and their primary sources.
+The table below summarizes the data types and their primary sources.
 
 <table>
   <tr>
@@ -28,17 +28,17 @@ The table below summarizes the MAAGE data types and their primary sources.
   <tr>
     <td>Genomic Features</td>
     <td>Genes, RNAs, misc. features, GO terms, EC numbers, Pathways, Protein families, Subsystems, Virulence factors, AMR genes, Drug targets, essential genes</td>
-    <td>GenBank, PATRIC and IRD/ViPR (legacy BRC resources), GO, KEGG, Reactome, SEED, VFDB, Victors, CARD, NDARO, DrugBank, TTD</td>
+    <td>GenBank, legacy BRC resources, GO, KEGG, Reactome, SEED, VFDB, Victors, CARD, NDARO, DrugBank, TTD</td>
   </tr>
   <tr>
     <td>Comparative Genomics</td>
     <td>Protein families, Orthologs, MSA, Gene trees, Metabolic pathways, Subsystems, Phylogenetic trees</td>
-    <td>PATRIC and IRD/ViPR (legacy BRC resources), KEGG, SEED</td>
+    <td>legacy BRC resources, KEGG, SEED</td>
   </tr>
   <tr>
     <td>Protein Domains and Sequence Features</td>
     <td>Variant types</td>
-    <td>UniProt, IRD/ViPR (legacy BRC resources)</td>
+    <td>UniProt, legacy BRC resources</td>
   </tr>
   <tr>
     <td>Antimicrobial / Antiviral Agents</td>
@@ -93,29 +93,29 @@ The table below summarizes the MAAGE data types and their primary sources.
   </tr>
 </table>
 
-In addition to ingested and processed data, users may elect to assemble and annotate their own sequenced genomes and make them publicly available through the MAAGE resource. In these cases, MAAGE team members work with the user to assess genome quality, verify metadata, and include appropriate attribution.
+In addition to ingested and processed data, users may elect to assemble and annotate their own sequenced genomes and make them publicly available through the platform. In these cases, team members work with the user to assess genome quality, verify metadata, and include appropriate attribution.
 
 Related Tools, Software and/or Code
-The data in MAAGE are available through the website user interface and integrated searches and tools [MAAGE website](https://www.bv-brc.org/), through the [command line interface (CLI)](https://www.bv-brc.org/docs/cli_tutorial/index.html), [data API](https://www.bv-brc.org/api/doc/), and from the [FTP site](ftp://ftp.bvbrc.org/). These are all provided freely to all users. All software developed by the project team in the system is available as open source in the [MAAGE GitHub repository](https://github.com/BV-BRC). 
+The data are available through the website user interface and integrated searches and tools [website](https://www.bv-brc.org/), through the [command line interface (CLI)](https://www.bv-brc.org/docs/cli_tutorial/index.html), [data API](https://www.bv-brc.org/api/doc/), and from the [FTP site](ftp://ftp.bvbrc.org/). These are all provided freely to all users. All software developed by the project team in the system is available as open source in the [GitHub repository](https://github.com/BV-BRC). 
 
 In the event of discontinuation of the resource, the databases, systems, and software code will be archived and transferred to NIAID or its designee. 
 
 ## Standards
-Where available, MAAGE uses established standards with wide adoption in the target research communities. These include common file formats for sequence data (fasta in .fa, .fasta, .faa, .fna, .afa, .xmfa, .embl), aligned sequence data (.bai, .bam), tabular, e.g., expression, data (.csv, .txt, .xls, .xlsx), genome features (.gff, .gtf), phylogenetic trees (Newick, PhyloXML), variant calls (.vcf, .vcf.gz), structured data (.xml, .json), and others. 
+Where available, the platform uses established standards with wide adoption in the target research communities. These include common file formats for sequence data (fasta in .fa, .fasta, .faa, .fna, .afa, .xmfa, .embl), aligned sequence data (.bai, .bam), tabular, e.g., expression, data (.csv, .txt, .xls, .xlsx), genome features (.gff, .gtf), phylogenetic trees (Newick, PhyloXML), variant calls (.vcf, .vcf.gz), structured data (.xml, .json), and others. 
 
-MAAGE uses metadata standards and ontologies to sufficiently characterize corresponding data to enable comparison, integration, and reuse in multiple analysis environments. The MAAGE provides services and tools that accept and produce data using standard data formats, thus enabling data exchange and reuse among resources. We also provide open APIs that allow programmatic access to data and models within the resource, facilitate scripting of workflows that can programmatically interact with MAAGE services, and can be used to by the community to develop new approaches for data analysis.
+The platform uses metadata standards and ontologies to sufficiently characterize corresponding data to enable comparison, integration, and reuse in multiple analysis environments. The platform provides services and tools that accept and produce data using standard data formats, thus enabling data exchange and reuse among resources. We also provide open APIs that allow programmatic access to data and models within the resource, facilitate scripting of workflows that can programmatically interact with the platform's services, and can be used to by the community to develop new approaches for data analysis.
 
-For example, the genome metadata schema used in MAAGE is based on the NIAID Human Pathogen and Vector Sequencing Metadata Standards, which include Project and Sample Application Standards and Clinical Metadata Standards. These standards were derived from the metadata standards used by Genomic Standards Consortium’s minimal information (MIxS) and NCBI’s BioSample/BioProjects checklists. We use The Systems Biology Metadata Standard developed to capture consistent metadata about experiments designed to assess host responses to pathogen infection. The MAAGE team collaborated with the other BRCs and with the NIAID sponsored Systems Biology for Infectious Diseases program through the Data Dissemination Working Group to ensure that the standard covered the key experimental metadata.
+For example, the genome metadata schema used in the platform is based on the NIAID Human Pathogen and Vector Sequencing Metadata Standards, which include Project and Sample Application Standards and Clinical Metadata Standards. These standards were derived from the metadata standards used by Genomic Standards Consortium’s minimal information (MIxS) and NCBI’s BioSample/BioProjects checklists. We use The Systems Biology Metadata Standard developed to capture consistent metadata about experiments designed to assess host responses to pathogen infection. The team collaborated with the other BRCs and with the NIAID sponsored Systems Biology for Infectious Diseases program through the Data Dissemination Working Group to ensure that the standard covered the key experimental metadata.
 
 Data Preservation, Access, and Associated Timelines
-MAAGE is, in essence, a knowledgebase for bacterial and viral genomic and related data associated with infectious diseases. It pulls, integrates, and adds value to data from other public databases and repositories, as described in the Data Types section above. 
+The platform is, in essence, a knowledgebase for bacterial and viral genomic and related data associated with infectious diseases. It pulls, integrates, and adds value to data from other public databases and repositories, as described in the Data Types section above. 
 
-Except for data that users have uploaded or generated in their private workspaces, all data in MAAGE are publicly available. Data in private workspaces are entirely under the control of the user who owns the workspace. The user is responsible for complying with any NIAID policies for data release and deposition in public repositories for their private data.  
+Except for data that users have uploaded or generated in their private workspaces, all data in the platform are publicly available. Data in private workspaces are entirely under the control of the user who owns the workspace. The user is responsible for complying with any NIAID policies for data release and deposition in public repositories for their private data.  
 
-All genomes and other primary data types have persistent unique identifiers. The data in MAAGE are retained for the life of the resource. Exceptions include replacement of outdated genomes from GenBank.
+All genomes and other primary data types have persistent unique identifiers. The data are retained for the life of the resource. Exceptions include replacement of outdated genomes from GenBank.
 
 ## Access, Distribution, or Reuse Considerations
-All public data in MAAGE is freely available without restriction on its use. The resource does not include any PHI, PII, or other data covered by HIPAA. 
+All public data in the platform is freely available without restriction on its use. The resource does not include any PHI, PII, or other data covered by HIPAA. 
 
 ## Oversight of Data Management and Sharing
-The MAAGE Principal Investigators have primary responsibility for data management and sharing. Their designees, including Systems Leads and Database Administrators, perform the day-to-day maintenance and monitoring of the data stores and their content. All data integrated into the resource are stored and backed up on hardware and associated systems at the Argonne National Laboratory (ANL) facility. ANL has established and NIAID-approved procedures for data storage, backup, recovery, and security.  
+The Principal Investigators have primary responsibility for data management and sharing. Their designees, including Systems Leads and Database Administrators, perform the day-to-day maintenance and monitoring of the data stores and their content. All data integrated into the resource are stored and backed up on hardware and associated systems at the Argonne National Laboratory (ANL) facility. ANL has established and NIAID-approved procedures for data storage, backup, recovery, and security.  

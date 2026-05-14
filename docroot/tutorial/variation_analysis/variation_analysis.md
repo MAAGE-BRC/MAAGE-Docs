@@ -2,7 +2,7 @@
 
 *Revised: 02 August 2024*
 
-SNP genotyping is the measurement of genetic variations of single nucleotide polymorphisms (SNPs) between members of a species. It is a form of genotyping, which is the measurement of more general genetic variation. SNPs are one of the most common types of genetic variation. A SNP is a single base pair mutation at a specific locus, usually consisting of two alleles. SNP calling requires the reads of target isolates and a reference genome as input and execute an external mapping tool and variant caller, followed by some filtering steps to remove low-quality SNPs. The MAAGE Variation Analysis Service can be used to identify and annotate sequence variations, including SNPs, SNVs (a variation of a single nucleotide in a population’s genome), and indels (insertion or deletion of bases).
+SNP genotyping is the measurement of genetic variations of single nucleotide polymorphisms (SNPs) between members of a species. It is a form of genotyping, which is the measurement of more general genetic variation. SNPs are one of the most common types of genetic variation. A SNP is a single base pair mutation at a specific locus, usually consisting of two alleles. SNP calling requires the reads of target isolates and a reference genome as input and execute an external mapping tool and variant caller, followed by some filtering steps to remove low-quality SNPs. The Variation Analysis Service can be used to identify and annotate sequence variations, including SNPs, SNVs (a variation of a single nucleotide in a population’s genome), and indels (insertion or deletion of bases).
 
 Nucleotide substitutions during DNA replication of bacteria, with mutation rates of approximately 10(−9) changes per nucleotide per generation, are important biologically informative markers in bacteria.  They may fall within coding sequences of genes, non-coding regions of genes, or in the intergenic regions (regions between genes).  SNPs in coding regions can be synonymous or nonsynonymous.  Synonymous substitutions by definition do not result in a change of amino acid in the protein, whereas nonsynonymous substitutions do change the sequence.  
 
@@ -25,7 +25,7 @@ Nucleotide substitutions during DNA replication of bacteria, with mutation rates
 ### Submitting sequencing reads (single or paired)
 The service accepts both single and paired reads.  Paired read libraries are usually given as file pairs, with each file containing the forward or reverse half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 or READ 2 does not matter.
 
-Reads must first be uploaded to the MAAGE workspace, and once there, they can be selected in several ways.
+Reads must first be uploaded to the workspace, and once there, they can be selected in several ways.
 1.	Navigate to the workspace by clicking on the Folder icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on OK at the bottom of the pop-up box to select the reads.
 ![Figure Selecting_reads](./images/Selecting_reads.png "Figure Selecting_reads")
 
@@ -42,7 +42,7 @@ Reads must first be uploaded to the MAAGE workspace, and once there, they can be
 
 
 ### Submitting reads from the Sequence Read Archive (SRA)
-MAAGE also supports analysis of existing datasets from SRA. If users submit SRA values, the MAAGE will input the corresponding FASTQ files to the service. 
+The platform also supports analysis of existing datasets from SRA. If users submit SRA values, the corresponding FASTQ files will be input to the service.
 1.	To submit this type of data, locate the Run Accession number and copy it.
 ![Figure SRA](./images/SRA_page.png "Figure SRA")
 
@@ -51,21 +51,21 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 
 
 ## Setting Parameters 
-1.	A reference genome needs to be selected.  This genome must be in MAAGE.  Enter the unique genome ID into the text box underneath **Target Genome**. This opens a drop-down box underneath the text box.  Click on the name.  This will autofill the text box with the name of the genome.
+1.	A reference genome needs to be selected.  This genome must be in the platform.  Enter the unique genome ID into the text box underneath **Target Genome**. This opens a drop-down box underneath the text box.  Click on the name.  This will autofill the text box with the name of the genome.
 ![Figure Target_genome](./images/Select_target_genome.png "Figure Target_genome")
 
 
-3. MAAGE offers several types of **aligners** that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
+3. The platform offers several types of **aligners** that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
     * **BWA-mem**[1,2] is an alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. BWA-MEM is implemented as a component of BWA, which is available at https://github.com/lh3/bwa.
     * **BWA-mem-strict** is BWA-mem with the default parameters plus “-B9 -O16” to increase the gap extension and clipping penalty. These strict mapping parameters are recommended for cases where contigs and references are known to be very close to each other.
     * **Bowtie2**[3] improves on the previous Bowtie method in terms of speed and fraction of reads aligned and is substantially faster than non–full-text minute index–based approaches while aligning a comparable fraction of reads. Bowtie 2 performs sensitive gapped alignment without incurring serious computational penalties. The code for Bowtie2 is available at https://github.com/BenLangmead/bowtie.
-    * **Minimap2**[4] is widely used for mapping long sequence reads and assembly contigs.  The new version can more accurately map long reads to highly repetitive regions and align through insertions or deletions up to 100 kb by default.  Minimap2 is available at https://github.com/lh3/minimap2?tab=readme-ov-file.
+    * **Minimap2**[4] is widely used for mapping long sequence reads and assembly contigs.  The new version can more accurately map long reads to highly repetitive regions and align through insertions or deletions up to 100 kb by default.  Minimap2 is available at https://github.com/lh3/minimap2?tab=readme-ov-file.
     * **LAST**[5] is a long read sequence aligner. It can align billions of DNA reads to a genome and will indicate reliability of each aligned column. In addition, it can compare DNA to proteins, with frameshifts, compare PSSMs to sequences, calculates the likelihood of chance similarities between random sequences, does split and spliced alignment, and can be trained for unusual kinds of sequences (like nanopore).  The code for Last is available at https://gitlab.com/mcfrith/last.
 
 4. To see the other choices of aligners that can be used, click on the down arrow at the end of the **Aligner** text box. This will open a drop-down box that shows all the available programs. Clicking on the desired aligner will autofill the text box with that selection. 
 ![Figure Aligner](./images/Aligner_selection.png "Figure Aligner")
 
-5. MAAGE also offers a choice of **SNP callers**. The default selection is for FreeBayes, but SAMtools is another option.
+5. The platform also offers a choice of **SNP callers**. The default selection is for FreeBayes, but SAMtools is another option.
    * **FreeBayes**[6] is an accurate method for sequence organization that includes fragment clustering, paralogue identification and multiple alignment. It calculates the probability that a given site is polymorphic and has an automated evaluation of the full length of all sequences, without limitations on alignment depth. The code for FreeBayes is available at https://github.com/freebayes/freebayes.
    * **The Sequence Alignment/Map (SAM)** format is a generic alignment format for storing read alignments against reference sequences. SAMtools[7] implements various utilities for post-processing alignments in the SAM format, such as indexing, variant caller and alignment viewer, and thus provides universal tools for processing read alignments. The SAMtools option invokes the BCFtools’ SNP calling algorithm on top of SAMtools’ mpileup result. . It has been restructured into the BCFtools subpackage[8].  The SAMtools option invokes the BCFtools’ SNP calling algorithm on top of SAMtools’ mpileup result. The code for SAMtools is available at http://www.htslib.org/.
 
@@ -75,12 +75,12 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 7. The variation job must be placed in an **Output Folder**, and it needs an **Output Name**. After selecting a folder and assigning a name, the **Submit** button will turn blue.  Click on it to submit the job.
 ![Figure Output_Folder_name](./images/Output_folder_and_name.png "Figure Output_Folder_name")
 
-8.	If the job was submitted successfully, a message will appear that indicates that the job has entered the queue. To check the status of the variation job, click on the Jobs indicator at the bottom of the MAAGE page. 
+8.	If the job was submitted successfully, a message will appear that indicates that the job has entered the queue. To check the status of the variation job, click on the Jobs indicator at the bottom of the page.
 ![Figure 13](./images/Picture13.png "Figure 13")
 
 ## Monitoring progress on the Jobs page
 
-1. Click on the Jobs box at the bottom right of any MAAGE page. 
+1. Click on the Jobs box at the bottom right of any page.
 ![Figure 14](./images/Picture14.png "Figure 14")
 
 2. This will open the Jobs Landing page where the status of submitted jobs is displayed. 
@@ -104,7 +104,7 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
 
-5. **Bam files**. The Binary Alignment/Map (BAM) is the companion format of the Sequence Alignment/Map (SAM) format[7]. A SAM file (.sam) is a tab-delimited text file that contains sequence alignment data. The bam format is compact in size and supports fast retrieval of alignments in specified regions. It is optimal for viewing in a genome browser. The MAAGE variant analysis service provides a .bam file for each of the read libraries that were loaded.  These can be downloaded by selecting the row that contains that file and then clicking on the **Download** icon in the vertical green bar.  MAAGE also provides a direct view of the bam file by clicking on **Browser** icon at the top right of the job page.  Viewing the data on the browser will be discussed below. 
+5. **Bam files**. The Binary Alignment/Map (BAM) is the companion format of the Sequence Alignment/Map (SAM) format[7]. A SAM file (.sam) is a tab-delimited text file that contains sequence alignment data. The bam format is compact in size and supports fast retrieval of alignments in specified regions. It is optimal for viewing in a genome browser. The variant analysis service provides a .bam file for each of the read libraries that were loaded.  These can be downloaded by selecting the row that contains that file and then clicking on the **Download** icon in the vertical green bar.  The platform also provides a direct view of the bam file by clicking on **Browser** icon at the top right of the job page.  Viewing the data on the browser will be discussed below.
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 
@@ -116,7 +116,7 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
 
-8. **Tab Separated Values (tsv)**. The MAAGE variant analysis service provides a .tsv file for *each of the read libraries* that were loaded. This file summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred.  The list below shows the title and information about each column in the tsv file, from left to right. 
+8. **Tab Separated Values (tsv)**. The variant analysis service provides a .tsv file for *each of the read libraries* that were loaded. This file summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred.  The list below shows the title and information about each column in the tsv file, from left to right. 
     * **Samples** - internal library read name. The corresponding user library read name can be found in libs.txt
     * **Contig** - contig name
     * **Pos** - position of the variation
@@ -131,7 +131,7 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
     * **Ref_nt_pos_change** - nucleotide change
     * **Ref_aa_pos_change** - amino acid change
     * **Frameshift** - frameshift variant
-    * **Gene_ID** – MAAGE feature (peg) id
+    * **Gene_ID** – feature (peg) id
     * **Locus_tag** - RefSeq locus tag
     * **Gene_name** - gene name
     * **Function** - function description
@@ -144,14 +144,14 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
 
-10.	The **var.snpEFF.vcf** files. The Variant Call Format (VCF) is a flexible and extendable line-oriented text format developed by the 1000 Genomes Project for releases of single nucleotide variants, indels, copy number variants and structural variants discovered by the project. SnpEff[9] rapidly categorizes the effects of variants in genome sequences. Once a genome is sequenced, SnpEff annotates variants based on their genomic locations and predicts coding effects. Annotated genomic locations include intronic, untranslated region, upstream, downstream, splice site, or intergenic regions. Coding effects such as synonymous or non-synonymous amino acid replacement, start codon gains or losses, stop codon gains or losses, or frame shifts can be predicted. The MAAGE variant analysis service provides a var.snpEFF.vcf file for each of the read libraries that were loaded. It can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar. 
+10.	The **var.snpEFF.vcf** files. The Variant Call Format (VCF) is a flexible and extendable line-oriented text format developed by the 1000 Genomes Project for releases of single nucleotide variants, indels, copy number variants and structural variants discovered by the project. SnpEff[9] rapidly categorizes the effects of variants in genome sequences. Once a genome is sequenced, SnpEff annotates variants based on their genomic locations and predicts coding effects. Annotated genomic locations include intronic, untranslated region, upstream, downstream, splice site, or intergenic regions. Coding effects such as synonymous or non-synonymous amino acid replacement, start codon gains or losses, stop codon gains or losses, or frame shifts can be predicted. The variant analysis service provides a var.snpEFF.vcf file for each of the read libraries that were loaded. It can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar. 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
 
 11.	The impact of individual snps are defined in the snpEff_impact assignment, and are as defined by Cingolani[10].
 ![Figure snpEFF_impact](./images/Variant_impact.png "Figure snpEff_impact")
 
-12.	The **var.vcf** files. These files show the location of the snp on the genome. The MAAGE variant analysis service provides a var.vcf file for each of the read libraries that were loaded, an example of which is shown below. It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar. 
+12.	The **var.vcf** files. These files show the location of the snp on the genome. The variant analysis service provides a var.vcf file for each of the read libraries that were loaded, an example of which is shown below. It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar. 
 ![Figure 25](./images/Picture25.png "Figure 25")
 
 
@@ -175,7 +175,7 @@ MAAGE also supports analysis of existing datasets from SRA. If users submit SRA 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
 
-19. **Tab Separated Values (tsv)**. The MAAGE variant analysis service provides a .tsv file for each of the read libraries that were loaded. It summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar.  
+19. **Tab Separated Values (tsv)**. The variant analysis service provides a .tsv file for each of the read libraries that were loaded. It summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar.  
 ![Figure 30](./images/Picture30.png "Figure 30")
 
 

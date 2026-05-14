@@ -1,9 +1,9 @@
 Acknowledgements
 ================
 
-This page lists the data sources and third party software tools used in PATRIC. Click [here](publications) for a list of PATRIC joint publications with other Scientific Collaborators.
+This page lists the data sources and third party software tools used by the platform.
 
-## Data Sources Used by PATRIC
+## Data Sources
 
 [ARDB (Antibiotic Resistance Genes Database)](http://ardb.cbcb.umd.edu/)
 
@@ -76,7 +76,7 @@ Database)](http://bidd.nus.edu.sg/group/TTD/ttd.asp)
 
 [VFDB (Virulence Factors Database)](http://www.mgc.ac.cn/VFs/)
 
-## Software and Tools used by PATRIC
+## Software and Tools
 
 [BLAST (Basic Local Alignment Search
 Tool)](http://blast.ncbi.nlm.nih.gov/Blast.cgi)
@@ -105,4 +105,3 @@ Tool)](http://blast.ncbi.nlm.nih.gov/Blast.cgi)
 Expectation)](http://www.ebi.ac.uk/Tools/msa/muscle/)
 
 [OrthoMCL](http://www.orthomcl.org/)
-

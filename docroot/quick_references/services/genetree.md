@@ -1,20 +1,20 @@
 # Gene Tree Service
 
 ## Overview
-The MAAGE Phylogenetic Tree Building Service enables construction of custom phylogenetic trees built from user-selected genomes, genes, or proteins. Trees can be built based on either nucleotide or protein input sequences. The "FastTree" option computes large minimum evolution trees with profiles instead of a distance matrix. [1,2]. We also offer two maximum likelihood tree building algorithms: PhyML [3] and RaxML [4]. User-defined settings are required for either. PhyML and RaxML infer a more evolutionarily accurate phylogenetic topology by applying a substitution model to the nucleotide sequences. This algorithm is best applied to datasets containing: 
+The Phylogenetic Tree Building Service enables construction of custom phylogenetic trees built from user-selected genomes, genes, or proteins. Trees can be built based on either nucleotide or protein input sequences. The "FastTree" option computes large minimum evolution trees with profiles instead of a distance matrix. [1,2]. We also offer two maximum likelihood tree building algorithms: PhyML [3] and RaxML [4]. User-defined settings are required for either. PhyML and RaxML infer a more evolutionarily accurate phylogenetic topology by applying a substitution model to the nucleotide sequences. This algorithm is best applied to datasets containing: 
 1) fewer than 100 very long sequences, and
 2) between 100 and 1,000 small or medium length sequences.
 
-The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the MAAGE or downloaded and viewed in other software.   
+The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer on the platform or downloaded and viewed in other software.   
 
 ## See also
 * [Gene Tree Service](https://bv-brc.org/app/GeneTree)
 * [Gene Tree Tutorial](/tutorial/genetree/genetree)
 
 ## Using the Service
-The **Gene Tree** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the phylogenetic tree input form. *Note: You must be logged into MAAGE to use this service.* 
+The **Gene Tree** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the phylogenetic tree input form. *Note: You must be logged in to use this service.* 
 
-![MAAGE Services Menu](../images/bv_services_menu.png) 
+![Services Menu](../images/bv_services_menu.png) 
 
 ## Options
 
@@ -61,7 +61,7 @@ The GeneTree Service allows selection of multiple genomes, genes, or proteins (f
 
 ## Output Results
 
-Clicking on the Jobs indicator at the bottom of the MAAGE page open the Jobs Status page that displays all current and previous service jobs and their status. 
+Clicking on the Jobs indicator at the bottom of the page open the Jobs Status page that displays all current and previous service jobs and their status. 
 
 ![Figure 4](../images/genetree_Picture4.png "Figure 4")
 
@@ -88,7 +88,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Links to the corresponding Quick Reference
 * **Download:** Downloads the selected item.
-* **MSA:** View aligned FASTA directly on the MAAGE site with the [MSA Viewer](/quick_references/other/msa_viewer).  
+* **MSA:** View aligned FASTA directly on the platform with the [MSA Viewer](/quick_references/other/msa_viewer).  
 * **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
 * **Delete:** Deletes the file.
 * **Rename:** Allows renaming of the file.
@@ -102,4 +102,3 @@ More details are available in the [Selection Action Bar](/quick_references/actio
 2.	Price MN, Dehal PS, Arkin AP. FastTree 2--approximately maximum-likelihood trees for large alignments. PLoS One. 2010 Mar 10;5(3):e9490. doi: 10.1371/journal.pone.0009490. PMID: 20224823; PMCID: PMC2835736.
 3.	Guindon, S. and Gascuel, O., (2003) Syst Biol. 52: 696-704  
 4.	Stamatakis, A. et al. (2005) Bioinformatics 21: 456-463
-

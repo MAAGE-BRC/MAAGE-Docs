@@ -1,9 +1,9 @@
 *Revised: 29 August 2024*
 
 # Bacterial Phylogenetic Tree Service 
-A phylogenetic tree or evolutionary tree is a branching diagram or “tree” showing the evolutionary relationships among various biological species or other entities. The Bacterial Phylogenetic Tree service in MAAGE[1] allows researchers to build trees that contain private and public genomes, adjusting for the number of genes that will be used to generate the tree. 
+A phylogenetic tree or evolutionary tree is a branching diagram or “tree” showing the evolutionary relationships among various biological species or other entities. The Bacterial Phylogenetic Tree service allows researchers to build trees that contain private and public genomes, adjusting for the number of genes that will be used to generate the tree. 
 
-The Codon Tree pipeline generates the bacterial phylogenetic trees for MAAGE. It uses the amino acid and nucleotide sequences from a defined number of the MAAGE Global Protein Families (PGFams)[2], which are picked randomly, to build an alignment, and then generate a tree based on the differences within those selected sequences. Both the protein (amino acid) and gene (nucleotide) sequences are used for each of the selected genes from the PGFams. Protein sequences are aligned using MUSCLE[3], and the nucleotide coding gene sequences are aligned using the Codon_align function of BioPython[4]. A concatenated alignment of all proteins and nucleotides were written to a PHYLIP formatted file, and then a partitions file for RAxML[5] is generated, describing the alignment in terms of the proteins and then the first, second and third codon positions. Support values are generated using 100 rounds of the “Rapid” bootstrapping option[6] of RAxML. The resulting newick file can be viewed in MAAGE using the Archaeopteryx viewer (https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
+The Codon Tree pipeline generates the bacterial phylogenetic trees. It uses the amino acid and nucleotide sequences from a defined number of the Global Protein Families (PGFams)[1], which are picked randomly, to build an alignment, and then generate a tree based on the differences within those selected sequences. Both the protein (amino acid) and gene (nucleotide) sequences are used for each of the selected genes from the PGFams. Protein sequences are aligned using MUSCLE[2], and the nucleotide coding gene sequences are aligned using the Codon_align function of BioPython[3]. A concatenated alignment of all proteins and nucleotides were written to a PHYLIP formatted file, and then a partitions file for RAxML[4] is generated, describing the alignment in terms of the proteins and then the first, second and third codon positions. Support values are generated using 100 rounds of the “Rapid” bootstrapping option[5] of RAxML. The resulting newick file can be viewed using the Archaeopteryx viewer (https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
 
 Source code for algorithms
 * The source code for RAxML can be found at: https://github.com/stamatak/standard-RAxML
@@ -30,7 +30,7 @@ The service will generate trees from between 4-100 bacterial genomes.  These can
 2.	Clicking on the group of interest will autofill the text box  with the group.  Click on the ***+ Add** button at the end of the text box, and this will add the group to the **Selected Input Genomes** box.
 ![Figure Input_genome_group](./images/Input_genome_group.png "Figure Input_genome_group")
 
-3.	Public or private genomes that are in the MAAGE database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the **Filter** icon at the beginning of the text box underneath **Select Genome**. This will open a drop-down box with a list of the types of genomes that can be filtered on. Click on **My Genomes**, which is underneath **Private Genomes**.
+3.	Public or private genomes that are in the database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the **Filter** icon at the beginning of the text box underneath **Select Genome**. This will open a drop-down box with a list of the types of genomes that can be filtered on. Click on **My Genomes**, which is underneath **Private Genomes**.
 ![Figure Private_genomes](./images/Private_genomes.png "Figure Private_genomes ")
 
 4.	The genome of interest can be found either by starting to enter text into the box underneath **And/Or Select Genome** or clicking on the down arrow at the end of the box.  This will open a drop-down box where the genome can be selected. 
@@ -86,7 +86,7 @@ Once the genomes and the parameters have been selected, researchers can select m
 ![Figure 23](./images/Picture23.png "Figure 23")
 
 ## Monitoring progress on the Jobs page
-1.	Click on the Jobs box at the bottom right of any MAAGE page. 
+1.	Click on the Jobs box at the bottom right of any page. 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
@@ -170,19 +170,18 @@ Once the genomes and the parameters have been selected, researchers can select m
 ![Figure 58](./images/Picture58.png "Figure 58")
 
 ## Viewing the Phylogenetic tree
-1.	MAAGE also allows researchers to view the tree in the workspace, and link to other parts of the resource from the tree.  Click on the **VIEW** icon in the upper right corner. 
+1.	The platform also allows researchers to view the tree in the workspace, and link to other parts of the resource from the tree.  Click on the **VIEW** icon in the upper right corner. 
 ![Figure VIEW](./images/VIEW.png "Figure VIEW")
 
-2.	This will open the Archaeopteryx interactive viewer in MAAGE.
+2.	This will open the Archaeopteryx interactive viewer.
 ![Figure Archaeopteryx](./images/Archaeopteryx.png "Figure Archaeopteryx")
 
 3.	This viewer has two panels that allow you to change not only the tree and its leaves, but also allow researchers to color the tree based on metadata.  More details on changing and annotating the tree are available at https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html .
 ![Figure Change_archaeopteryx](./images/Change_archaeopteryx.png "Figure Change_archaeopteryx")
 
 ## References
-1.  Olson, R.D., et al., *Introducing the Midwest Alliance for Applied Genomic Epidemiology (MAAGE): a resource combining PATRIC, IRD and ViPR*. Nucleic acids research, 2023. 51(D1): p. D678-D689.
-2.	Davis, J.J., et al., *PATtyFams: Protein families for the microbial genomes in the PATRIC database*. 2016. 7: p. 118.
-3.	Edgar, R.C.J.N.a.r., *MUSCLE: multiple sequence alignment with high accuracy and high throughput*. 2004. 32(5): p. 1792-1797.
-4.	Cock, P.J., et al., *Biopython: freely available Python tools for computational molecular biology and bioinformatics*. 2009. 25(11): p. 1422-1423.
-5.	Stamatakis, A., *RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies*. Bioinformatics, 2014. 30(9): p. 1312-1313.
-6.	Stamatakis, A., P. Hoover, and J. Rougemont, *A rapid bootstrap algorithm for the RAxML web servers*. Systematic biology, 2008. 57(5): p. 758-771.
+1.	Davis, J.J., et al., *PATtyFams: Protein families for the microbial genomes in the PATRIC database*. 2016. 7: p. 118.
+2.	Edgar, R.C.J.N.a.r., *MUSCLE: multiple sequence alignment with high accuracy and high throughput*. 2004. 32(5): p. 1792-1797.
+3.	Cock, P.J., et al., *Biopython: freely available Python tools for computational molecular biology and bioinformatics*. 2009. 25(11): p. 1422-1423.
+4.	Stamatakis, A., *RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies*. Bioinformatics, 2014. 30(9): p. 1312-1313.
+5.	Stamatakis, A., P. Hoover, and J. Rougemont, *A rapid bootstrap algorithm for the RAxML web servers*. Systematic biology, 2008. 57(5): p. 758-771.

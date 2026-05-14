@@ -1,4 +1,3 @@
-
 # Host-Microbe Protein Interactions during Bacterial Infection
 
 PMID: [26548613](http://www.ncbi.nlm.nih.gov/pubmed/26548613)
@@ -20,4 +19,3 @@ In vivo proteomic XL-MS analysis of proteins from infected H292 lung epithelial 
 In addition to crosslinking infected host cells, we harvested AB5075 alone and crosslinked the bacterial cells to improve network and structural coverage of bacterial interprotein and intraprotein crosslinks within AB5075.
 
 * [Table S3](http://brcdownloads.patricbrc.org/BRC_Mirrors/GUNK/mmc4.xlsx) - All Crosslinked Peptide/Site Relationships Identified for Ab5075-Alone Dataset
-

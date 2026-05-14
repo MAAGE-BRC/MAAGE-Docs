@@ -35,6 +35,7 @@ The kSNP4.1 pipeline processes genomes through four
 
 ## Locating the Whole Genome SNP Service
 
+<<<<<<< HEAD
 1. Locate the Tools option on the top navigation bar.
 
 ![navigation bar](../nav_bar.png "navigation bar")
@@ -44,6 +45,11 @@ The kSNP4.1 pipeline processes genomes through four
 ![tools menu](../tools_menu.png "tools menu")
 
 *Note: You must be logged into MAAGE to use this service.* 
+=======
+1.	At the top of any page, find the Services tab.
+2.	Click on Whole Genome SNP Analysis, which is under the Phylogenomics heading.
+3.	This will open the Whole Genome SNP Analysis landing page where researchers can submit a genome group containing assembled genomes for SNP analysis.
+>>>>>>> remotes/upstream/main
 
 ## Select a Genome Group
 
@@ -59,11 +65,11 @@ For more information about creating a genome group please visit our [documentati
 
 4.	After clicking the submit button, your job will be launched. A successful submission will generate a message indicating that the job has been queued.
 
-5.	The bottom of each MAAGE page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed) 
+5.	The bottom of each page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed) 
 
 ## Locating the Whole Genome SNP Analysis Job Results
 
-1.	The Whole Genome SNP Analysis job can be located from three places on any MAAGE page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and from the Jobs monitor located at the lower right of any MAAGE page. Either way, this will open your Jobs page.
+1.	The Whole Genome SNP Analysis job can be located from three places on any page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and from the Jobs monitor located at the lower right of any page. Either way, this will open your Jobs page.
 
 ![an image of the jobs page shortcuts](images/image_my_jobs.png "an image of the jobs page shortcuts")
 
@@ -110,7 +116,7 @@ For more information about creating a genome group please visit our [documentati
     Homoplastic SNPs are SNPs that occur in unrelated places on the same tree. They may differ according to the tree method.
 
     Please visit the kSNP4 documentation for more information about the many trees created by this service.
-12.	The aim of the SNP Distance Heatmap and Metadata view is to show relationships between the genomes and hopefully identify patterns or clusters. The plot shows the number of SNPs that differ between the genomes. This is calculated by kSNP4’s companion program, kSNPdist. The x and y axsis are populated with the MAAGE genome ID. This id is searchable across the website – however, replace the “_” with a “.”.
+12.	The aim of the SNP Distance Heatmap and Metadata view is to show relationships between the genomes and hopefully identify patterns or clusters. The plot shows the number of SNPs that differ between the genomes. This is calculated by kSNP4’s companion program, kSNPdist. The x and y axsis are populated with the genome ID. This id is searchable across the website – however, replace the “_” with a “.”.
 
 ![an image of SNP heatmap](images/WG_SNP_Step12.png "an image of SNP heatmap")
 

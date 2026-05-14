@@ -21,7 +21,7 @@
 7.	Click on the arrow at the end of the text box that says "Search for a user"
 ![Step 7](./images/Picture7.png "Step 7")
 
-8.	This will open a drop-down list that lists all the PATRIC user IDs.  Pick the ID of the user you want to share with.
+8.	This will open a drop-down list that lists all the user IDs.  Pick the ID of the user you want to share with.
 ![Step 8](./images/Picture8.png "Step 8")
 
 9.	The name of the user will appear in that box.  To restrict the new user to viewing items in the shared workspace, or allow them to edit the information, click on the arrow at the end of the text box that says Can View.  Choose to restrict, or to allow editing.

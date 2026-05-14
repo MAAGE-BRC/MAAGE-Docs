@@ -3,11 +3,11 @@
 Genomes
 =======
 
-MAAGE provides one of the largest collections of high quality viral and bacterial genomes, all consistently annotated to enable comparative genomic analysis within and across taxionomic boundries. PATRIC also maintain the original annotations from GenBank to allow users to explore and compare annotation differences. In addition, we automatically gather, parse, and curate over 60 different metadata attributes, such as isolation source , geographic location, and host, and other clinical and environmental metadata. 
+The platform provides one of the largest collections of high quality viral and bacterial genomes, all consistently annotated to enable comparative genomic analysis within and across taxionomic boundries. The platform also maintains the original annotations from GenBank to allow users to explore and compare annotation differences. In addition, we automatically gather, parse, and curate over 60 different metadata attributes, such as isolation source , geographic location, and host, and other clinical and environmental metadata. 
 
-**Source of MAAGE genomes**
+**Source of genomes**
 
-MAAGE collects new microbial genomes from GenBank/RefSeq every month using automated processes. We also collect genomes sequenced as part of published AMR studies, collect their sequences from the SRA database, assemble and annotate them, and incorporate them into MAAGE, along with curated AMR phenotype data. In addition, MAAGE also provides genomes from NIAID-funded Genomic Centers for Infectious Diseases (GCIDs), Systems Biology Centers, collaborators, and other MAAGE users. 
+The platform collects new microbial genomes from GenBank/RefSeq every month using automated processes. We also collect genomes sequenced as part of published AMR studies, collect their sequences from the SRA database, assemble and annotate them, and incorporate them into the platform, along with curated AMR phenotype data. In addition, the platform also provides genomes from NIAID-funded Genomic Centers for Infectious Diseases (GCIDs), Systems Biology Centers, collaborators, and other users.
 
 The collection of genomes includes 
 
@@ -27,7 +27,7 @@ To learn how to search for genomes of interest, visit `Genomes Tab Quick Referen
    
 **Tools and services available to analyze genomes**
 
-MAAGE provides numorous tools tp assemble, annotate, and analyze public and/or private user genomes. 
+The platform provides numorous tools tp assemble, annotate, and analyze public and/or private user genomes.
 
 - `Genome Assembly Service <https://alpha.bv-brc.org/app/Assembly>`_
 - `Genome Annotation Service <https://alpha.bv-brc.org/app/Annotation>`_
@@ -37,4 +37,4 @@ MAAGE provides numorous tools tp assemble, annotate, and analyze public and/or p
 - `Proteome Comparison <https://alpha.bv-brc.org/app/SeqComparison>`_
 
 
-For more services and tools available at MAAGE, visit `Services and Tools Quick Reference Guide <.../services/services_tab.html>`_.
+For more services and tools available on the platform, visit `Services and Tools Quick Reference Guide <.../services/services_tab.html>`_.

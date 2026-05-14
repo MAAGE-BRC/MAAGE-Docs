@@ -1,7 +1,7 @@
 # Phylogenetic Tree Service
 
 ## Overview
-The bacterial Phylogenetic Tree Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy MAAGE PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in MAAGE or downloaded and viewed in FigTree or other software.
+The bacterial Phylogenetic Tree Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer or downloaded and viewed in FigTree or other software.
 
 ## See also
 * [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
@@ -15,7 +15,7 @@ The **Phylogenetic Tree** submenu option under the **Services** main menu (Genom
 
 ## Method: Codon Tree
 
-The **Codon Tree** method utilizes MAAGE [PGFams](/quick_references/organisms_taxon/protein_families) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
+The **Codon Tree** method utilizes [PGFams](/quick_references/organisms_taxon/protein_families) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
 
 ![Phylogenetic Tree Input Form - Codon Tree](../images/phylogenetic_tree_input_form_codon_v3.png)
 
@@ -87,7 +87,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
-* **Edit Type** Allows changing of the type of the file in terms of how MAAGE interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type** Allows changing of the type of the file in terms of how the platform interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 

@@ -8,7 +8,7 @@ The Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomed
   * [Metagenomic Read Mapping Service Tutorial](/tutorial/metagenomic_read_mapping/metagenomic_read_mapping)
 
 ## Using the Metagenomic Read Mapping Service
-The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged into MAAGE to use this service.*
+The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged in to use this service.*
 
 ![Metagenomic Read Mapping Service Menu](../images/bv_services_menu.png)
 
@@ -41,7 +41,7 @@ Read files to be mapped.
 Reads can also be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
 
 **Fasta File:**
-Reads can be mapped to a fasta file describing an dna sequence. The file must be present in MAAGE, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
+Reads can be mapped to a fasta file describing an dna sequence. The file must be present on the platform, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
 
 **Output Folder:** Workspace folder where the results will be saved.
 
@@ -66,9 +66,9 @@ The Metagenomic Read Mapping Service generates several files that are deposited 
 
 This page is a web-friendly report that summarizes the output of MKA. It provides a link to the input data, an interactive chart view (see description below), and a table of the reference genes mapped.  The columns in the table are as follows: 
 
-* Template - Identifier of the template (reference gene) sequence that match the query reads. Clicking on any of the template identifiers in the first column will open a Specialty Gene List View that shows all the genes in MAAGE that have BLAT hits to the same template gene.
+* Template - Identifier of the template (reference gene) sequence that match the query reads. Clicking on any of the template identifiers in the first column will open a Specialty Gene List View that shows all the genes on the platform that have BLAT hits to the same template gene.
 * Function - Template gene function.
-* Genome: Genome that contains template gene. Clicking on the name in the Genome column will open a new tab that shows the Genome List view, which shows all the genomes in MAAGE that fall under the same taxonomy of the selected name.
+* Genome: Genome that contains template gene. Clicking on the name in the Genome column will open a new tab that shows the Genome List view, which shows all the genomes on the platform that fall under the same taxonomy of the selected name.
 * Score - Global alignment score of the template.
 * Expected - Expected alignment score if all mapping reads were smeared over all templates in the database.
 * Template_length - Template gene length in nucleotides.

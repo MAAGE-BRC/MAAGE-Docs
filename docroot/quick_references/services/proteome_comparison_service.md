@@ -8,7 +8,7 @@ The bacterial Proteome Comparison Service performs protein sequence-based genome
 * [Proteome Comparison Tutorial](/tutorial/proteome_comparison/proteome_comparison)
 
 ## Using the Proteome Comparison Service
-The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged into MAAGE to use this service.*
+The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged in to use this service.*
 
 
 ![Proteome Comparison Service Menu](../images/bv_services_menu.png)
@@ -74,7 +74,7 @@ The Proteome Comparison Service generates several files that are deposited in th
   * _contig - accession number for contig in reference genome
   * _gene - order number for gene in the genome
   * _aa_length - size in amino acids
-  * _patric_id - MAAGE locus tag
+  * _patric_id - locus tag
   * _locus_tag - RefSeq locus tag
   * _gene_name - gene name
   * _plfam_id - local protein family
@@ -109,11 +109,10 @@ More details are available in the [Action Bar](/quick_references/action_bar) Qui
 ### Proteome Comparison Viewer
 ![Proteome Comparison Service View Icon](../images/proteome_comparison_view_icon.png)
 
-Clicking on the View icon at the upper right portion of the job result page will display an interactive circular viewer of of the comparison results, with color-coding for protein percent identity relative to the best hit on the reference genome. Mousing over a feature (gene) will display its MAAGE locus tag, and clicking on it will display the feature page for that gene.  
+Clicking on the View icon at the upper right portion of the job result page will display an interactive circular viewer of of the comparison results, with color-coding for protein percent identity relative to the best hit on the reference genome. Mousing over a feature (gene) will display its locus tag, and clicking on it will display the feature page for that gene.  
 
 ![Proteome Comparison Interactive Viewer](../images/proteome_comparison_circular_viewer.png)
 
 
 ## References
-1. Overbeek, R., et al., The SEED and the Rapid Annota on of microbial genomes using Subsystems Technology (RAST). Nucleic acids research, 2014. 42(D1): p. D206‑D214.
-
+1. Overbeek, R., et al., The SEED and the Rapid Annota on of microbial genomes using Subsystems Technology (RAST). Nucleic acids research, 2014. 42(D1): p. D206‑D214.

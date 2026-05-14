@@ -3,26 +3,26 @@ System Architecture
 
 Overview
 --------
-From the user’s perspective, the MAAGE systems are primarily interfaced through the MAAGE website using a standard modern web browser. The MAAGE website server software is designed to be hosted by industry standard application containers and is deployable in several different configurations. The server software, as well as the client interface (browser application), rely upon several additional systems to successfully build, deploy, and provide querying and analysis services to these applications.
+From the user's perspective, the systems are primarily interfaced through the website using a standard modern web browser. The website server software is designed to be hosted by industry standard application containers and is deployable in several different configurations. The server software, as well as the client interface (browser application), rely upon several additional systems to successfully build, deploy, and provide querying and analysis services to these applications.
 
-Direct support for the website application is provided by several different databases and services. These services typically support the interactive capabilities of the website and its users. For example, Solr database instances provide all the scientific querying capabilities against the MAAGE data. The MAAGE website and application aggregates the data and capabilities of MAAGE services to present them interactively to the user.
+Direct support for the website application is provided by several different databases and services. These services typically support the interactive capabilities of the website and its users. For example, Solr database instances provide all the scientific querying capabilities against the data. The website and application aggregates the data and capabilities of services to present them interactively to the user.
 
-Several other key components are used — and are critical — to the MAAGE project, but don't directly support the MAAGE website itself in production. Examples include data analysis services, software, and databases used to collect, analyze and annotate MAAGE data prior to release and deployment to the production MAAGE website. Additionally, software and scripts to manage the data, services, and database loading & extraction are required.
+Several other key components are used — and are critical — to the project, but don't directly support the website itself in production. Examples include data analysis services, software, and databases used to collect, analyze and annotate data prior to release and deployment to the production website. Additionally, software and scripts to manage the data, services, and database loading & extraction are required.
 
 Software Architecture
 ----------------------
 
-The Software Architecture section of this document describes the general use and interaction of the components that make up the MAAGE website and its direct and indirect components. Some of these components within MAAGE's architecture are from third-party sources, so their architecture and deployment process will not be detailed here except where relevant to the understanding of the overall architecture described by the MAAGE Systems Documentation.
+The Software Architecture section of this document describes the general use and interaction of the components that make up the website and its direct and indirect components. Some of these components within the architecture are from third-party sources, so their architecture and deployment process will not be detailed here except where relevant to the understanding of the overall architecture described by the Systems Documentation.
 
-MAAGE Website
+Website
 ---------------
 
 The Browser Application
 ########################
 
-The user's web browser is the host of the entire MAAGE website and is more accurately described as a Web Application. Logically, the set of pages that the MAAGE Web Server provides make up the entirety of the MAAGE Web Application. A user's state is maintained across all pages at any one time, and from the user's perspective, they are navigating through the interactive space of MAAGE. It could then be considered that each page is the host for one or more individual applications that communicate with the web server to provide an interactive experience.
+The user's web browser is the host of the entire website and is more accurately described as a Web Application. Logically, the set of pages that the Web Server provides make up the entirety of the Web Application. A user's state is maintained across all pages at any one time, and from the user's perspective, they are navigating through the interactive space of the platform. It could then be considered that each page is the host for one or more individual applications that communicate with the web server to provide an interactive experience.
 
-The browser application is written with ECMAScript (Javascript, JS) and utilizes the Dojo Toolkit framework. It communicates with the server via HTTPS Requests (AJAX). The browser application is part of the MAAGE Server application and intermingled with other content on pages generated by the MAAGE Server. However, browser application run in the user's web browser, on a different network endpoint from the server, may be restarted (when a page reloads) at any time, may be composed of "mashup" data from external sites, and so they require independent consideration from the server side of the MAAGE website.
+The browser application is written with ECMAScript (Javascript, JS) and utilizes the Dojo Toolkit framework. It communicates with the server via HTTPS Requests (AJAX). The browser application is part of the Server application and intermingled with other content on pages generated by the Server. However, browser application run in the user's web browser, on a different network endpoint from the server, may be restarted (when a page reloads) at any time, may be composed of "mashup" data from external sites, and so they require independent consideration from the server side of the website.
 
 The browser application is fully supported by modern, up-to-date web browsers. Support for specific UI functionalities may degrade if the underlying browser does not support it. Instead of requiring all users to conform to a specific set of browsers, we prefer to provide the best support possible for modern browsers, and aim to support older versions via fallback mechanisms or degraded functionality in certain areas of the application. Browsers that are currently known to work are Chrome, Firefox, Safari, and IE7+. 
 
@@ -31,14 +31,14 @@ Source Code: https://github.com/BV-BRC/BV-BRC-Web
 Web Application Server
 #######################
 
-This component serves the web content to client browsers. It is currently comprised of an Express.js application running in a Node.js webserver. It serves HTML, CSS, JavaScript, and images to client browsers. The bulk of the user interface is implemented in the Browser Application, which itself is built upon the Dojo Toolkit framework, as well as many other libraries used to implement features and functionality. The files are stored in the MAAGE GitHub repository linked below.
+This component serves the web content to client browsers. It is currently comprised of an Express.js application running in a Node.js webserver. It serves HTML, CSS, JavaScript, and images to client browsers. The bulk of the user interface is implemented in the Browser Application, which itself is built upon the Dojo Toolkit framework, as well as many other libraries used to implement features and functionality. The files are stored in the GitHub repository linked below.
 
 Source Code: https://github.com/BV-BRC/BV-BRC-Web
 
 Static Content
 ###############
 
-Static content refers to electronic documents that contain the web application's main Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides, and MAAGE news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to HTML using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the MAAGE GitHub repository linked below.
+Static content refers to electronic documents that contain the web application's main Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides, and news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to HTML using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the GitHub repository linked below.
 
 Source Code: https://github.com/BV-BRC/BV-BRC-Docs
 
@@ -51,7 +51,7 @@ Source Code: https://github.com/BV-BRC/Workspace
 
 **Workspace API:**
 
-The Workspace is connected to the rest of the MAAGE tools and website via a programmatic JSON-RPC API. 
+The Workspace is connected to the rest of the tools and website via a programmatic JSON-RPC API. 
 
 The API has 11 commands:
 
@@ -71,7 +71,7 @@ The associated resource is located here: https://www.bv-brc.org/services/Workspa
 
 **Data formats:**
 
-Objects of any type may be stored in the workspace, but most typically objects are simple text files, often stored in JSON format. Additionally, all objects are assigned a type (e.g., Genome, Model, FeatureSet), and this type indicates how the object is treated when viewed on the MAAGE website, as well as the handling of the object by automated processing scripts built into the workspace. The types accepted by the workspace are configurable and completely extensible.
+Objects of any type may be stored in the workspace, but most typically objects are simple text files, often stored in JSON format. Additionally, all objects are assigned a type (e.g., Genome, Model, FeatureSet), and this type indicates how the object is treated when viewed on the website, as well as the handling of the object by automated processing scripts built into the workspace. The types accepted by the workspace are configurable and completely extensible.
 
 **Database structure:**
 
@@ -83,12 +83,12 @@ When an object is saved to the workspace, it always undergoes a processing step,
 
 **Download service:**
 
-In order to support transparent and efficient downloading of data files from the workspace, the Download Service allows the MAAGE website to provide URL-based access to private files in the workspace. Access to these URLs do not require a password; to ensure privacy, they are un-guessable hashes and are only valid for a short time. 
+In order to support transparent and efficient downloading of data files from the workspace, the Download Service allows the website to provide URL-based access to private files in the workspace. Access to these URLs do not require a password; to ensure privacy, they are un-guessable hashes and are only valid for a short time. 
 
 Data API
 #########
 
-The data API provides access to querying, retrieval, and indexing of public MAAGE data and for private annotated data. The API provides a REST interface to the rich data MAAGE provides. The data can be retrieved directly by ID or it can be queried using the Request Query Language (RQL) syntax or using Solr syntax. As queries are submitted to the API they are modified and submitted to the backend data sources (Solr) to retrieve the data that is visible to the user. Users are able to view public data, any data they own, or any data that another user has shared with them.
+The data API provides access to querying, retrieval, and indexing of public data and for private annotated data. The API provides a REST interface to the rich data the platform provides. The data can be retrieved directly by ID or it can be queried using the Request Query Language (RQL) syntax or using Solr syntax. As queries are submitted to the API they are modified and submitted to the backend data sources (Solr) to retrieve the data that is visible to the user. Users are able to view public data, any data they own, or any data that another user has shared with them.
 
 Source Code: https://github.com/BV-BRC/BV-BRC-API 
 
@@ -109,40 +109,40 @@ In addition to the API for querying and retrieving data, there is also an API en
 Command-line Interface (CLI)
 ############################
 
-MAAGE is an integration of different types of data and software tools that support research on bacterial pathogens. The typical biologist seeking access to the MAAGE data and tools will usually explore the web-based user interface. However, there are many instances in which programatic or command-line interfaces are more suitable, specially for querying data or submitting jobs in batch mode. For users that wish command-line access to MAAGE, we provide the tools described in this document. We call these tools the P3-scripts. They are intended to run on your machine, going over the network to access the services provided by MAAGE.
+The platform is an integration of different types of data and software tools that support research on bacterial pathogens. The typical biologist seeking access to the data and tools will usually explore the web-based user interface. However, there are many instances in which programatic or command-line interfaces are more suitable, specially for querying data or submitting jobs in batch mode. For users that wish command-line access, we provide the tools described in this document. We call these tools the P3-scripts. They are intended to run on your machine, going over the network to access the services provided by the platform.
 
 Source Code and Client Application: https://github.com/BV-BRC/BV-BRC-CLI
 
 Databases
 ##########
 
-MAAGE data is stored using `Solr <http://lucene.apache.org/solr/>`_ and indexed in its entirety (all fields) as MAAGE releases data. Solr then provides read-only searching services to both the server and browser side of the MAAGE via HTTP requests. A standard Solr 8 installation can host the MAAGE data, but the deployment of Solr can be accomplished in a number of different ways that can have a dramatic impact on performance for many of the MAAGE activities. 
+Data is stored using `Solr <http://lucene.apache.org/solr/>`_ and indexed in its entirety (all fields) as data is released. Solr then provides read-only searching services to both the server and browser side of the platform via HTTP requests. A standard Solr 8 installation can host the data, but the deployment of Solr can be accomplished in a number of different ways that can have a dramatic impact on performance for many activities. 
 The performance of the Solr service is heavily memory dependent. It is important, at a minimum, to be able to fit the entire set of data indexes into memory. Additionally, cache and other such tunable parameters can require additional memory. In any deployment, this physical limitation of the available resources is likely to be one of the key defining factors for Solr configuration and performance.
 
 Source Code: https://github.com/PATRIC3/patric_solr_cloud
 
 User Service
 ############
-The user service provides user profile management and authentication for the MAAGE system. The user system provides a REST interface to read and modify a user's profile. It also provides authentication services for the MAAGE web application and related components. The backend services consume authentication tokens that are generated by the user service.
+The user service provides user profile management and authentication for the system. The user system provides a REST interface to read and modify a user's profile. It also provides authentication services for the web application and related components. The backend services consume authentication tokens that are generated by the user service.
 
 Source Code: https://github.com/BV-BRC/BV-BRC-Solr
 
 Web/Proxy Server
 #################
 
-All MAAGE websites and web applications run behind a web server that hosts static files, proxy requests to underlying application servers, and in some cases, load balancing amongst the web server instances. This component is not a strict requirement for deployment of the MAAGE infrastructure in its basic form, but it simplifies the deployment process and is the current method used for load balancing. `NGINX <http://nginx.org/>`_ is deployed on hosts that contain the websites on the standard HTTP and HTTPS ports (80,443), while the underlying applications deploy on unused ports. NGINX is configured to proxy requests to these localhosts using its Named Virtual Hosting system. NGINX is also used to terminate the HTTPS endpoints used for external access to the MAAGE resource.
+All websites and web applications run behind a web server that hosts static files, proxy requests to underlying application servers, and in some cases, load balancing amongst the web server instances. This component is not a strict requirement for deployment of the infrastructure in its basic form, but it simplifies the deployment process and is the current method used for load balancing. `NGINX <http://nginx.org/>`_ is deployed on hosts that contain the websites on the standard HTTP and HTTPS ports (80,443), while the underlying applications deploy on unused ports. NGINX is configured to proxy requests to these localhosts using its Named Virtual Hosting system. NGINX is also used to terminate the HTTPS endpoints used for external access to the resource.
 
 
 App Service
 ############
 
-The MAAGE resource supports a number of computational services (e.g., genome assembly and annotation, model production, etc.). These services are hosted on an extensible set of computational resources at Argonne. The interface between the user’s interaction with the MAAGE website and the computational resources is called the App Service. The App Service presents a unified view of all supported services, allowing the user to submit requests, monitor progress, and view results within a common framework on the MAAGE website. For the developers, the App Service enables the development of new applications without the need to handle the details of process execution and management.
+The platform supports a number of computational services (e.g., genome assembly and annotation, model production, etc.). These services are hosted on an extensible set of computational resources. The interface between the user's interaction with the website and the computational resources is called the App Service. The App Service presents a unified view of all supported services, allowing the user to submit requests, monitor progress, and view results within a common framework on the website. For the developers, the App Service enables the development of new applications without the need to handle the details of process execution and management.
 
 Source Code: https://github.com/BV-BRC/app_service
 
 **App Service API:**
 
-The App Service is connected to the rest of the MAAGE tools and website via a programmatic JSON-RPC API. 
+The App Service is connected to the rest of the tools and website via a programmatic JSON-RPC API. 
 The API has 6 commands:
 
 - enumerate_apps
@@ -157,7 +157,7 @@ The associated resource is: https://www.bv-brc.org/services/app_service
 Hardware Deployment
 ####################
 
-The hardware hosted at Argonne National Laboratory on behalf of the University of Chicago’s bioinformatics computing core supporting the MAAGE services are as follows:
+The hardware supporting the services is as follows:
 
 - Production support services
 
@@ -199,4 +199,4 @@ The hardware hosted at Argonne National Laboratory on behalf of the University o
 
   - 2 systems, each 4 CPUs, 64GB RAM, 10Gb network
 
-Storage is provided to the above systems using 10G ethernet attached NetApp filers. The Solr portion of MAAGE and the FTP site are currently consuming approximately 10 TB of storage.
+Storage is provided to the above systems using 10G ethernet attached NetApp filers. The Solr portion of the platform and the FTP site are currently consuming approximately 10 TB of storage.
