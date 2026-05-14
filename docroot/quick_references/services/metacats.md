@@ -12,7 +12,7 @@ The meta-CATS metadata genome comparison tool takes sequence data and determines
 ## Using the Meta-CATS Service
 The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the Meta-CATS Service input form. *Note: You must be logged in to use this service.*
 
-![Meta-CATS menu option](../images/bv_services_menu.png) 
+![Meta-CATS menu option](../../tutorial/main_menu.png) 
 
 Below is a screenshot of the Meta-CATS landing page, as well as a summary of customizable parameters.  
 

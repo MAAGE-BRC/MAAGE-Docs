@@ -10,7 +10,7 @@ The bacterial Model Reconstruction Service integrates and augments technologies 
 ## Using the Model Reconstruction Service
 The **Model Reconstruction** submenu option under the **Services** main menu (Metabolomics category) opens the Reconstruct Metabolic Model input form (*shown below*). *Note: You must be logged in to use this service.* The Model Reconstruction service is also available via the Command Line Interface (CLI).
 
-![Model Reconstruction Menu](../images/bv_services_menu.png)
+![Model Reconstruction Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Model Reconstruction Input Form](../images/model_reconstruction_input_form.png) 

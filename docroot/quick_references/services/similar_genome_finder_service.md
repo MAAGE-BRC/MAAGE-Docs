@@ -10,7 +10,7 @@ The bacterial Similar Genome Finder Service will find similar public genomes or 
 ## Using the Similar Genome Finder Service
 The **Similar Genome Finder** submenu option under the **Services** main menu (Genomics category) opens the Similar Genome Finder input form (*shown below*).
 
-![Similar Genome Finder Menu](../images/bv_services_menu.png)
+![Similar Genome Finder Menu](../../tutorial/main_menu.png)
 
 ![Similar Genome Finder Input Form](../images/similar_genome_finder_input_form.png)
 

@@ -14,7 +14,7 @@ The service returns a Newick file which can be rendered in the interactive Archa
 ## Using the Service
 The **Gene Tree** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the phylogenetic tree input form. *Note: You must be logged in to use this service.* 
 
-![Services Menu](../images/bv_services_menu.png) 
+![Services Menu](../../tutorial/main_menu.png) 
 
 ## Options
 

@@ -10,7 +10,7 @@ The Variation Analysis Service can be used to identify and annotate sequence var
 ## Using the Variation Analysis Service
 The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged in to use this service.*
 
-![Variation Analysis Menu](../images/bv_services_menu.png)
+![Variation Analysis Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Variation Analysis Service Input Form](../images/variation_analysis_input_form.png)

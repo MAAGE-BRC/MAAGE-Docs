@@ -11,7 +11,7 @@ The bacterial Proteome Comparison Service performs protein sequence-based genome
 The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged in to use this service.*
 
 
-![Proteome Comparison Service Menu](../images/bv_services_menu.png)
+![Proteome Comparison Service Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Proteome Comparison Service Input Form](../images/proteome_comparison_input_form.png) 

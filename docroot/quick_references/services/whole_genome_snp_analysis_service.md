@@ -19,7 +19,7 @@
 ## Using the Whole Genome SNP Analysis Service
 The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged in to use this service.*
 
-![Whole Genome SNP Analysis Menu](../images/bv_services_menu.png)
+![Whole Genome SNP Analysis Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png "Service Input Form")

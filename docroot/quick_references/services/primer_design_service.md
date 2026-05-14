@@ -13,7 +13,7 @@ The Primer Design Service utilizes Primer3[1-5] to design primers from a given i
 
 The **Primer Design** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged in to use this service.*
 
-![Primer design menu option](../images/bv_services_menu.png) 
+![Primer design menu option](../../tutorial/main_menu.png) 
 
 ## Parameters
 

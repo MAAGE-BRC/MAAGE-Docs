@@ -15,7 +15,7 @@ The Comparative Systems Service combines together functionality from three diffe
 ## Using the Comparative Systems Service
 The **Comparative Systems** submenu option under the **Services** main menu (Genomics category) opens the Comparative Systems input form (shown below). *Note: You must be logged in to use this service.*
 
-![Comparative Systems Menu](../images/bv_services_menu.png)
+![Comparative Systems Menu](../../tutorial/main_menu.png)
 
 ## Options
 ![Comparative Systems Input Form](../images/comparative_systems/input_form.png)
