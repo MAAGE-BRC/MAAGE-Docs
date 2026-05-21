@@ -1,4 +1,4 @@
-Registration and Sign In
+Registration and Login
 ========================
 
 Overview
@@ -13,7 +13,7 @@ See Also
 - `Groups <./workspaces/groups.html>`__
 - `Data Upload <./workspaces/data_upload.html>`__
 
-Registration and Sign In Process
+Registration and Login Process
 --------------------------------
 
 .. image:: ./images/register_button.png
@@ -24,12 +24,12 @@ Clicking the "Register" button located at the top right corner of the website wi
 .. image:: ./images/registration_dialog.png
     :alt: User Registration Dialog Box
 
-Clicking the "Sign In" button located at the top right corner of the website beside the "Register" button will open the Sign In dialog box, where a username and password are required to complete the login.
+Clicking the "Login" button located at the top right corner of the website beside the "Register" button will open the Login dialog box, where a username and password are required to complete the login.
 
 .. image:: ./images/sign_in_dialog.png
-    :alt: Sign In Dialog Box
+    :alt: Login Dialog Box
 
-**Forgotten Password:** Clicking the "Forgot your password?" link at the bottom of the Sign In dialog box will display another dialog box where you can enter your email address and a email will be sent with instrutions on resetting your password.
+**Forgotten Password:** Clicking the "Forgot your password?" link at the bottom of the Login dialog box will display another dialog box where you can enter your email address and a email will be sent with instrutions on resetting your password.
 
 Once signed in, the top right corner of the webiste will display an icon of a person.  Clicking on this icon will allow you to see the account settings (username, email, etc.) and logout.
 
