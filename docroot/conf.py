@@ -128,7 +128,7 @@ html_static_path = ['_static']
 # A list of paths that contain extra files not directly relation to the docs
 # Relative paths to the config.py file
 # Copied directly to the output directly (_build/html)
-html_extra_path = [''] # Inherited from bvbrc_web
+html_extra_path = [] # Inherited from bvbrc_web - was [''] which caused infinite copy loop
 
 
 # -- Options for HTMLHelp output ------------------------------------------
