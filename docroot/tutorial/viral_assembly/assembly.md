@@ -151,4 +151,3 @@ After selecting one of the output files by clicking it, a set of options becomes
 25\. References\
 Gurevich, A., et al., QUAST: quality assessment tool for genome assemblies. Bioinformatics, 2013. 29(8): p. 1072-1075.\
 Shepard, S.S., Meno, S., Bahl, J. et al. Viral deep sequencing needs an adaptive approach: IRMA, the iterative refinement meta-assembler. BMC Genomics 17, 708 (2016). <https://doi.org/10.1186/s12864-016-3030-6>
-#### [Made with Scribe](https://scribehow.com/shared/Analyzing_Viral_Genome_Assembly_Using_BV-BRC_Tools_Tutorial__A-fXajgCQi-bD-Wzs4rmXw)
