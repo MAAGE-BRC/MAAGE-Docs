@@ -28,20 +28,11 @@ Phylogenomics
 .. toctree::
    :maxdepth: 1
 
-   services/genetree.md
    services/core_genome_mlst.md
    services/whole_genome_snp_analysis_service.md
-
-
-Protein Tools
--------------
-
-.. toctree::
-   :maxdepth: 1
-
+   services/phylogenetic_tree_building_service.md
+   services/genetree.md
    services/msa_snp_variation_service.md
-   services/proteome_comparison_service.md
-
 
 Metagenomics
 ------------
@@ -59,6 +50,7 @@ Viral Tools
 
 .. toctree::
    :maxdepth: 1
-
+   
+   services/sars_cov_2_assembly_annotation_service.md
    services/sars_cov_2_wastewater_analysis_service.md
-   services/subspecies_classification_service.md
+
