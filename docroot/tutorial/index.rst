@@ -16,7 +16,6 @@ Genomics
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
    blast/blast.md
    similar_genome_finder/similar_genome_finder.md
-   genome_alignment/genome_alignment.md
 
 
 Phylogenomics Services
@@ -25,20 +24,11 @@ Phylogenomics Services
 .. toctree::
    :maxdepth: 1
 
-
-   phylogenetic_tree/phylogenetic_tree.md
-   genetree/genetree.md
    core_genome_mlst/core_genome_mlst.md
    whole_genome_snp_analysis/whole_genome_snp_analysis_service.md
-
-Protein Tools
----------------
-
-.. toctree::
-   :maxdepth: 1
-
+   phylogenetic_tree/phylogenetic_tree.md
+   genetree/genetree.md
    msa_snp_variation/msa_snp_variation.md
-   proteome_comparison/proteome_comparison.md
 
 
 Metagenomics
@@ -60,9 +50,6 @@ Viral Services
 
    sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md
    sars_cov_2_wastewater/sars_cov_2_wastewater.md
-   sequence_submission/sequence_submission.md
-   ha_numbering/ha_numbering.md
-   subspecies_classification/subspecies_classification.md
    viral_assembly/assembly.md
    
 
