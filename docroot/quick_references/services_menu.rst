@@ -1,4 +1,4 @@
-Tools & Services
+Tools
 ================
 The top-level Services Menu provides access to wide range of services and tools for analyzing data. The private Workspace (available via registration) provides a means for accessing and securely using the services with your own data, and then interacting with your data in the context of the full platform data and tools.
 

@@ -1,15 +1,9 @@
 Quick Start
 ===========
 
-The platform integrates tools and services with data resouces tailored to the public health response. Find support for pathogen surveillance, outbreak response, genomic epidemiology and more!
+Welcome to MAAGE! The The Midwest Alliance for Applied Genomic Epidemiology (MAAGE) provides an integrated platform for genomic surveillance, outbreak investigation, and comparative genomics. Use this Quick Start Cheat Sheet to familiarize yourself with the platform, discover its core features, and identify the workflow that best matches your data and investigation goals.
 
+Download the Quick Start Guide PDF:
+:download:`Download the MAAGE User Guide (PDF) <./maage_quick_start.pdf>`
 
-.. toctree::
-   :maxdepth: 1
-
-   quick_start
-   data_functionality_overview
-   ird-vipr_maage_mapping
-
-..
-      common_tasks
+.. image:: images/maage_quick_start.png

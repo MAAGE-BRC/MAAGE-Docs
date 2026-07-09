@@ -27,13 +27,13 @@ Primary access to these components is provided through the main menu which is av
 
 -  `Organisms <organisms_menu.html>`_ - links to bacterial and viral data sorted into genera and families, respectively. On each organism page, further divisions into data types are available from the data tabs such as Overview, Taxonomy, Phylogeny, Genome/Strain List, Gene/Features, Protein Families, Protein Structures, etc.
 
+-  `Genomic Surveillance <genomic_surveillance_menu.html>`_ - links to preconfigured and customized dashboards for genomic surveillance of bacterial and viral pathogens. The dashboards provide access to curated data, analysis tools, and visualizations for outbreak investigation and comparative genomics.
+
 -  `Searches <searches_menu.html>`_ - links to specialized advanced searches across the various data types in the platform.
 
--  `Services and Tools <services_menu.html>`_ - links to data processing and analysis pipelines. Currently, services are available for processing user-supplied data including Genome Assembly, Genome Annotation, BLAST, Variation Analysis, RNA-Seq Analysis, Protein Family Comparison, Proteome Comparison, Pathway Comparison, and others. 
+-  `Tools <services_menu.html>`_ - links to data processing and analysis pipelines. Currently, services are available for processing user-supplied data including Genome Assembly, Genome Annotation, BLAST, Variation Analysis, RNA-Seq Analysis, Protein Family Comparison, Proteome Comparison, Pathway Comparison, and others. 
 
 -  `Workspace, Private Data, Groups, Jobs <workspace_groups_upload.html>`_ - links to the private workspace and subdirectories in the private workspace; service jobs; and private genomes.
-
--  `Help <help_menu.html>`_ - links to documentaion pages containing Quick Reference Guides, Tutorials, Webinars, and information to Provide Feedback.
 
 -  `About <about_menu.html>`_ - links to pages containing additional information such as About, Contact Us, Our Team, Announcements, Outreach, Publications, Citations, Related Resources, and the GitHub code repository.
 

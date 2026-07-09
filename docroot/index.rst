@@ -7,7 +7,7 @@ Documentation
 
    overview
    quick_start/index
-   data_protocols/index
    quick_references/index
    tutorial/index
    videos/index
+   education/index
