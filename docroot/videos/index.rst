@@ -1,10 +1,17 @@
 Instructional Videos
 ====================
+Note
+------------------
 
-In addtion to Quick Reference Guides and Tutorial documentation, the YouTube Channel `<https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A>`_ provides recorded videos demonstrating use of most of the major tools, services, and other features of the platform.
+   These videos were originally created for the **BV-BRC** project. While
+   they cover the same core concepts as the **MAAGE** website. Stay tuned: A
+   MAAGE-specific video series is currently being produced and will replace
+   or supplement these videos as it becomes available.
 
 Quick Start
 ------------------
+In addtion to Quick Reference Guides and Tutorial documentation, the YouTube Channel `<https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A>`_ provides recorded videos demonstrating use of most of the major tools, services, and other features of the platform.
+
 This `playlist <https://youtu.be/Rb3d6fJ1Yxo>`_ provides brief demonstrations of key features of the platform.
 
 * `Introduction <https://youtu.be/Rb3d6fJ1Yxo>`_
