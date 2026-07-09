@@ -4,13 +4,6 @@
 
 When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. The platform[1] provides a service that allows researchers to do this using Mash/MinHash[2]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
 
-<<<<<<< HEAD
-## Locating the Similar Genome Analysis Service
-=======
-1.	At the top of any page, find the Services tab. Click on Similar Genome Finder. 
-![Figure Service_tab](./images/Service_tab_SGF.png "Figure Service_tab") 
->>>>>>> remotes/upstream/main
-
 1. Locate the Tools option on the top navigation bar.
 
 ![navigation bar](../nav_bar.png "navigation bar")
@@ -24,11 +17,7 @@ When a researcher has a new genome sequence, one of the first things they want t
 3.	This will open up the Similar Genome Finder landing page.
 ![Figure Landing_page](./images/Landing_page.png "Figure Landing_page") 
 
-<<<<<<< HEAD
-4.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available in MAAGE or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
-=======
 3.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available on the platform or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
->>>>>>> remotes/upstream/main
 ![Figure Select_Genome](./images/Select_Genome.png "Figure Select_Genome") 
 
 5.	Click the down arrow at the right of the text box under **Search By Genome Name Or Genome ID**. This will open a drop-down box that shows all of the researcher’s private genomes, which have a **Lock** icon in front of them.  To select a specific genome, scroll down and find the genome of interest, and then click on it.
